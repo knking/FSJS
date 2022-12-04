@@ -1,0 +1,151 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* font-family: 'Montserrat'; */
+    font-weight: 'Poppins';
+    /* font-family: 'Poppins'; */
+    background-image: url('./assets/bg.png');
+}
+/* h1{
+    font-family:'Montserrat' 'Poppins';
+} */
+
+.navbar {
+    display: flex;
+    background-color: #000000;
+    align-items: center;
+    height: 75px;
+
+}
+
+.navbar div img {
+    height: 30px;
+    margin-left: 70px;
+}
+
+.list {
+    position: relative;
+    margin-left: 70px;
+    display: flex;
+    color: #FFFFFF;
+    list-style: none;
+    gap: 70px;
+}
+
+.line {
+    position: relative;
+    width: 1px;
+    background-color: silver;
+    border: 0px solid silver;
+    height: 40px;
+    margin-left: 70px;
+}
+
+.button-small {
+    position: relative;
+    background-color: #bd2fe9;
+    margin-left: 350px;
+    width: 130px;
+    height: 35px;
+    border-radius: 7px;
+    color: #FFFFFF;
+}
+
+/* 1st style */
+/* .hero{
+    position: relative;
+    color: #FFFFFF;
+    height: 500px;
+    width: 630px;
+    margin-top: 110px;
+    margin-left: 350px;
+    align-items: center;
+    align-self: center;
+} 
+ .hero-heading{
+    position: relative;
+    font-size: 400%;
+    width: 700px;
+    margin-left: 10px;
+
+} 
+.hero-description{
+    position: relative;
+    margin-top: 5px;
+    margin-left: 85px;
+    font-size: 141%;
+} 
+ .button-large{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 90px;
+    font-size: 140%;
+    background-color: #b027da;
+    border: 1px #ba2ce6;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: 300px;
+    height: 55px;
+    font-size: 165%;
+} */
+
+                                          /* 2nd style */
+.hero{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: auto;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 110px;
+    margin-left: 355px;
+}   
+
+.hero-heading{
+    position: relative;
+    width: 700px; 
+    font-size:70px;
+} 
+ .hero h1{
+    font-size:70px;
+} 
+ .hero-description{
+    margin-top: 5px;
+    font-size: 25px;
+    margin-left: 75px;
+} 
+.button-large{
+    margin-top: 80px;
+    background-color: #b61ee4;
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 1px  #b61ee4;
+    border-radius: 10px;
+    font-size:20px;
+    margin-left: 210px;
+   
+
+} 
+
+/* .hero {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+.hero-heading{
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;
+} */

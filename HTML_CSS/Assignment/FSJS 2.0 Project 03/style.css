@@ -1,0 +1,177 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+* {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.navbar-container {
+    display: flex;
+    align-items: center;
+    font-family: 'Orbitron';
+
+}
+
+.navbar-container div img {
+    height: 40px;
+}
+
+.list {
+    position: relative;
+    margin-left: 130px;
+    display: flex;
+    gap: 40px;
+
+}
+
+.list-item {
+    list-style: none;
+    font-weight: bold;
+    
+}
+.list .list-item:nth-child(1){
+   border-bottom: 2.3px solid black;
+   font-size: 22px;
+  
+}
+
+.button-group {
+
+    display: flex;
+    position: relative;
+    justify-content: start;
+    margin-left: 170px;
+
+}
+
+.button-group div svg {
+    position: relative;
+    height: 24px;
+    margin-right: 1px;
+}
+
+.search-icon {
+    position: relative;
+    margin-right: 0px;
+}
+
+.nav-button {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 150px;
+    height: 38px;
+    border: 3px solid black;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 21px;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.8;
+}
+.hero-container{
+    display: flex;
+    
+     
+}  
+.square img{
+    position: relative;
+    width: 330px;
+    top: 225px;
+    left: 100px ;
+
+}
+.hero-container div > img{
+    position: absolute;
+    width: 370px;
+    left: 85px;
+    top: 180px;
+}
+
+.hero-container-right{
+    position: relative;
+    top: 100px;
+    right: 85px;
+    text-align: center;
+    
+   
+}
+.hero-heading{
+    position: relative;
+    font-size: 52px;
+   right: 25px;
+   font-family: 'Orbitron';
+}
+.hero-description{
+    position: relative;
+    font-size:13px;
+    padding: 5px;
+    width: 580px;
+    left: 30px;
+    font-family: 'Poppins';
+    opacity: 0.8;
+   
+}
+
+.globe img {
+    position: relative;
+    height: 55px;
+    width: 55x;
+    left: 125px;
+
+}
+/* .hero-container span{
+    position: relative;
+    top: 500px;
+} */
+.hero-container-right div{
+    position: relative;
+    top: 50px;
+}
+
+.button-email{
+width: 170px;
+height: 30px;
+background-color: #FFFFFF;
+color: rgb(31, 30, 30);
+border-radius: 10px;
+font-size:18px;
+opacity: 0.8;
+}
+.button-join{
+    background-color:black;
+width: 100px;
+height: 30px;
+color: #FFFFFF;
+border-radius: 10px;
+font-size:16px;
+}
+.hero-container div h4{
+    position: relative;
+    top: 90px;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.hero-container div div{
+    position: relative;
+    top: 60px;
+}
+
+.icons span img {
+    height: 30px;
+    width: 20;
+}
+.hero-container .star img{
+    position: relative;
+   top: 480px;
+    width: 40px;
+    left: 150px;
+}
+.hero-container .star  ~ .star {
+    position: relative;
+   bottom: 450px;
+    /* width: 100px; */
+   left: 550px;
+}
+.hero-container .star  ~ .star img {
+ width: 45px;
+}

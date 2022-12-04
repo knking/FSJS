@@ -1,0 +1,82 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.container {
+    margin-left: 100px;
+}
+.navbar-container {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+.navbar-container div > img{
+    height: 40px;
+}
+
+.grow-list {
+    position: relative;
+    margin-left: 60px;
+}
+.list {
+    display: flex;
+    gap: 35px;
+}
+
+.list-item {
+    list-style: none;
+}
+.grow-list .list .list-item:nth-child(n+2){
+    color:silver
+}
+.button-group {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 570px;
+}
+
+.nav-button {
+    height: 45px;
+    width: 120px;
+    border: 1px;
+    border-radius:10px;
+    background-color:#616ACF ;
+    color: #ffffff;
+}
+
+.banner-container {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}
+.heading-text{
+    width: 385px;
+  margin-top: 100px;
+  margin-left: 7px;
+  font-size: 335%;
+  color: #1d184e;
+}
+.heading-text span{
+    color:#6154d6;
+}
+.description{
+    width: 363px;
+    font-size: 90%;
+    margin-top: 20px;
+    color: rgb(175, 171, 171);
+}
+.btn{
+    margin-top: 55px;
+    width: 180px;
+    height: 52px;
+    margin-left: 5px;
+}

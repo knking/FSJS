@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS-code</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-zinc-800">
+    <div class="flex items-center justify-center bg-stone-900 text-green-700 h-14 text-lg">
+        <h1>This VS Code Clone is only for Educational Purpose </h1>
+    </div>
+
+    <nav class="flex justify-around items-center h-16">
+        <ul class="flex items-center text-gray-500 font-medium cursor-pointer">
+            <li class=" mr-5 mb-2"><a href="https://code.visualstudio.com/"><img src="./images/vslogo.png" alt=""></a>
+            </li>
+            <li class=" mr-5 hover:text-white">Docs</li>
+            <li class=" mr-5 hover:text-white">Updates</li>
+            <li class=" mr-5 hover:text-white">Blog</li>
+            <li class=" mr-5 hover:text-white">API</li>
+            <li class=" mr-5 hover:text-white">Extensions</li>
+            <li class=" mr-5 hover:text-white">FAQ</li>
+            <li class=" mr-5 hover:text-white"> Learn</li>
+        </ul>
+        <div class="relative flex">
+            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-auto">
+                <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-white-400" fill="none"
+                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+            </div>
+            <input type="search" id="default-search" class="block w-40 p-4 pl-10 text-sm bg-zinc-700 hover:bg-zinc-600"
+                placeholder="Search Docs">
+
+            <button type="button"
+                class="inline-block px-6 pt-4 bg-blue-600 text-white font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex align-center">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" class="w-3 mr-3 mt-1"
+                    role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                        d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z">
+                    </path>
+                </svg>
+                Download
+            </button>
+        </div>
+    </nav>
+    <div class="h-12 text-center items-center bg-stone-800 ">
+        <p class="py-3 text-gray-300"><a class="text-blue-600 hover:underline"
+                href="https://code.visualstudio.com/updates/v1_73">Version 1.73 </a>is now available!
+            Read about the
+            new features and fixes from October.</p>
+    </div>
+    <!-- Main section -->
+
+    <div class="flex justify-center relative mt-14">
+        <div class="w-1/4 mt-8">
+            <h1 class="text-white text-5xl">Code editing.</h1>
+            <h2 class="text-white font-semibold text-5xl ml-6">Redefined.</h2>
+            <p class="my-5 text-gray-400 text-lg">Free. Built on open source. Runs everywhere.</p>
+            <div class="flex h-16">
+                <div
+                    class="bg-blue-600 w-64 justify-center text-center py-2 text-white hover:bg-blue-700 transition duration-150 cursor-pointer">
+                    <h1 class="text-lg font-medium">Download for windows</h1>
+                    <p class="font-light">Satble Build</p>
+                </div>
+                <div class="ml-[2px] justify-center text-center ">
+                    <p
+                        class=" relative bg-blue-600 w-10 py-2 text-white text-2xl font-thin py-4 hover:bg-blue-700 transition duration-150 cursor-pointer">
+                        ˅</p>
+                </div>
+
+            </div>
+            <div class="bg-stone-900 mr-20 my-4 rounded-md">
+                <p class="py-1 ml-2 text-stone-50 font-light"><a class="text-sky-600 hover:underline"
+                        href="https://vscode.dev/">Web</a>, <a class="text-sky-600 hover:underline"
+                        href="https://code.visualstudio.com/insiders/">Insiders edition</a>,or <a
+                        class="text-sky-600 hover:underline" href="https://code.visualstudio.com/#alt-downloads">other
+                        platforms</a></p>
+            </div>
+
+            <p class="text-sm text-gray-400 ml-8">By using VS Code, you agree to its</p>
+            <p class="text-xs ml-16 text-sky-600 mb-2 hover:underline"><a href="">license and privacy statement.</a></p>
+
+        </div>
+
+        <div class=" relative w-2/4 ml-8 ">
+            <img src="./images/vscodess.jpg" alt="code-ss">
+        </div>
+    </div>
+
+    <div class=" relative mt-14 bg-white h-32 flex">
+        <div
+            class="flex flex-col hover:bg-gray-300 justify-center items-center px-20 ml-52 transition duration-75 cursor-pointer">
+            <svg class="w-14 fill-current hover:text-indigo-600" xmlns="http://www.w3.org/2000/svg" xml:space="preserve"
+                viewBox="0 0 512 512">
+                <path
+                    d="M432.356 176.356C432.356 79.113 353.242 0 256 0S79.644 79.113 79.644 176.356c0 60.845 29.686 92.181 55.877 119.826 21.753 22.961 40.914 43.201 45.486 79.285h-16.03V409.6h17.067v28.444c0 40.78 33.177 73.956 73.956 73.956s73.956-33.176 73.956-73.956V409.6h17.065v-34.133h-16.029c4.572-36.083 23.733-56.323 45.486-79.285 26.192-27.646 55.878-58.981 55.878-119.826zM295.822 438.044c0 21.958-17.864 39.822-39.822 39.822s-39.822-17.864-39.822-39.822V409.6h79.644v28.444zm.834-62.577h-23.59V240.313l52.698-52.698-24.136-24.136L256 209.109l-45.631-45.629-24.136 24.136 52.7 52.698v135.153h-23.59c-4.964-49.88-31.421-77.825-55.042-102.76-24.964-26.351-46.524-49.108-46.524-96.352 0-78.421 63.801-142.222 142.222-142.222s142.222 63.801 142.222 142.222c0 47.244-21.56 70.001-46.523 96.352-23.621 24.935-50.077 52.879-55.042 102.76z" />
+            </svg>
+            <p class="mt-3 text-lg">IntelliSense</p>
+        </div>
+
+        <div
+            class="flex flex-col justify-center items-center  hover:bg-gray-300  px-16 mx-6 transition duration-75 cursor-pointer">
+            <svg class="w-14 hover:text-green-400" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor">
+                <path
+                    d="M10.94 13.5l-1.32 1.32a3.73 3.73 0 0 0-7.24 0L1.06 13.5 0 14.56l1.72 1.72-.22.22V18H0v1.5h1.5v.08c.077.489.214.966.41 1.42L0 22.94 1.06 24l1.65-1.65A4.308 4.308 0 0 0 6 24a4.31 4.31 0 0 0 3.29-1.65L10.94 24 12 22.94 10.09 21c.198-.464.336-.951.41-1.45v-.1H12V18h-1.5v-1.5l-.22-.22L12 14.56l-1.06-1.06zM6 13.5a2.25 2.25 0 0 1 2.25 2.25h-4.5A2.25 2.25 0 0 1 6 13.5zm3 6a3.33 3.33 0 0 1-3 3 3.33 3.33 0 0 1-3-3v-2.25h6v2.25zm14.76-9.9v1.26L13.5 17.37V15.6l8.5-5.37L9 2v9.46a5.07 5.07 0 0 0-1.5-.72V.63L8.64 0l15.12 9.6z" />
+            </svg>
+            <p class="mt-3 text-lg">Run and Debug</p>
+        </div>
+
+        <div
+            class="flex flex-col justify-center items-center  hover:bg-gray-300 px-20 mx-6 transition duration-75 cursor-pointer">
+            <svg class="w-14 hover:text-red-500" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M5.75 21a1.75 1.75 0 110-3.5 1.75 1.75 0 010 3.5zM2.5 19.25a3.25 3.25 0 106.5 0 3.25 3.25 0 00-6.5 0zM5.75 6.5a1.75 1.75 0 110-3.5 1.75 1.75 0 010 3.5zM2.5 4.75a3.25 3.25 0 106.5 0 3.25 3.25 0 00-6.5 0zM18.25 6.5a1.75 1.75 0 110-3.5 1.75 1.75 0 010 3.5zM15 4.75a3.25 3.25 0 106.5 0 3.25 3.25 0 00-6.5 0z" />
+                <path fill-rule="evenodd" d="M5.75 16.75A.75.75 0 006.5 16V8A.75.75 0 005 8v8c0 .414.336.75.75.75z" />
+                <path fill-rule="evenodd"
+                    d="M17.5 8.75v-1H19v1a3.75 3.75 0 01-3.75 3.75h-7a1.75 1.75 0 00-1.75 1.75H5A3.25 3.25 0 018.25 11h7a2.25 2.25 0 002.25-2.25z" />
+            </svg>
+
+            <p class="mt-3 text-lg">Built-in Git</p>
+        </div>
+
+        <div
+            class="flex flex-col justify-center items-center  hover:bg-gray-300 px-20 mx-6 transition duration-75 cursor-pointer">
+            <svg class="w-14 hover:text-black" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.5 1.5L15 0h7.5L24 1.5V9l-1.5 1.5H15L13.5 9V1.5zm1.5 0V9h7.5V1.5H15zM0 15V6l1.5-1.5H9L10.5 6v7.5H18l1.5 1.5v7.5L18 24H1.5L0 22.5V15zm9-1.5V6H1.5v7.5H9zM9 15H1.5v7.5H9V15zm1.5 7.5H18V15h-7.5v7.5z" />
+            </svg>
+
+            <p class="mt-3 text-lg">Extensions</p>
+        </div>
+    </div>
+
+    <!-- card section -->
+    <div class="h-96 bg-gray-100 flex justify-center items-center">
+        <div>
+           <img class="w-12 cursor-pointer" src="./images/left (2).png" alt="">
+        </div>
+
+        <div class=" relative flex w-80 mx-4">
+            <div class=" relative w-16 h-16 ">
+                <img class="rounded-full cursor-pointer" src="./images/person.jpg" alt="person">
+            </div>
+            <div class="flex flex-col relative w-64 mt-2 ml-2">
+                <h2 class="cursor-pointer"><span class=" text-black text-sm font-bold hover:text-sky-500 text-lg"><a
+                            href="#">Uma Kravets</span> @Una </a></h2>
+                <p class="text-gray-500">VS @code does so many things right. I’m constantly impressed by the UX, and
+                    customizing
+                    workspace/
+                    user preferences is no exception. 🙌🏼💯 It just keeps getting better</p>
+            </div>
+        </div>
+
+        <div class=" relative flex w-80 mx-4">
+            <div class=" relative w-16 h-16">
+                <img class="rounded-full cursor-pointer" src="./images/person.jpg" alt="person">
+            </div>
+            <div class="flex flex-col relative w-64 mt-2 ml-2">
+                <h2 class="cursor-pointer"><span class=" text-black text-sm font-bold hover:text-sky-500 text-lg"><a
+                            href="#">Uma Kravets</span> @Una </a></h2>
+                <p class="text-gray-500">VS @code does so many things right. I’m constantly impressed by the UX, and
+                    customizing
+                    workspace/
+                    user preferences is no exception. 🙌🏼💯 It just keeps getting better</p>
+            </div>
+
+            
+        </div>
+
+        <div class=" relative flex w-80 mx-4">
+            <div class=" relative w-16 h-16">
+                <img class="rounded-full cursor-pointer" src="./images/person.jpg" alt="person">
+            </div>
+            <div class="flex flex-col relative w-64 mt-2 ml-2">
+                <h2 class="cursor-pointer"><span class=" text-black text-sm font-bold hover:text-sky-500 text-lg"><a
+                            href="#">Uma Kravets</span> @Una </a></h2>
+                <p class="text-gray-500">VS @code does so many things right. I’m constantly impressed by the UX, and
+                    customizing
+                    workspace/
+                    user preferences is no exception. 🙌🏼💯 It just keeps getting better</p>
+            </div>
+        </div>
+        <div>
+            <img class="w-12 cursor-pointer ml-4" src="./images/right.png" alt="">
+         </div>
+    </div>
+
+    <!-- below card -->
+
+    <div class=" relative h-96 bg-white flex ">
+        <div class="relative mt-20 ml-52">
+            <img src="./images/home-intellisense.svg" alt="int">
+        </div>
+        <div class="relative flex flex-col w-[620px] mt-[67px] ml-28">
+            <h1 class="text-3xl font-light">Meet IntelliSense.</h1>
+            <p class="mt-8 leading-9 text-lg">Go beyond syntax highlighting and autocomplete with IntelliSense,
+                which provides smart completions based
+                on variable types, function definitions, and imported modules.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="relative h-96  bg-gray-100 flex">
+
+        <div class="relative flex flex-col w-[620px] mt-[67px] ml-52">
+            <h1 class="text-3xl font-light">Print statement debugging is a thing of the past.</h1>
+            <p class="mt-8 leading-9 text-lg">Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.
+            </p>
+        </div>
+        <div class="relative ml-28 mt-20">
+            <img src="./images/home-debug.svg" alt="debug">
+        </div>
+
+    </div>
+
+    <div class=" relative h-96 bg-white flex ">
+        <div class="relative mt-20 ml-52">
+            <img src="./images/home-git.svg" alt="int">
+        </div>
+        <div class="relative flex flex-col w-[620px] mt-[67px] ml-28">
+            <h1 class="text-3xl font-light">Git commands built-in.</h1>
+            <p class="mt-8 leading-9 text-lg">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="relative h-96  bg-gray-100 flex">
+
+        <div class="relative flex flex-col w-[620px] mt-[67px] ml-52">
+            <h1 class="text-3xl font-light">Extensible and customizable.</h1>
+            <p class="mt-8 leading-9 text-lg">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. Learn more about extensions.
+            </p>
+        </div>
+        <div class="relative ml-28 mt-20 w-[330px] transform transition duration-500 hover:scale-105">
+            <img src="./images/Hundreds-of-Extensions.png" alt="debug">
+        </div>
+
+    </div>
+
+
+    <div class=" relative h-96 bg-white flex ">
+        <div class="relative mt-20 ml-52">
+            <img src="./images/home-azure.svg" alt="int">
+        </div>
+        <div class="relative flex flex-col w-[620px] mt-[67px] ml-28">
+            <h1 class="text-3xl font-light">Deploy with confidence and ease.</h1>
+            <p class="mt-8 leading-9 text-lg">With Microsoft Azure you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, all from within VS Code.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- get started section -->
+
+
+    <div class="bg-gray-100 h-[470px]">
+
+        <div class="relative flex flex-col justify-center items-center justify-items-center">
+
+            <h1 class="text-4xl font-light mt-16 py-4 ">Vs Code for</h1>
+
+            <div class="mt-8 grid grid-cols-6 gap-x-8 gap-y-8">
+
+                <div class="flex gap-2">
+                    <img class="w-8" src="./images/javascript.svg" alt="javascript">
+                    <p class="text-xl">JavaScript</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <img class="w-8" src="./images/python.svg" alt="javascript">
+                    <p class="text-xl">Python</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <img class="w-8" src="./images/java.svg" alt="javascript">
+                    <p class="text-xl">Java</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <img class="w-8" src="./images/markdown.svg" alt="javascript">
+                    <p class="text-xl">Markdown</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <img class="w-8" src="./images/typescript.svg" alt="javascript">
+                    <p class="text-xl">TypeScript</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <img class="w-8" src="./images/cpp.svg" alt="javascript">
+                    <p class="text-xl">C/C++</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <img class="w-8" src="./images/json.svg" alt="javascript">
+                    <p class="text-xl">JSON</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <img class="w-8" src="./images/powershell.svg" alt="javascript">
+                    <p class="text-xl">Powershell</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <img class="w-8" src="./images/html.svg" alt="javascript">
+                    <p class="text-xl">HTML/CSS</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <img class="w-8" src="./images/csharp.svg" alt="javascript">
+                    <p class="text-xl">C#</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <img class="w-8" src="./images/php.svg" alt="javascript">
+                    <p class="text-xl">PHP</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <img class="w-8" src="./images/yaml.svg" alt="javascript">
+                    <p class="text-xl">YAML</p>
+                </div>
+
+            </div>
+
+            <p class="mt-8 cursor-pointer hover:underline text-blue-700"><a
+                    href="https://marketplace.visualstudio.com/search?target=VSCode&category=Programming%20Languages&sortBy=Installs">and
+                    many more languages on the Marketplace...</a></p>
+
+            <div
+                class="bg-blue-600 w-56 mt-12 justify-center text-center py-4 text-white hover:bg-blue-700 transition duration-150 cursor-pointer">
+                <h1 class="text-lg font-semibold">Get Staterd Now</h1>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- download windows section -->
+
+    <div class="flex bg-white h-[470px] justify-center align-center ">
+
+        <!-- windows -->
+        <div class="flex flex-col mt-16 items-center mx-8">
+
+            <div class="logo-div ">
+                <img class="w-24" src="./images/windows-10-icon-logo-5BC5C69712-seeklogo.com.png" alt="windows">
+            </div>
+            <div
+                class="button-div relative bg-blue-600 w-60 h-20 mt-12  text-center text-white hover:bg-blue-700 transition duration-150 cursor-pointer">
+                <svg class="fill-current w-4 h-4 ml-16 absolute mt-[15px]" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20">
+                    <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                </svg>
+                <div class="flex flex-col ">
+                    <h1 class="text-lg font-semibold relative mt-2 ml-4">Windows</h1>
+                    <p class="text-sm mr-2 relative mt-2">Windows 8,10,11</p>
+                </div>
+
+            </div>
+
+            <div class="download-div flex flex-col mt-2">
+                <div class="flex gap-2">
+                    <p>User installer</p>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px] ">x64</button>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">x86</button>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">Arm64</button>
+                </div>
+
+                <div class="flex gap-1">
+                    <p class="">System Installer</p>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px] ">x64</button>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">x86</button>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">Arm64</button>
+                </div>
+
+                <div class="flex gap-2">
+                    <p class="ml-[70px]">.zip</p>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px] ">x64</button>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">x86</button>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">Arm64</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- linux -->
+        <div class="flex flex-col mt-16 items-center mx-8">
+            <div class="logo-div ">
+                <img class="w-[82px]" src="./images/Linux_Tux-logo-DA252F3C21-seeklogo.com.png" alt="windows">
+            </div>
+            <div class="flex gap-[4px]">
+                <div
+                    class="button-div relative bg-blue-600 w-40 h-20 mt-12  text-center text-white hover:bg-blue-700 transition duration-150 cursor-pointer">
+                    <svg class="fill-current w-4 h-4 ml-8 absolute mt-[15px]" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20">
+                        <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                    </svg>
+                    <div class="flex flex-col ">
+                        <h1 class="text-lg font-semibold relative mt-2 ml-4">.deb</h1>
+                        <p class="text-sm mr-2 relative mt-2">Debian, Ubuntu</p>
+                    </div>
+
+                </div>
+                <div
+                    class="button-div relative bg-blue-600 w-40 h-20 mt-12  text-center text-white hover:bg-blue-700 transition duration-150 cursor-pointer">
+                    <svg class="fill-current w-4 h-4 ml-8 absolute mt-[15px]" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20">
+                        <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                    </svg>
+                    <div class="flex flex-col ">
+                        <h1 class="text-lg font-semibold relative mt-2 ml-4">.rpm</h1>
+                        <p class="text-sm mr-2 relative mt-2">Red Hat,Fedora,SUSE</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="download-div flex flex-col mt-2">
+                <div class="flex gap-2">
+                    <p>.deb</p>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px] ">x64</button>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">x86</button>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">Arm64</button>
+                </div>
+
+                <div class="flex gap-2">
+                    <p>.rpm</p>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px] ">x64</button>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">x86</button>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">Arm64</button>
+                </div>
+
+                <div class="flex gap-2">
+                    <p class="">.tar.gz</p>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px] ">x64</button>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">x86</button>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">Arm64</button>
+                </div>
+                <div class="flex gap-2">
+                    <p>Snap</p>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">Snap Strore</button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- apple -->
+        <div class="flex flex-col mt-16 items-center mx-8">
+            <div class="logo-div ">
+                <img class="w-[79px]" src="./images/apple-logo-E3DBF3AE34-seeklogo.com.png" alt="windows">
+            </div>
+            <div
+                class="button-div relative bg-blue-600 w-60 h-20 mt-12 text-center text-white hover:bg-blue-700 transition duration-150 cursor-pointer">
+                <svg class="fill-current w-4 h-4 ml-16 absolute mt-[15px]" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20">
+                    <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+                </svg>
+                <div class="flex flex-col ">
+                    <h1 class="text-lg font-semibold relative mt-2 ml-4">Mac</h1>
+                    <p class="text-sm mr-2 relative mt-2">macOS 10.11+</p>
+                </div>
+
+            </div>
+            <div class="download-div flex flex-col mt-2">
+                <div class="flex gap-2">
+                    <p>.zip</p>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px] ">Universal</button>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">Intel chip</button>
+                    <button class="bg-blue-600 cursor-pointer w-auto text-xs text-white h-[19px]">Apple silicon</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- new feature group -->
+
+    <div class="bg-gray-100 h-[400px] flex">
+
+        <div class=" relative w-[300px] mt-8 left-[370px]">
+            <h2 class="text-[19px] text-zinc-600 font-medium">Want new features sooner?</h2>
+            <p class="py-2 text-lg font-light">Get the <span
+                    class="cursor-pointer hover:underline text-blue-700">Insiders build</span> instead.</p>
+        </div>
+        <div class=" relative w-[700px] text-center mt-[200px] ml-[140px]">
+            <h3 class="text-sm">LICENSE AND PRIVACY TERMS</h3>
+            <p class="leading-9 mt-3 text-sm">
+                By downloading and using Visual Studio Code, you agree to the <span
+                    class="cursor-pointer hover:underline text-blue-700">license terms</span> and <span span
+                    class="cursor-pointer hover:underline text-blue-700"> privacy statement.</span> VS
+                Code automatically sends telemetry data and crash dumps to help us improve the product. If you would
+                prefer not to have this data sent please go see <span span
+                    class="cursor-pointer hover:underline text-blue-700">How to Disable Crash Reporting</span> to learn
+                how to disable
+                it.
+            </p>
+        </div>
+        <div class=" relative w-[275px] text-center mt-8 right-[195px]">
+            <h2 class="text-[19px] text-zinc-600 font-medium">Use <span
+                    class="text-blue-600 cursor-pointer hover:underline">vscode.dev</span> for quick edits online!</h2>
+            <p class="text-lg font-light">GitHub, Azure Repos, and local files.</p>
+        </div>
+
+    </div>
+                    <!-- footer -->
+
+    <div class="flex h-14 mt-8 place-content-around">
+
+        <div class="flex text-white gap-4 text-xs">
+            <p>Hello from Seattle.</p>
+            <p class="hover:text-indigo-500 cursor-pointer"> Follow @code</p>
+            <div class="flex gap-[3px]">
+                <div class="bg-white w-14 rounded text-xs h-[22px] hover:bg-gray-100">
+                    <a href="#!" class="text-gray-600 flex gap-[5px] ml-[4px] py-[2px] font-medium ">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="w-4"
+                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                            <path fill="currentColor"
+                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                            </path>
+
+                        </svg>
+                        Star
+                    </a>
+                </div>
+                <div class="bg-white text-black w-14 rounded text-xs h-[22px] hover:text-blue-500 ">
+                    <button class="ml-[4px] py-[2px] font-medium">139,720</button>
+                </div>
+            </div>
+        </div>
+        <div class="text-white">
+            <ul class="flex gap-4 text-xs">
+                <li class="hover:text-indigo-500 cursor-pointer">Support</li>
+                <li class="hover:text-indigo-500 cursor-pointer">Privacy</li>
+                <li class="hover:text-indigo-500 cursor-pointer">tearms of Use</li>
+                <li class="hover:text-indigo-500 cursor-pointer">Licence</li>
+                <li class="cursor-pointer"><img class="w-24" src="./images/microsoft-logo.png"
+                        alt="logo"></li>
+            </ul>
+        </div>
+
+    </div>
+    <p class="relative text-white left-[1225px] bottom-[30px] text-xs">© 2022 Microsoft</p>
+</body>
+
+
+</html>

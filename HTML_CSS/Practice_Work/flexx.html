@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 50px;
+            height: 250px;
+            width: 500px;
+            border: 2px solid red;
+    
+            
+        }
+        .items{
+            border: 2px solid yellow;
+            height: 60px;
+            width: 60px;
+            background-color: blueviolet;
+            color: white;
+            text-align: center;
+        }
+        /* #two{
+            align-self: center;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">1</div>
+        <div class="items" id="two">2</div>
+        <div class="items" id="three">3</div>
+        <!-- <div class="items">4</div> -->
+        
+    </div>
+</body>
+</html>
