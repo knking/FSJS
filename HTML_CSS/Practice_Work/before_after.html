@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before-after</title>
+    <style>
+        h1::before{
+            content: 'Example of before tag :- ';
+            color: blue;
+            font-weight: bold;
+        }
+        h2::after{
+            content: 'i am after';
+            color: brown;
+            font-weight: bold;
+        }
+        /* h2::before{
+            content: url(./output.png);
+            width: 100px;
+            height: 100px;
+        } */
+        
+        #download-matrix-label::after{
+            content: '$';
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    
+        <h1>i am example of before</h1>
+
+        <h2>i am example of after :- </h2>
+
+
+
+
+        <p id="download-matrix-label" class="subtext text-center"><a href="https://vscode.dev/" target="_blank" title="For quick code edits locally or remotely on GitHub and Azure Repos." id="download-buttons-web">Web</a>, <a href="/insiders" id="download-buttons-insiders">Insiders edition</a>, or <a href="#alt-downloads">other platforms</a> 
+        </p>
+</body>
+</html>
