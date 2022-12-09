@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+    <style>
+        /* hidden style */
+
+        html {
+            font-family: sans-serif;
+        }
+
+        form {
+            width: 500px;
+        }
+
+        div {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        label {
+            flex: 2;
+            line-height: 2;
+            text-align: right;
+            padding-right: 20px;
+        }
+
+        input,
+        textarea {
+            flex: 7;
+            font-family: sans-serif;
+            font-size: 1.1rem;
+            padding: 5px;
+        }
+
+        textarea {
+            height: 60px;
+        }
+
+
+        /* p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+} */
+    </style>
+</head>
+
+<body>
+
+    <!-- <p>Choose your monster's colors:</p>
+
+<div>
+    <input type="color" id="head" name="head"
+           value="#e66465">
+    <label for="head">Head</label>
+</div>
+
+<div>
+    <input type="color" id="body" name="body"
+            value="#f6b73c">
+    <label for="body">Body</label>
+</div> -->
+
+    <!-- hidden -->
+
+
+    <form>
+        <div>
+            <label for="title">Post title:</label>
+            <input type="text" id="title" name="title" value="My excellent blog post" />
+        </div>
+        <div>
+            <label for="content">Post content:</label>
+            <textarea id="content" name="content" cols="60" rows="5">
+                              This is the content of my excellent blog post. I hope you enjoy it!
+                                  </textarea>
+        </div>
+        <div>
+            <button type="submit">Update post</button>
+        </div>
+        <input type="hidden" id="postId" name="postId" value="34657" />
+    </form>
+
+
+</body>
+
+</html>
