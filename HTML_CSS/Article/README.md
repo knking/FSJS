@@ -6,6 +6,9 @@
 
 [introduction of html](https://knking.hashnode.dev/introduction-of-html)
 
+# Article on HTML input Element 
+[Input elelment](https://knking.hashnode.dev/html-input-elements)
+
 # Atricle on CSS selector 
 
 [CSS selector](https://knking.hashnode.dev/introduction-of-css-and-css-selector)
