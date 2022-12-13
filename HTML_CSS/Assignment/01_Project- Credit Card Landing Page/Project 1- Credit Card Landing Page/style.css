@@ -35,6 +35,7 @@ nav ul li {
     left: 35px;
 }
 .nav-list-img img{
+    margin-top: 4px;
     position: relative;
     z-index: -1;
 }
@@ -48,7 +49,7 @@ nav ul li {
     position: relative;
     left: 150px;
     width: 70%;
-    margin-top: 70px;
+    top: 75px;
 }
 .rightsection{
     width: 30%;
@@ -64,12 +65,58 @@ nav ul li {
    right: 260px;
 }
 .leftsection-div-1{
-    width: 80%;
+    width: 82%;
 }
 .leftsection-p1{
     font-size: 85px;
 }
 .leftsection-p1-strong{
-    font-color: #F637EC;
     color: #F637EC;
+}
+.leftsection-div-2{
+    position: relative;
+    margin-top: 40px;
+    width: 55%;
+    color: #BCBCBC;
+}
+.leftsection-p2{
+    font-size:23px ;
+}
+.leftsection-div-3{
+    position: relative;
+    margin-top: 90px;
+}
+.leftsection-ul{
+    display: flex;
+    align-items: center;
+}
+.leftsection-ul li {
+    list-style: none;
+    
+}
+.leftsection-ul li p{
+    position: relative;
+    font-size: 20px;
+    right: 30px;
+
+}
+.leftsection-ul-first-img{
+    position: relative;
+    width: 60px;
+    margin-top: 2px;
+}
+
+.leftsection-ul-second-img{
+    position: relative;
+    width: 50px;
+    margin-top: 8px;
+    right: 15px;
+}
+.leftsection-div-4{
+    position: relative;
+    display: flex;
+    top: 65px;
+}
+.leftsection-div-4{
+    height: 3opx;
 }
