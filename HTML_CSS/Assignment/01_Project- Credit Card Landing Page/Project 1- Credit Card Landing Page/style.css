@@ -7,6 +7,7 @@
 body {
     background-color: #151515;
     font-family: 'Open Sans', sans-serif;
+    max-width: 100%;
 }
 
 nav {
@@ -57,7 +58,7 @@ nav ul li {
 
 .leftsection {
     position: relative;
-    left: 150px;
+    left: 130px;
     width: 70%;
     top: 75px;
 }
@@ -188,7 +189,7 @@ nav ul li {
 }
 .logo-img-sec ul{
  display: flex;
- margin-left: 40px;
+ margin-left: 20px;
  
 }
 .logo-img-sec ul li{
@@ -197,4 +198,76 @@ nav ul li {
 }
 .logo-img-sec ul li img{
     width: 100px; 
+}
+
+.payment-service-text{
+    display: flex;
+    color: #ffffff;
+    position: relative;
+    left: 130px;
+    top: 120px;
+}
+.payment-service-text-div1{ 
+    width: 30%;
+}
+.payment-service-text-div1 span{ 
+    color: #F637EC;
+}
+.payment-service-text-div1 p{
+    font-size: 55px;
+    line-height: 70px;
+}
+.payment-service-text-div2{
+    width: 21%;
+    position: relative;
+    left: 300px;
+    margin-top: 50px;
+}
+.payment-service-text-div2 p {
+    line-height: 25px;
+    color: #BCBCBC;
+    font-size: 18px;
+}
+.payment-service-card{
+    margin-top: 300px;
+    position: relative;
+    display: flex;
+    left: 175px;
+    gap: 45px;
+    height: 300px;
+}
+.payment-service-card-1{
+    border: 2px solid wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    width: 300px;
+    gap: 40px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 350;
+}
+
+.payment-service-card-2{
+    position: relative;
+    border: 2px solid wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    width: 300px;
+    bottom: 40px;
+    gap: 40px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 350;
+}
+.payment-service-card-1 img{
+    width: 110px;
+}
+.payment-service-card-2 img{
+    width: 110px;
 }
