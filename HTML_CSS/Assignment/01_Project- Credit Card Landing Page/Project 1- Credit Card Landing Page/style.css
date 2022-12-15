@@ -278,3 +278,39 @@ nav ul li {
     width: 260px;
     text-indent: 50px;
 }
+.card-choice{
+    margin-top: 130px;
+    height: 126vh;
+   
+    background-color: #FCEFFB;
+}
+.card-choice-element{
+    display: flex;
+    top: 120px;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-choice-element p:first-child{
+    font-size: 58px;
+}
+.card-choice-element h2{
+    font-size: 60px;
+    font-weight: 600;
+    color: #F637EC;
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+.card-choice-element p:nth-child(3){
+    width: 500px;
+    text-indent: -1em;
+    color: #968F96;
+    
+}
+.card-choice-element img{
+    width: 800px;
+    position: relative;
+    bottom: 22px;
+}
