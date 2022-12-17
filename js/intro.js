@@ -1,6 +1,7 @@
-let myArr = ["krishna", "nand", "ray", 1000, 9.0, true];
+// let myArr = ["krishna","nand","ray",1000,9.0,true];
+// console.log(myArr.length);
+let array1 = ['krishna', 'ray', 'nand'];
+let array2 = [1, 2, 3];
 
-console.log(myArr[0]);
-console.log(myArr[1]);
-console.log(myArr[2]);
-console.log(myArr[3]);
+let array3 = array1.concat(array2);
+console.log(array3)
