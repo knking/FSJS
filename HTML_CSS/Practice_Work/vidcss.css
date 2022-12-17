@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #151515;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.leftsection {
+    position: relative;
+    left: 130px;
+    /* width: 60%; */
+    top: 75px;
+}
+.leftsection-div-1 {
+    width: 60%;
+}
+
+.leftsection-p1 {
+    font-size: 85px;
+    color: #ffffff;
+}
+
+.leftsection-p1-strong {
+    color: #F637EC;
+}
+
+.leftsection-div-2 {
+    position: relative;
+    margin-top: 40px;
+    width: 40%;
+    color: #BCBCBC;
+}
+
+.leftsection-p2 {
+    font-size: 23px;
+}
+
+.leftsection-div-3 {
+    position: relative;
+    margin-top: 90px;
+}
+
+.leftsection-ul {
+    display: flex;
+    align-items: center;
+}
+
+.leftsection-ul li {
+    list-style: none;
+    color: #ffffff;
+
+}
+
+.leftsection-ul li p {
+    position: relative;
+    font-size: 20px;
+    right: 30px;
+
+}
+
+.leftsection-ul-first-img {
+    position: relative;
+    width: 60px;
+    margin-top: 2px;
+}
+
+.leftsection-ul-second-img {
+    position: relative;
+    width: 48px;
+    margin-top: 8px;
+    right: 20px;
+}
+.leftsection-div-7 {
+    position: relative;
+    height: 40px;
+    width: 2px;
+    left: 10px;
+    background-color: #BCBCBC;
+
+}
+
+.demo1 {
+    display: flex;
+    position: relative;
+    top: 65px;
+    justify-content: space-between;
+    width: 450px;
+    align-items: center;
+}
+
+.demo1 ul {
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+}
+
+.demo1 ul li {
+    list-style: none;
+
+}
+
+.demo-li {
+    position: relative;
+    width: 80px;
+    left: 20px;
+    color: #ffffff;
+    line-height: 25px;
+}
+
+.demo2 li p {
+    font-size: 43px;
+
+}
+
+.demo2 li h3 {
+    color: #F637EC;
+    font-size: 30px;
+}
+
+.div-2 {
+    border: 2px solid blue;
+    /* width: 0%; */
+    height: 850px;
+    /* position: relative;
+    bottom:550px ; */
+    
+}
+
+.demo {
+    overflow: hidden;
+    height: 800px;
+}
+
+/* .div-21{
+    position: relative;
+}
+.div-22{
+    position: relative;
+} */
+.div-21 {
+    width: 900px;
+    position: relative;
+    top: 10px;
+    left: 620px;
+  
+}
+
+.div-22 {
+    width: 900px;
+   
+    position: relative;
+   /* margin-left: 750px; */
+ left: 840px;
+ bottom: 570px;
+
+}
