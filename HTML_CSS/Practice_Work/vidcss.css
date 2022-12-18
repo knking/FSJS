@@ -8,12 +8,13 @@
 body {
     background-color: #151515;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 
 }
 .leftsection {
     position: relative;
     left: 130px;
-    /* width: 60%; */
+    width: 100%;
     top: 75px;
 }
 .leftsection-div-1 {
@@ -144,18 +145,21 @@ body {
 } */
 .div-21 {
     width: 900px;
-    position: relative;
-    top: 10px;
+    position: absolute;
+  z-index: -1;
     left: 620px;
+    bottom: 20px;
   
 }
 
 .div-22 {
     width: 900px;
    
-    position: relative;
+    position: absolute;
    /* margin-left: 750px; */
- left: 840px;
- bottom: 570px;
+ left: 720px;
+ 
+
+ right: 100px;
 
 }

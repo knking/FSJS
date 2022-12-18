@@ -99,7 +99,67 @@
 // let removed = months.splice(1,2,'june','july');  
 // console.log(months);
 // console.log(removed);
-const months = ['Jan', 'March', 'April','august'];
-let removed = months.splice(1);  
-console.log(months);
-console.log(removed);
+// const months = ['Jan', 'March', 'April','august'];
+// let removed = months.splice(1);  
+// console.log(months);
+// console.log(removed);
+
+// let ar =[1,2,3,4,5,6];
+// console.log(ar.slice())
+// console.log(ar.slice(2))
+// console.log(ar.slice(1,4))
+
+// let nums = [4, 9, 16, 25];
+// let newArr = nums.map(Math.sqrt)
+// console.log(newArr)
+
+// const numbers = [6, 4, 1, 4];
+// const newArr = numbers.map(myFunction)
+
+// function myFunction(num) {
+//   return num * 10;
+// }
+
+// console.log(newArr)
+
+// filter
+
+// let ages = [20, 25, 16, 39,44,14];
+// let valid_age = ages.filter(checkForAdult);
+
+// function checkForAdult(age) {
+//   return age >= 18;
+// }
+// console.log(valid_age)
+
+////////////fill
+
+// let myArr = [10,20,30,40,50]
+// myArr.fill(0)
+// console.log(myArr)
+// let arr2 = [10,20,30,40,50];
+// arr2.fill(0,1,4)
+// console.log(arr2)
+
+// let elements = ['apple', 'bal', 'cat'];
+
+// console.log(elements.join());
+
+
+// console.log(elements.join(''));
+
+
+// console.log(elements.join('-'));
+
+let arr= ["apple", "bal", "cat","dog"];
+let copyItems = [];
+
+// before for each loop 
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i])
+}
+
+// after for each loop 
+arr.forEach((item) => {
+  console.log(item)
+});
