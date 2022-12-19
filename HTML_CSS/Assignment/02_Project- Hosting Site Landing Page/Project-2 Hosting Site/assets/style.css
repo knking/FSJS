@@ -155,6 +155,7 @@ margin-left: 150px;
     padding-bottom: 10px;
 }
 .card-1{
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     border: 1px solid #605F5F;
@@ -164,6 +165,10 @@ margin-left: 150px;
     align-items: center;
     gap: 15px;
     border-radius: 20px;
+    transition: bottom 2s ;
+}
+.card-1:hover{
+    bottom: 10px;
 }
 .card-1 p{
     /* width: 76%; */
@@ -179,7 +184,9 @@ margin-left: 150px;
 }
 
 .card-2{
+
     position: relative;
+     cursor: pointer;
     display: flex;
     flex-direction: column;
     border: 1px solid #605F5F;
@@ -192,8 +199,7 @@ margin-left: 150px;
     background-color: #111010;
     color: #FFFFFF;
     bottom: 45px;
-   
-  box-shadow: 15px 15px 5px 2px #888888;
+   box-shadow: rgba(0, 0, 0, 0.2) 0px 40px 40px -7px;
 }
 .card-2 h3{
     opacity: 98%;
@@ -209,6 +215,7 @@ margin-left: 150px;
 }
 .card-3{
     display: flex;
+     cursor: pointer;
     flex-direction: column;
     border: 1px solid #605F5F;
     width: 275px;
@@ -227,4 +234,9 @@ margin-left: 150px;
 }
 .card-3 span{
     margin-left: 60px;
+}
+.card-section-h1{
+    margin-left: 310px;
+    width: 65%;
+    opacity: 90%;
 }
