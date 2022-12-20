@@ -1,31 +1,35 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
-    
+
+body {
+
     background-color: #111010;
     font-family: 'Open Sans', sans-serif;
 }
-nav{
+
+nav {
     margin-top: 10px;
     display: flex;
 
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    
+
 }
-nav ul{
+
+nav ul {
     display: flex;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-right: 20px;
     color: #777676;
 }
 
-nav button{
+nav button {
     padding: 12px 12px;
     width: 110px;
     border-radius: 25px;
@@ -33,48 +37,57 @@ nav button{
     color: white;
     font-size: 20px;
 }
-nav ul li:hover{
+
+nav ul li:hover {
     cursor: pointer;
     color: #ffffff;
 }
-nav button:hover{
+
+nav button:hover {
     color: #0C8BFD;
     background-color: white;
     cursor: pointer;
 }
-.hero{
+
+.hero {
     margin-top: 90px;
     display: flex;
     width: 100%;
 }
-.hero-text{
+
+.hero-text {
     position: relative;
     display: flex;
     flex-direction: column;
-width: 50%;
-color: #FFFFFF;
-margin-left: 150px;
+    width: 50%;
+    color: #FFFFFF;
+    margin-left: 150px;
 }
-.hero-text span{
+
+.hero-text span {
     font-style: italic;
     color: #0C8BFD;
 }
-.hero-text h2{
+
+.hero-text h2 {
     font-size: 50px;
     width: 59%;
 }
-.hero-text p{
+
+.hero-text p {
     margin-top: 30px;
     width: 65%;
     line-height: 25px;
     font-size: 20px;
     color: #605F5F;
 }
-.hero-button{
+
+.hero-button {
     margin-top: 60px;
-    
+
 }
-.btn-one{
+
+.btn-one {
     width: 130px;
     border-radius: 22px;
     background-color: #0C8BFD;
@@ -82,12 +95,14 @@ margin-left: 150px;
     padding: 15px 15px;
     font-size: 15px;
 }
-.btn-one:hover{
+
+.btn-one:hover {
     color: #0C8BFD;
     background-color: white;
     cursor: pointer;
 }
-.btn-two{
+
+.btn-two {
     width: 140px;
     padding: 15px 15px;
     border-radius: 22px;
@@ -97,19 +112,24 @@ margin-left: 150px;
     margin-left: 15px;
     font-size: 15px;
 }
-.btn-two:hover{
-    background-color: white; ;
+
+.btn-two:hover {
+    background-color: white;
+    ;
     color: black;
     cursor: pointer;
 }
-.hero-img-sec{
+
+.hero-img-sec {
     width: 50%;
     position: relative;
 }
-.hero-img{
+
+.hero-img {
     width: 500px;
 }
-.logo-section{
+
+.logo-section {
     margin-top: 100px;
     height: 130px;
     background-color: #1D1C1C;
@@ -118,26 +138,31 @@ margin-left: 150px;
     align-items: center;
 
 }
-.logo-section-div img{
-   margin-right: 120px;
+
+.logo-section-div img {
+    margin-right: 120px;
 }
-.card-section{
+
+.card-section {
     background-color: #FFFFFF;
     height: 190vh;
 }
-.card-content{
+
+.card-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
 }
-.card-section h1{
+
+.card-section h1 {
     margin-top: 110px;
     font-size: 50px;
     padding-bottom: 5px;
 }
-.card-para{
+
+.card-para {
     width: 20%;
     margin-top: 20px;
     line-height: 25px;
@@ -145,16 +170,19 @@ margin-left: 150px;
     opacity: 65%;
     text-indent: -5em;
 }
-.card{
+
+.card {
     margin-top: 100px;
     display: flex;
     gap: 35px;
 }
-.card img{
+
+.card img {
     width: 75px;
     padding-bottom: 10px;
 }
-.card-1{
+
+.card-1 {
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -165,28 +193,31 @@ margin-left: 150px;
     align-items: center;
     gap: 15px;
     border-radius: 20px;
-    transition: bottom 2s ;
+    transition: bottom 2s;
 }
-.card-1:hover{
+
+.card-1:hover {
     bottom: 10px;
 }
-.card-1 p{
+
+.card-1 p {
     /* width: 76%; */
     margin-left: 40px;
-    text-indent: -1em ;
+    text-indent: -1em;
     line-height: 25px;
     color: #605F5F;
     opacity: 90%;
 
 }
-.card-1 span{
+
+.card-1 span {
     margin-left: 20px;
 }
 
-.card-2{
+.card-2 {
 
     position: relative;
-     cursor: pointer;
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     border: 1px solid #605F5F;
@@ -199,23 +230,26 @@ margin-left: 150px;
     background-color: #111010;
     color: #FFFFFF;
     bottom: 45px;
-   box-shadow: rgba(0, 0, 0, 0.2) 0px 40px 40px -7px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 40px 40px -7px;
 }
-.card-2 h3{
+
+.card-2 h3 {
     opacity: 98%;
 }
-.card-2 p{
+
+.card-2 p {
     /* width: 76%; */
     margin-left: 40px;
-    text-indent: 3em ;
+    text-indent: 3em;
     line-height: 25px;
     color: #FFFFFF;
     opacity: 60%;
-    
+
 }
-.card-3{
+
+.card-3 {
     display: flex;
-     cursor: pointer;
+    cursor: pointer;
     flex-direction: column;
     border: 1px solid #605F5F;
     width: 275px;
@@ -225,39 +259,46 @@ margin-left: 150px;
     gap: 15px;
     border-radius: 20px;
 }
-.card-3 p{
+
+.card-3 p {
     /* width: 76%; */
     margin-left: 40px;
     line-height: 25px;
     color: #605F5F;
     opacity: 90%;
 }
-.card-3 span{
+
+.card-3 span {
     margin-left: 60px;
 }
-.card-section-h1{
+
+.card-section-h1 {
     margin-left: 310px;
     width: 65%;
     opacity: 90%;
 }
-.below-card-section{
+
+.below-card-section {
     display: flex;
     justify-content: center;
     gap: 15px;
     margin-top: 50px;
 }
-.below-card-left img{
+
+.below-card-left img {
     width: 30px;
 }
-.below-card-left{
+
+.below-card-left {
     width: 460px;
     height: 500px;
-    display: grid; 
-   grid-template-rows:repeat(5,1fr);
-   row-gap: 15px;
-   
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 15px;
+
 }
-.img-1{
+
+.img-1 {
     border: 1px solid #605F5F;
     display: flex;
     justify-content: space-between;
@@ -267,30 +308,33 @@ margin-left: 150px;
     font-weight: bold;
     font-size: 20px;
 }
-.img-1:first-child{
+
+.img-1:first-child {
     background-color: #0C8BFD;
     color: #ffffff;
 }
-.img-1:hover{
+
+.img-1:hover {
     background-color: #0C8BFD;
     color: #ffffff;
     cursor: pointer;
-    
+
 }
 
-.below-card-right{
+.below-card-right {
     border: 1px solid blue;
     width: 400px;
     height: 460px;
     padding: 20px 15px;
     display: grid;
-    grid-template-rows: repeat(8,1fr);
+    grid-template-rows: repeat(8, 1fr);
     row-gap: 5px;
     background-color: #111010;
-   border-radius: 35px;
-    
+    border-radius: 35px;
+
 }
-.div-circle{
+
+.div-circle {
     height: 15px;
     width: 15px;
     border-radius: 100%;
@@ -298,28 +342,30 @@ margin-left: 150px;
     background-color: #D9D9D9;
 }
 
-.img-2{
+.img-2 {
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 12px;
-   border-radius: 45px;
-   background-color: #292828;
-   color: #FFFFFF;
+    border-radius: 45px;
+    background-color: #292828;
+    color: #FFFFFF;
 }
 
-.img-2:hover{
+.img-2:hover {
     background-color: #111010;
     cursor: pointer;
 }
-.plan-heading{
+
+.plan-heading {
     display: flex;
     margin-left: 300px;
     margin-top: 90px;
     color: #ffffff;
     font-size: 20px;
 }
-.plan-heading h1{
+
+.plan-heading h1 {
     width: 44%;
     line-height: 50px;
     text-indent: -2em;
@@ -327,67 +373,175 @@ margin-left: 150px;
     padding: 0 50px;
     margin-bottom: 130px;
 }
-.plan-chart{
+
+.plan-chart {
     margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.plan-card{
+
+.plan-card {
     height: 550px;
     width: 290px;
-    border: 1px solid red;
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: #FFFFFF;
     padding: 23px 25px;
 }
-.plan-card h1{
+
+.plan-card h1 {
     padding: 20px 0;
     margin-top: 5px;
     font-size: 40px;
 }
-.plan-card h2{
+
+.plan-card h2 {
     font-weight: bold;
 }
-.plan-card span{
+
+.plan-card span {
     color: #777676;
     font-size: 25px;
 }
+
 .plan-card hr {
     margin-top: 20px;
 }
-.plan-card p{
+
+.plan-card p {
     font-size: 13px;
-    font-weight: bold;
+
 }
-.plan-card-list{
+
+.plan-card-list {
     height: 300px;
     margin-top: 20px;
-    display: grid; 
-   grid-template-rows:repeat(7,1fr);
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
 }
-.plan-card img{
+
+.plan-card img {
     width: 18px;
 }
 
-.plan-card-details{
+.plan-card-details {
     display: flex;
     gap: 10px;
     align-items: center;
     cursor: pointer;
 }
-.plan-card button{
+
+.plan-card-button {
     width: 100%;
     padding: 15px 15px;
     border-radius: 30px;
     margin-top: 15px;
     background-color: #0C8BFD;
     color: #FFFFFF;
-    border: 1px solid #0C8BFD ;
+    border: 1px solid #0C8BFD;
 }
-.plan-card button:hover{
+
+.plan-card-button:hover {
     cursor: pointer;
     background-color: #FFFFFF;
     color: #0C8BFD;
+    font-weight: bold;
+}
+
+.second-card {
+    background-color: #0C8BFD;
+    color: #FFFFFF;
+}
+.second-card span{
+    color: #FAF9F6;
+    opacity: 50%;
+}
+
+.plan-card-button-2 {
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 30px;
+    margin-top: 15px;
+    background-color: #FFFFFF;
+    color: #0C8BFD;
+    border: 1px solid #0C8BFD;
+    
+}
+
+/* .plan-card-para {
+    width: 70%;
+} */
+.plan-card-button-2:hover{
+    cursor:pointer;
+color: #FFFFFF;
+background-color: #00ABF0;
+font-weight: bold;
+}
+.comments-sec{
+    margin-top: 100px;
+    height: 95vh;
+    background-color: #FFFFFF;
+    display: flex;
+}
+.comments-sec-elements{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 170px;
+    margin-right: 160px;
+    gap: 30px;
+     
+}
+.comments-sec-heading{
+    position: relative;
+width: 50%;
+font-size: 20px;
+}
+.comments-sec-heading h1{
+    width: 55%;
+}
+.comments-sec-para{
+    position: relative;
+   width: 50%;
+}
+.comments-sec-para-p1{ 
+    position: relative;
+    width: 65%;
+    line-height: 25px;
+    color: #979696;
+    
+}
+.comments-sec-card{
+    margin-top: 70px;
+    background-color: #111010;
+    color: #FFFFFF;
+    height: 35vh;
+    border-radius: 25px;
+    padding: 20px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+.comments-sec h3{
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+
+.comments-sec-card-2{
+    margin-top: 85px;
+    background-color: #FFFFFF;
+    height: 35vh;
+    border: 1px solid #979696;
+    border-radius: 25px;
+    padding: 20px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+.cmnt-sec-p1{
+    padding-top: 25px;
+    line-height: 25px;
+}
+.cmnt-sec-img{
+    padding-top: 25px;
 }
