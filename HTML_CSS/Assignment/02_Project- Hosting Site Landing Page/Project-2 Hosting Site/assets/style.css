@@ -314,4 +314,80 @@ margin-left: 150px;
 }
 .plan-heading{
     display: flex;
+    margin-left: 300px;
+    margin-top: 90px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.plan-heading h1{
+    width: 44%;
+    line-height: 50px;
+    text-indent: -2em;
+    margin-left: 120px;
+    padding: 0 50px;
+    margin-bottom: 130px;
+}
+.plan-chart{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.plan-card{
+    height: 550px;
+    width: 290px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 23px 25px;
+}
+.plan-card h1{
+    padding: 20px 0;
+    margin-top: 5px;
+    font-size: 40px;
+}
+.plan-card h2{
+    font-weight: bold;
+}
+.plan-card span{
+    color: #777676;
+    font-size: 25px;
+}
+.plan-card hr {
+    margin-top: 20px;
+}
+.plan-card p{
+    font-size: 13px;
+    font-weight: bold;
+}
+.plan-card-list{
+    height: 300px;
+    margin-top: 20px;
+    display: grid; 
+   grid-template-rows:repeat(7,1fr);
+}
+.plan-card img{
+    width: 18px;
+}
+
+.plan-card-details{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.plan-card button{
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 30px;
+    margin-top: 15px;
+    background-color: #0C8BFD;
+    color: #FFFFFF;
+    border: 1px solid #0C8BFD ;
+}
+.plan-card button:hover{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #0C8BFD;
 }
