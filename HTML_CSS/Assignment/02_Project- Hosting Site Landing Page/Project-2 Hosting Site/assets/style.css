@@ -577,6 +577,7 @@ hr{
     align-items: center;
     border-radius: 25px;
     background-color: #292828;
+   
 }
 
 .signup-btn{
@@ -613,5 +614,11 @@ hr{
 }
 .footer{
     display: flex;
+    gap: 190px;
 
+}
+hr{
+    margin-top: 50px;
+    width: 80%;
+    color: #3E3D3D;
 }
