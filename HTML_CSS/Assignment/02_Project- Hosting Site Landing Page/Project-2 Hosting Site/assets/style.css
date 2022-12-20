@@ -545,3 +545,73 @@ font-size: 20px;
 .cmnt-sec-img{
     padding-top: 25px;
 }
+hr{
+    width: 20px;
+    color: red;
+}
+.footer-sec{
+    margin-top: 50px;
+}
+.footer-sec-ele{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-sec-ele h1{
+    color: #FFFFFF;
+    width: 63%;
+    font-size: 45px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.signup{
+    margin-top: 40px;
+   
+    height: 120px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #292828;
+}
+
+.signup-btn{
+    width: 23%; 
+    padding: 15px 120px 15px 1px;
+    border-radius: 25px;
+    border: 1px solid #3E3D3D;
+    background-color: #3E3D3D;
+    color: #818080;
+    cursor: pointer;
+}
+.first{
+    padding-right: 160px;
+}
+.third{
+    padding-right: 145px;
+}
+.last{
+    width:15%;
+    cursor: pointer;
+    padding: 15px 15px;
+    border-radius: 25px;
+    background-color: #0C8BFD;
+    color: #FFFFFF;
+    border: none;
+}
+.signup-btn:hover{
+    background-color: #818080;
+    color: #FFFFFF;
+}
+.last:hover{
+    background-color: #FFFFFF;
+    color: #00ABF0;
+}
+.footer{
+    display: flex;
+
+}
