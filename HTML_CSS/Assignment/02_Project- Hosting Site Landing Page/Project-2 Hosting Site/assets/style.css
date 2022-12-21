@@ -453,7 +453,8 @@ nav button:hover {
     background-color: #0C8BFD;
     color: #FFFFFF;
 }
-.second-card span{
+
+.second-card span {
     color: #FAF9F6;
     opacity: 50%;
 }
@@ -466,52 +467,61 @@ nav button:hover {
     background-color: #FFFFFF;
     color: #0C8BFD;
     border: 1px solid #0C8BFD;
-    
+
 }
 
 /* .plan-card-para {
     width: 70%;
 } */
-.plan-card-button-2:hover{
-    cursor:pointer;
-color: #FFFFFF;
-background-color: #00ABF0;
-font-weight: bold;
+.plan-card-button-2:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #00ABF0;
+    font-weight: bold;
 }
-.comments-sec{
+
+.comments-sec {
     margin-top: 100px;
-    height: 95vh;
+    height: 100vh;
     background-color: #FFFFFF;
     display: flex;
+    flex-direction: column;
+    gap: 90px;
 }
-.comments-sec-elements{
+
+.comments-sec-elements {
     display: flex;
     margin-top: 150px;
     margin-left: 170px;
     margin-right: 160px;
     gap: 30px;
-     
+
 }
-.comments-sec-heading{
+
+.comments-sec-heading {
     position: relative;
-width: 50%;
-font-size: 20px;
+    width: 50%;
+    font-size: 20px;
 }
-.comments-sec-heading h1{
+
+.comments-sec-heading h1 {
     width: 55%;
 }
-.comments-sec-para{
+
+.comments-sec-para {
     position: relative;
-   width: 50%;
+    width: 50%;
 }
-.comments-sec-para-p1{ 
+
+.comments-sec-para-p1 {
     position: relative;
     width: 65%;
     line-height: 25px;
     color: #979696;
-    
+
 }
-.comments-sec-card{
+
+.comments-sec-card {
     margin-top: 70px;
     background-color: #111010;
     color: #FFFFFF;
@@ -520,14 +530,15 @@ font-size: 20px;
     padding: 20px 20px;
     font-size: 17px;
     cursor: pointer;
-    
+
 }
-.comments-sec h3{
+
+.comments-sec h3 {
     padding-top: 30px;
     padding-bottom: 8px;
 }
 
-.comments-sec-card-2{
+.comments-sec-card-2 {
     margin-top: 85px;
     background-color: #FFFFFF;
     height: 35vh;
@@ -536,23 +547,28 @@ font-size: 20px;
     padding: 20px 20px;
     font-size: 17px;
     cursor: pointer;
-    
+
 }
-.cmnt-sec-p1{
+
+.cmnt-sec-p1 {
     padding-top: 25px;
     line-height: 25px;
 }
-.cmnt-sec-img{
+
+.cmnt-sec-img {
     padding-top: 25px;
 }
-hr{
+
+hr {
     width: 20px;
     color: red;
 }
-.footer-sec{
+
+.footer-sec {
     margin-top: 50px;
 }
-.footer-sec-ele{
+
+.footer-sec-ele {
     margin-left: 100px;
     margin-right: 100px;
     display: flex;
@@ -560,16 +576,18 @@ hr{
     justify-content: center;
     align-items: center;
 }
-.footer-sec-ele h1{
+
+.footer-sec-ele h1 {
     color: #FFFFFF;
     width: 63%;
     font-size: 45px;
     padding-top: 5px;
     padding-bottom: 15px;
 }
-.signup{
+
+.signup {
     margin-top: 40px;
-   
+
     height: 120px;
     width: 80%;
     display: flex;
@@ -577,11 +595,11 @@ hr{
     align-items: center;
     border-radius: 25px;
     background-color: #292828;
-   
+
 }
 
-.signup-btn{
-    width: 23%; 
+.signup-btn {
+    width: 23%;
     padding: 15px 120px 15px 1px;
     border-radius: 25px;
     border: 1px solid #3E3D3D;
@@ -589,14 +607,17 @@ hr{
     color: #818080;
     cursor: pointer;
 }
-.first{
+
+.first {
     padding-right: 160px;
 }
-.third{
+
+.third {
     padding-right: 145px;
 }
-.last{
-    width:15%;
+
+.last {
+    width: 15%;
     cursor: pointer;
     padding: 15px 15px;
     border-radius: 25px;
@@ -604,21 +625,91 @@ hr{
     color: #FFFFFF;
     border: none;
 }
-.signup-btn:hover{
+
+.signup-btn:hover {
     background-color: #818080;
     color: #FFFFFF;
 }
-.last:hover{
+
+.last:hover {
     background-color: #FFFFFF;
     color: #00ABF0;
 }
-.footer{
+
+.footer {
     display: flex;
     gap: 190px;
-
+    margin-top: 70px;
+    color: #FFFFFF;
 }
-hr{
-    margin-top: 50px;
+
+.footer-one,
+.footer-two {
+    display: flex;
+    gap: 190px;
+}
+
+.footer-div-1,
+.footer-div-2,
+.footer-div-3,
+.footer-div-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 12px;
+    opacity: 90%;
+}
+
+.first-p {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer-div-4 p:hover {
+    cursor: pointer;
+    color: #0C8BFD;
+}
+
+.footer-div-3 p:hover {
+    cursor: pointer;
+    color: #0C8BFD;
+}
+
+.footer-div-2 p:hover {
+    cursor: pointer;
+    color: #0C8BFD;
+}
+
+.footer-div-1 p:hover {
+    cursor: pointer;
+    color: #0C8BFD;
+}
+
+.hr {
+    margin-top: 80px;
     width: 80%;
-    color: #3E3D3D;
+    background-color: #3E3D3D;
+    height: 1px;
+}
+.footer-logo{
+    margin-left: 230px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.footer-logo img{
+    width: 120px;
+}
+.cmt-sec-line{
+    margin-left: 170px;
+    width: 80%;
+    height: 5px;
+    border-radius: 7px;
+    background-color: #F3F3F3;
+}
+.cmt-sec-line-1{
+    height: 5px;
+    width: 10%;
+    background-color:#0C8BFD;
+    border-radius: 7px;
+
 }
