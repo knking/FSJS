@@ -40,6 +40,7 @@ cursor: pointer;
 }
 nav img{
     margin-top: 50px;
+    cursor: pointer;
 }
 .nav-button{
     margin-top: 50px;
@@ -70,4 +71,22 @@ nav button{
 .btn-2:hover{
     background-color: #FFFFFF;
     color: #F4694C;
+}
+.hero-sec{
+    border: 1px solid blue;
+    margin-top: 140px;
+    height: 75vh;
+    margin-left: 130px;
+    margin-right: 60px;
+    display: flex;
+}
+.hero-left{
+border: 1px solid purple;
+width: 50%;
+height: 70vh;
+}
+.hero-right{
+    border: 1px solid red;
+    width: 50%;
+    height: 70vh;
 }
