@@ -4,4 +4,70 @@
 }
 .body{
     overflow-x: hidden;
+    background-image: url('./Assets/Photos/futuristic-bg.png');
+}
+.nav-div-img{
+    position: relative;
+    height:100vh ;
+    background-image: url('./Assets/Photos/futuristic-bg.png');
+}
+.nav-div{
+    position: relative;
+    margin-top: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 7%;
+    height: 7vh;
+    margin-left: 130px;
+}
+nav ul{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 5%;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav ul li:hover{
+color: #f39885;
+cursor: pointer;
+
+}
+nav img{
+    margin-top: 50px;
+}
+.nav-button{
+    margin-top: 50px;
+    margin-left: 22%;
+ 
+}
+nav button{
+    padding: 10px 25px;
+}
+.btn-1{
+    position: relative;
+   background: transparent;
+   color: #FFFFFF;
+   border: transparent;
+   
+}
+.btn-1:hover{
+    background-color: #F4694C;
+    cursor: pointer;
+    border: 1px solid #F4694C;
+}
+.btn-2{
+    margin-left: 3px;
+    background-color: #F4694C;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.btn-2:hover{
+    background-color: #FFFFFF;
+    color: #F4694C;
 }
