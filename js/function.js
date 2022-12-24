@@ -7,10 +7,17 @@
 // }
 // myName();
 
-function myfun(){
-    let a=10;
-    let b=20;
-    return a+b;
+// function myfun(){
+//     let a=10;
+//     let b=20;
+//     return a+b;
+// }
+// let ans = myfun();
+// console.log(ans);
+
+function myfun(a,b){
+    let c=a;
+    let d=b;
+    return c+d;
 }
-let ans = myfun();
-console.log(ans);
+console.log(myfun(20,30))
