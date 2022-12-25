@@ -15,9 +15,22 @@
 // let ans = myfun();
 // console.log(ans);
 
-function myfun(a,b){
-    let c=a;
-    let d=b;
-    return c+d;
+// function myfun(a,b){
+//     let c=a;
+//     let d=b;
+//     return c+d;
+// }
+// console.log(myfun(20,30))
+
+                            // object demo
+    
+let obf={
+    name:"krsihna",
+    age:24,
+    address:{
+        at:"karhara",
+        post:"chunni",
+
+    },
+    gmail:"abc@gmail"
 }
-console.log(myfun(20,30))
