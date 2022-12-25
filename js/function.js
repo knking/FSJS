@@ -24,7 +24,7 @@
 
                             // object demo
     
-let obf={
+let obj={
     name:"krsihna",
     age:24,
     address:{
@@ -34,3 +34,6 @@ let obf={
     },
     gmail:"abc@gmail"
 }
+console.log(obj)
+console.log(obj.address)
+console.log(obj.gmail)
