@@ -37,3 +37,7 @@ let obj={
 console.log(obj)
 console.log(obj.address)
 console.log(obj.gmail)
+obj.name="kn";
+console.log(obj.name)
+console.log(obj)
+
