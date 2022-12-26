@@ -175,16 +175,14 @@ line-height: 30px;
     height: 85vh;
     border: 1px solid gold;
 }
-.popular-games-img{
-    display: flex;
-}
+
 .popular-game-div{
     border: 1px solid green;
     margin-top: 140px;
     height: 55vh;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 55px;
 }
 .games-p{
     /* width: 80%; */
@@ -199,8 +197,17 @@ line-height: 30px;
 .p2{
     width: 65%;
 }
+.popular-games-img{
+    display: flex;
+}
 .games-card{
     width: 50%;
-    height: 40vh;
+    height: 35vh;
     border: 1px solid red;
+    display: flex;
+}
+.games-card1{
+    width: 25%;
+    height: 35vh;
+    border: 1px solid yellow;
 }
