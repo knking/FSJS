@@ -67,13 +67,13 @@ cursor: pointer;
 .hero-sec{
     border: 1px solid blue;
     margin-top: 160px;
-    height: 45vh;
+    height: 60vh;
     display: flex;
 }
 .hero-left{
 border: 1px solid purple;
 width: 50%;
-height: 65vh;
+height: 60vh;
 display: flex;
 flex-direction: column;
 justify-content: start;
@@ -129,5 +129,8 @@ gap: 7%;
 .hero-right{
     border: 1px solid red;
     width: 50%;
-    height: 65vh;
+    height: 52vh;
+}
+.right-sec-img1{
+    height: 40px;
 }
