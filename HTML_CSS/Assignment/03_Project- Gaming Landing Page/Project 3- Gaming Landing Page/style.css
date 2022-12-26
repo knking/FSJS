@@ -6,9 +6,10 @@ body{
     background-image: url('./Assets/Photos/futuristic-bg.png');
     background-position: center;
     background-size: cover;
-    height: 85vh;
+    height: 65vh;
     margin: 1% 5%  0 7% ;
     font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
 }
 
 nav{
@@ -148,9 +149,7 @@ display: block;
 position: relative;
 bottom: 33%;
 }
-.right-sec-dash-div{
 
-}
 .right-sec-dash2{
 width: 43px;
 display: block;
@@ -171,4 +170,37 @@ font-size: 20px;
 opacity: 90%;
 width: 180px;
 line-height: 30px;
+}
+.popular-games-sec{
+    height: 85vh;
+    border: 1px solid gold;
+}
+.popular-games-img{
+    display: flex;
+}
+.popular-game-div{
+    border: 1px solid green;
+    margin-top: 140px;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.games-p{
+    /* width: 80%; */
+    margin-left: 35%;
+    font-size: 200%;
+    font-weight: 800;
+}
+
+.p1{
+    margin-left: 10%;
+}
+.p2{
+    width: 65%;
+}
+.games-card{
+    width: 50%;
+    height: 40vh;
+    border: 1px solid red;
 }
