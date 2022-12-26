@@ -6,7 +6,7 @@ body{
     background-image: url('./Assets/Photos/futuristic-bg.png');
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 85vh;
     margin: 1% 5%  0 7% ;
     font-family: 'Open Sans', sans-serif;
 }
@@ -26,12 +26,12 @@ nav img{
 }
 nav ul{
     display: flex;
-    flex: 0.6;
+    flex: 0.8;
    
 }
 nav ul li{
     list-style: none;
-    margin-right: 31px;
+    margin-right:25px;
 
 }
 nav ul li:hover{
@@ -130,7 +130,45 @@ gap: 7%;
     border: 1px solid red;
     width: 50%;
     height: 52vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-sec-logo{
+    margin-top: 110px;
 }
 .right-sec-img1{
-    height: 40px;
+    height: 65px;
+    
+}
+.right-sec-dash{
+width: 30px;
+display: block;
+position: relative;
+bottom: 33%;
+}
+.right-sec-dash-div{
+
+}
+.right-sec-dash2{
+width: 43px;
+display: block;
+position: relative;
+margin-top: 65px;
+margin-left: 40px;
+
+}
+.right-sec-text{
+    margin-left: 5%;
+    margin-top: 110px;
+    display: flex;
+    color: #FFF;
+    gap: 10px;
+}
+.right-sec-text p{
+font-size: 20px;
+opacity: 90%;
+width: 180px;
+line-height: 30px;
 }
