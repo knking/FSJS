@@ -199,15 +199,20 @@ line-height: 30px;
 }
 .popular-games-img{
     display: flex;
+    gap: 20px;
+    
 }
 .games-card{
     width: 50%;
-    height: 35vh;
+    height: 36vh;
     border: 1px solid red;
     display: flex;
+    gap: 20px;
+
 }
 .games-card1{
-    width: 25%;
-    height: 35vh;
-    border: 1px solid yellow;
+    width: 50%;
+    height: 36vh;
+    border: 1px solid black;
+    
 }
