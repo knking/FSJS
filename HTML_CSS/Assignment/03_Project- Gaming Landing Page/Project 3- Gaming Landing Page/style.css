@@ -179,7 +179,7 @@ line-height: 30px;
 .popular-game-div{
     border: 1px solid green;
     margin-top: 140px;
-    height: 55vh;
+    height: 59vh;
     display: flex;
     flex-direction: column;
     gap: 55px;
@@ -204,7 +204,7 @@ line-height: 30px;
 }
 .games-card{
     width: 50%;
-    height: 36vh;
+    height: 40vh;
     border: 1px solid red;
     display: flex;
     gap: 20px;
@@ -212,18 +212,19 @@ line-height: 30px;
 }
 .games-card1{
     width: 50%;
-    height: 36vh;
-    border: 1px solid black;
+    height: 40vh;
+    border: 1px solid orangered;
     background-image: url('./Assets/Photos/image\ 2.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 
 }
+
 .games-text{
    padding: 15px;
-    border: 1px solid purple;
-    height: 90px;
+    border: 1px solid rebeccapurple;
+    height: 80px;
     color: #fff;
     background-color: #45494C;
     opacity: 95%;
