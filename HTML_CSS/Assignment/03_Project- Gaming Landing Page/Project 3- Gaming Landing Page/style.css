@@ -66,15 +66,16 @@ cursor: pointer;
     color: #F4694C;
 }
 .hero-sec{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin-top: 160px;
     height: 60vh;
     display: flex;
 }
 .hero-left{
-border: 1px solid purple;
+/* border: 1px solid purple; */
 width: 50%;
-height: 60vh;
+/* height: 60vh; */
+height: 482px;
 display: flex;
 flex-direction: column;
 justify-content: start;
@@ -128,7 +129,7 @@ gap: 7%;
     cursor: pointer;
 }
 .hero-right{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 50%;
     height: 52vh;
     display: flex;
@@ -142,6 +143,10 @@ gap: 7%;
 .right-sec-img1{
     height: 65px;
     
+}
+.right-sec-img1:hover{
+    cursor: pointer;
+    height:68px ;
 }
 .right-sec-dash{
 width: 30px;
@@ -172,14 +177,16 @@ width: 180px;
 line-height: 30px;
 }
 .popular-games-sec{
-    height: 85vh;
+    /* height: 85vh; */
+    height: 692px;
     border: 1px solid gold;
 }
 
 .popular-game-div{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin-top: 140px;
-    height: 59vh;
+    /* height: 59vh; */
+    height: 470px;
     display: flex;
     flex-direction: column;
     gap: 55px;
@@ -204,17 +211,62 @@ line-height: 30px;
 }
 .games-card{
     width: 50%;
-    height: 40vh;
-    border: 1px solid red;
+    /* height: 40vh; */
+    height: 322px;
+    /* border: 1px solid red; */
     display: flex;
     gap: 20px;
 
 }
+.games-card button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
 .games-card1{
     width: 50%;
-    height: 40vh;
-    border: 1px solid orangered;
+    /* height: 40vh; */
+    height: 322px;
+    /* border: 1px solid orangered; */
     background-image: url('./Assets/Photos/image\ 2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.games-card2{
+    width: 50%;
+    /* height: 40vh; */
+    height: 322px;
+    /* border: 1px solid orangered; */
+    background-image: url('./Assets/Photos/image\ 4.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.games-card2 .games-text{
+    background-color: #221F17;
+}
+.games-card3{
+    width: 50%;
+    /* height: 40vh; */
+    height: 322px;
+    /* border: 1px solid orangered; */
+    background-image: url('./Assets/Photos/image\ 3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.games-card3 .games-text{
+    border-color: #474B7E;
+}
+.games-card4{
+    width: 50%;
+    /* height: 40vh; */
+    height: 322px;
+    /* border: 1px solid orangered; */
+    background-image: url('./Assets/Photos/Rectangle\ 56.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -223,14 +275,15 @@ line-height: 30px;
 
 .games-text{
    padding: 15px;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     height: 80px;
     color: #fff;
     background-color: #45494C;
-    opacity: 95%;
+    opacity: 90%;
     display: flex;
     flex-direction: column;
     gap: 5px;
+    margin-top: 210px;
    
 }
 .games-text-button{
@@ -238,7 +291,7 @@ line-height: 30px;
     justify-content: space-between;
     align-items: center;
     height:40px ;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 
@@ -249,4 +302,5 @@ line-height: 30px;
     padding: 10px 18px;
     background-color: #F4694C;
     color: #FFF;
+    border: 1px solid #F4694C;
 }
