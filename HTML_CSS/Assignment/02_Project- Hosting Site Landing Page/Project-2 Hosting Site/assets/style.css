@@ -193,11 +193,11 @@ nav button:hover {
     align-items: center;
     gap: 15px;
     border-radius: 20px;
-    transition: bottom 2s;
+    transition: transform 1s;
 }
 
 .card-1:hover {
-    bottom: 10px;
+    transform: scale(1.1);
 }
 
 .card-1 p {
@@ -231,8 +231,12 @@ nav button:hover {
     color: #FFFFFF;
     bottom: 45px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 40px 40px -7px;
+    transition: transform 1s;
 }
 
+.card-2:hover {
+    transform: scale(1.1);
+}
 .card-2 h3 {
     opacity: 98%;
 }
@@ -258,8 +262,11 @@ nav button:hover {
     align-items: center;
     gap: 15px;
     border-radius: 20px;
+    transition: transform 1s;
 }
-
+.card-3:hover {
+    transform: scale(1.1);
+}
 .card-3 p {
     /* width: 76%; */
     margin-left: 40px;
