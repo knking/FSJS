@@ -323,8 +323,9 @@ line-height: 30px;
 }
 .war-game-img img{
     display: block;
-    width: 100%;
-    height: 100%;
+     width: 100%;
+    height: 100%; 
+    
 }
 .war-game-text{
     width: 50%;
