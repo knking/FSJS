@@ -304,3 +304,77 @@ line-height: 30px;
     color: #FFF;
     border: 1px solid #F4694C;
 }
+.war-game{
+    height: 390px;
+    width: 100%;
+    border: 1px solid red;
+    margin-top: 20px;
+    display: flex;
+    /* padding: 20px 60px 10px 0; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:100px ;
+}
+.war-game-img{
+    width: 50%;
+    height: 340px;
+    border: 1px solid yellow;
+}
+.war-game-img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.war-game-text{
+    width: 50%;
+    border: 1px solid green;
+    height: 340px;
+}
+.war-games-text-eleemt{
+    padding: 30px  60px 30px 0;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid brown;
+}
+.war-games-text-eleemt h1{
+    font-size: 30px;
+    font-weight: 800;
+    text-indent: 0;
+}
+.war-games-text-eleemt p{
+    font-size: 13px;
+    line-height: 22px;
+    opacity: 60%;
+}
+.war-games-button{
+    display: flex;
+    gap: 15px;
+}
+.war-games-button button{
+    padding:12px 25px ;
+    cursor: pointer;
+}
+.war-games-button1{
+    background-color: #F4694C;
+    color: #fff;
+    border: 1px solid #F4694C;
+    font-size: 12px;
+    font-weight: bold;
+}
+.war-games-button2{
+    background: transparent;
+    border: 1px solid #F4694C;
+    color: #F4694C;
+    font-size: 12px;
+}
+.war-games-button1:hover{
+    background-color: #fff;
+    color: #F4694C;
+}
+.war-games-button2:hover{
+    background-color: #F4694C;
+    color: #fff;
+}
