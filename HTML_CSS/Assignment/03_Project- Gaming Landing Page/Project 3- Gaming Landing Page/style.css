@@ -231,7 +231,12 @@ line-height: 30px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: transform 1s;
 
+}
+.games-card1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 .games-card2{
     width: 50%;
@@ -242,7 +247,12 @@ line-height: 30px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: transform 1s;
 
+}
+.games-card2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 .games-card2 .games-text{
     background-color: #221F17;
@@ -256,7 +266,12 @@ line-height: 30px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: transform 1s;
 
+}
+.games-card3:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 .games-card3 .games-text{
     border-color: #474B7E;
@@ -270,7 +285,12 @@ line-height: 30px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: transform 1s;
 
+}
+.games-card4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .games-text{
@@ -333,7 +353,7 @@ line-height: 30px;
     height: 340px;
 }
 .war-games-text-eleemt{
-    padding: 30px  60px 30px 0;
+    padding: 22px  60px 22px 0;
     width: 360px;
     display: flex;
     flex-direction: column;
@@ -378,4 +398,97 @@ line-height: 30px;
 .war-games-button2:hover{
     background-color: #F4694C;
     color: #fff;
+}
+.recommended{
+    border: 1px solid red;
+    margin-top: 10px;
+    height: 800px;
+    padding: 80px 5px 0 0;
+}
+.recommended-heading{
+    height: 100px;
+    border: 1px solid purple;
+}
+
+.recommended-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+.recommended-heading h1{
+    font-weight: 700;
+    font-size:30px ;
+    width: 400px;
+
+}
+.left{
+    width:30px ;
+    
+}
+.right{
+    width: 30px;
+    
+}
+.recommended-arrow{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.arrow1{
+    /* width: 45px;
+    height: 40px; */
+    
+    padding: 20px 25px;
+    background-color: #FDE1DB;
+    
+}
+.arrow2{
+    /* width: 45px;
+    height: 40px; */
+    padding: 20px 25px;
+    background: #F4694C;
+    
+}
+.recommended-games{
+    height: 700px;
+    width: 100%;
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px;
+    
+}
+.games1{
+    border: 1px solid blue;
+    display: flex;
+    gap: 22px;
+}
+.games1-img{
+    width: 45%;
+    border: 1px solid yellow;
+}
+.games1-text{
+    width: 55%;
+    border: 1px solid pink;
+    padding: 25px 0;
+    
+}
+.games2{
+    border: 1px solid green;
+}
+.games3{
+    border: 1px solid red;
+}
+.games4{
+    border: 1px solid purple;
+}
+@media screen and (max-width: 480px){
+    .recommended-games{
+        height: 640px;
+        width: 100%;
+        border: 1px solid green;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
 }
