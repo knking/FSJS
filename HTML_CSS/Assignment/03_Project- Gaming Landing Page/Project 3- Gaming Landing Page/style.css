@@ -401,10 +401,15 @@ line-height: 30px;
 }
 .recommended{
     border: 2px solid black;
-    margin-top: 10px;
+    margin-top: 100px;
     height: 800px;
     /* height: 100vh; */
     /* padding: 80px 5px 0 0; */
+}
+.recommended button:hover{
+cursor: pointer;
+background-color: #FFF;
+color: #F4694C;
 }
 .recommended-heading{
     height: 100px;
@@ -435,6 +440,12 @@ line-height: 30px;
     display: flex;
     gap: 20px;
     align-items: center;
+   
+}
+.recommended-arrow div:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
 }
 .arrow1{
     /* width: 45px;
@@ -442,6 +453,7 @@ line-height: 30px;
     
     padding: 20px 25px;
     background-color: #FDE1DB;
+    transition: transform 1s;
     
 }
 .arrow2{
@@ -449,6 +461,7 @@ line-height: 30px;
     height: 40px; */
     padding: 20px 25px;
     background: #F4694C;
+    transition: transform 1s;
     
 }
 .recommended-games{
