@@ -400,10 +400,11 @@ line-height: 30px;
     color: #fff;
 }
 .recommended{
-    border: 1px solid red;
+    border: 2px solid black;
     margin-top: 10px;
     height: 800px;
-    padding: 80px 5px 0 0;
+    /* height: 100vh; */
+    /* padding: 80px 5px 0 0; */
 }
 .recommended-heading{
     height: 100px;
@@ -451,39 +452,71 @@ line-height: 30px;
     
 }
 .recommended-games{
-    height: 700px;
+    /* height: 90%; */
     width: 100%;
     border: 1px solid green;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 100px;
+    gap: 60px;
     
 }
 .games1{
     border: 1px solid blue;
     display: flex;
+    flex-direction: row;
     gap: 22px;
 }
 .games1-img{
     width: 45%;
     border: 1px solid yellow;
+    /* height:100px; */
+   
+}
+.games1-img img{
+    display: block;
+    width: 265px;
 }
 .games1-text{
     width: 55%;
-    border: 1px solid pink;
-    padding: 25px 0;
+    border: 1px solid pink; 
+    padding: 25px 50px 25px 0;
+    display: flex;
+    flex-direction:column ;
+    align-items: flex-start;
+    gap: 30px;
     
+}
+.games1-text button{
+    padding: 13px 30px;
+    background-color: #F4694C;
+    color: #FFF;
+    border: 1px solid #F4694C;
+}
+.games1-text span{
+    color: #F4694C;
+}
+.games1-text p{
+    opacity: 60%;
 }
 .games2{
     border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
 }
 .games3{
     border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
 }
 .games4{
     border: 1px solid purple;
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
 }
-@media screen and (max-width: 480px){
+/* @media screen and (max-width: 480px){
     .recommended-games{
         height: 640px;
         width: 100%;
@@ -491,4 +524,4 @@ line-height: 30px;
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
-}
+} */
