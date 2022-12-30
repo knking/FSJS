@@ -837,7 +837,7 @@ footer {
     opacity: 50%;
 }
 
-.fotter-icon img:hover {
+.fotter-icon img:hover{
     cursor: pointer;
     fill: #F4694C;
 }
