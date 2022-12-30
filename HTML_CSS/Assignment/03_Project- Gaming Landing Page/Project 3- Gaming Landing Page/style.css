@@ -179,7 +179,7 @@ line-height: 30px;
 .popular-games-sec{
     /* height: 85vh; */
     height: 692px;
-    border: 1px solid gold;
+  
 }
 
 .popular-game-div{
@@ -327,7 +327,7 @@ line-height: 30px;
 .war-game{
     height: 390px;
     width: 100%;
-    border: 1px solid red;
+    
     margin-top: 20px;
     display: flex;
     /* padding: 20px 60px 10px 0; */
@@ -339,7 +339,7 @@ line-height: 30px;
 .war-game-img{
     width: 50%;
     height: 340px;
-    border: 1px solid yellow;
+   
 }
 .war-game-img img{
     display: block;
@@ -349,7 +349,7 @@ line-height: 30px;
 }
 .war-game-text{
     width: 50%;
-    border: 1px solid green;
+    
     height: 340px;
 }
 .war-games-text-eleemt{
@@ -358,7 +358,7 @@ line-height: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border: 1px solid brown;
+    
 }
 .war-games-text-eleemt h1{
     font-size: 30px;
@@ -400,7 +400,7 @@ line-height: 30px;
     color: #fff;
 }
 .recommended{
-    border: 2px solid black;
+    
     margin-top: 100px;
     height: 800px;
     /* height: 100vh; */
@@ -467,21 +467,21 @@ color: #F4694C;
 .recommended-games{
     /* height: 90%; */
     width: 100%;
-    border: 1px solid green;
+    
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 60px;
     
 }
 .games1{
-    border: 1px solid blue;
+  
     display: flex;
     flex-direction: row;
     gap: 22px;
 }
 .games1-img{
     width: 45%;
-    border: 1px solid yellow;
+  
     /* height:100px; */
    
 }
@@ -491,7 +491,7 @@ color: #F4694C;
 }
 .games1-text{
     width: 55%;
-    border: 1px solid pink; 
+  
     padding: 25px 50px 25px 0;
     display: flex;
     flex-direction:column ;
@@ -512,19 +512,19 @@ color: #F4694C;
     opacity: 60%;
 }
 .games2{
-    border: 1px solid green;
+   
     display: flex;
     flex-direction: row;
     gap: 22px;
 }
 .games3{
-    border: 1px solid red;
+   
     display: flex;
     flex-direction: row;
     gap: 22px;
 }
 .games4{
-    border: 1px solid purple;
+    
     display: flex;
     flex-direction: row;
     gap: 22px;
@@ -541,7 +541,7 @@ color: #F4694C;
 
 .most-played-games{
     height: 160vh;
-    border: 1px solid red;
+    
     background-color: #000308;
     margin-top: 110px;
     color: #FFF;
@@ -594,8 +594,9 @@ position: relative;
 left: 270px;
 top: 20px;
 }
+
 .most-played-games-bottom-div{
-    border: 1px solid yellow;
+    
     width: 100%;
     height: 400px;
     margin-top: 30px;
@@ -604,27 +605,51 @@ top: 20px;
     background-size:1400px 400px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
+
 }
 .most-played-games-bottom-div-element{
-    width: 390px;
+    width: 375px;
     height: 300px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     align-self: center;
     gap: 30px;
+   
 }
 .most-played-games-bottom-div-element h1{
     font-size: 30px;
     font-weight: 800;
-    text-indent: -2em;
+    line-height: 50px;
+    color: #FFF;
+    
 }
+.most-played-games-bottom-div-element h1 span{
+    margin-left: 90px;
+   
+}
+.most-played-games-bottom-div-element p{
+    font-size: 15px;
+    width: 350px;  
+    opacity: 0.8;
+    line-height: 20px;
+}
+.most-played-games-bottom-div-element p span{
+    margin-left: 100px;
+}
+
+
 .most-played-games-bottom-div-element button{
 padding: 15px 25px;
 background-color: #F4694C;
 color: #FFF;
+border: 1px solid #F4694C;
 }
+.most-played-games-bottom-div-element button:hover{
+    background-color: #FFF;
+    color: #F4694C;
+    cursor: pointer;
+    
+    }
