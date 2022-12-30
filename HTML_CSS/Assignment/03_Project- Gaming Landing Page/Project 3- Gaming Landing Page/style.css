@@ -1,18 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-image: url('./Assets/Photos/futuristic-bg.png');
     background-position: center;
     background-size: cover;
     height: 65vh;
-    margin: 1% 5%  0 7% ;
+    margin: 1% 5% 0 7%;
     font-family: 'Open Sans', sans-serif;
     background-repeat: no-repeat;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     /* gap: 10%; */
@@ -20,115 +21,135 @@ nav{
     justify-content: space-between;
     height: 7vh;
 }
-nav img{
+
+nav img {
     height: 40px;
     display: block;
     cursor: pointer;
 }
-nav ul{
+
+nav ul {
     display: flex;
     flex: 0.8;
-   
+
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
-    margin-right:25px;
-
-}
-nav ul li:hover{
-color: #f39885;
-cursor: pointer;
+    margin-right: 25px;
 
 }
 
-.nav-button button{
+nav ul li:hover {
+    color: #f39885;
+    cursor: pointer;
+
+}
+
+.nav-button button {
     padding: 10px 25px;
 }
-.btn-1{
+
+.btn-1 {
     position: relative;
-   background: transparent;
-   color: #FFFFFF;
-   border: transparent;
-   
+    background: transparent;
+    color: #FFFFFF;
+    border: transparent;
+
 }
-.btn-1:hover{
+
+.btn-1:hover {
     background-color: #F4694C;
     cursor: pointer;
 }
-.btn-2{
+
+.btn-2 {
     margin-left: 3px;
     background-color: #F4694C;
     cursor: pointer;
     color: #FFFFFF;
 }
-.btn-2:hover{
+
+.btn-2:hover {
     background-color: #FFFFFF;
     color: #F4694C;
 }
-.hero-sec{
+
+.hero-sec {
     /* border: 1px solid blue; */
     margin-top: 160px;
     height: 60vh;
     display: flex;
 }
-.hero-left{
-/* border: 1px solid purple; */
-width: 50%;
-/* height: 60vh; */
-height: 482px;
-display: flex;
-flex-direction: column;
-justify-content: start;
-color: #FFF;
-gap: 7%;
+
+.hero-left {
+    /* border: 1px solid purple; */
+    width: 50%;
+    /* height: 60vh; */
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: #FFF;
+    gap: 7%;
 }
-.hero-left h1{
+
+.hero-left h1 {
     font-size: 40px;
     font-weight: bold;
     line-height: 60px;
     width: 60%;
 }
-.hero-left p{
+
+.hero-left p {
     /* margin-top: 3%; */
     font-size: 13px;
     color: #B4AFB0;
     width: 55%;
     line-height: 20px;
 }
-.left-hero-sec-div{
+
+.left-hero-sec-div {
     display: flex;
-    gap:3% ;
+    gap: 3%;
     margin-top: 10px;
 }
-.hero-left button{
+
+.hero-left button {
     padding: 14px 25px;
 }
-.hero-left button :hover{
+
+.hero-left button :hover {
     cursor: pointer;
 }
-.left-btn1{
+
+.left-btn1 {
     background-color: #F4694C;
     color: #FFF;
     font-weight: bold;
     border: 1px solid #F4694C;
 }
-.left-btn2{
+
+.left-btn2 {
     background: transparent;
     color: #B3B2B2;
     border: 1px solid #FFF;
 }
-.left-btn1:hover{
-    background-color:#FFF;
+
+.left-btn1:hover {
+    background-color: #FFF;
     color: #F4694C;
     cursor: pointer;
     border: 1px solid #fff;
 }
-.left-btn2:hover{
-    background-color:#FFF;
+
+.left-btn2:hover {
+    background-color: #FFF;
     color: #F4694C;
     cursor: pointer;
 }
-.hero-right{
+
+.hero-right {
     /* border: 1px solid red; */
     width: 50%;
     height: 52vh;
@@ -137,52 +158,59 @@ gap: 7%;
     justify-content: center;
     align-items: center;
 }
-.right-sec-logo{
+
+.right-sec-logo {
     margin-top: 110px;
 }
-.right-sec-img1{
+
+.right-sec-img1 {
     height: 65px;
-    
+
 }
-.right-sec-img1:hover{
+
+.right-sec-img1:hover {
     cursor: pointer;
-    height:68px ;
-}
-.right-sec-dash{
-width: 30px;
-display: block;
-position: relative;
-bottom: 33%;
+    height: 68px;
 }
 
-.right-sec-dash2{
-width: 43px;
-display: block;
-position: relative;
-margin-top: 65px;
-margin-left: 40px;
+.right-sec-dash {
+    width: 30px;
+    display: block;
+    position: relative;
+    bottom: 33%;
+}
+
+.right-sec-dash2 {
+    width: 43px;
+    display: block;
+    position: relative;
+    margin-top: 65px;
+    margin-left: 40px;
 
 }
-.right-sec-text{
+
+.right-sec-text {
     margin-left: 5%;
     margin-top: 110px;
     display: flex;
     color: #FFF;
     gap: 10px;
 }
-.right-sec-text p{
-font-size: 20px;
-opacity: 90%;
-width: 180px;
-line-height: 30px;
-}
-.popular-games-sec{
-    /* height: 85vh; */
-    height: 692px;
-  
+
+.right-sec-text p {
+    font-size: 20px;
+    opacity: 90%;
+    width: 180px;
+    line-height: 30px;
 }
 
-.popular-game-div{
+.popular-games-sec {
+    /* height: 85vh; */
+    height: 692px;
+
+}
+
+.popular-game-div {
     /* border: 1px solid green; */
     margin-top: 140px;
     /* height: 59vh; */
@@ -191,25 +219,29 @@ line-height: 30px;
     flex-direction: column;
     gap: 55px;
 }
-.games-p{
+
+.games-p {
     /* width: 80%; */
     margin-left: 35%;
     font-size: 200%;
     font-weight: 800;
 }
 
-.p1{
+.p1 {
     margin-left: 10%;
 }
-.p2{
+
+.p2 {
     width: 65%;
 }
-.popular-games-img{
+
+.popular-games-img {
     display: flex;
     gap: 20px;
-    
+
 }
-.games-card{
+
+.games-card {
     width: 50%;
     /* height: 40vh; */
     height: 322px;
@@ -218,11 +250,13 @@ line-height: 30px;
     gap: 20px;
 
 }
-.games-card button:hover{
+
+.games-card button:hover {
     cursor: pointer;
     font-weight: bold;
 }
-.games-card1{
+
+.games-card1 {
     width: 50%;
     /* height: 40vh; */
     height: 322px;
@@ -234,11 +268,13 @@ line-height: 30px;
     transition: transform 1s;
 
 }
-.games-card1:hover{
+
+.games-card1:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
-.games-card2{
+
+.games-card2 {
     width: 50%;
     /* height: 40vh; */
     height: 322px;
@@ -250,14 +286,17 @@ line-height: 30px;
     transition: transform 1s;
 
 }
-.games-card2:hover{
+
+.games-card2:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
-.games-card2 .games-text{
+
+.games-card2 .games-text {
     background-color: #221F17;
 }
-.games-card3{
+
+.games-card3 {
     width: 50%;
     /* height: 40vh; */
     height: 322px;
@@ -269,14 +308,17 @@ line-height: 30px;
     transition: transform 1s;
 
 }
-.games-card3:hover{
+
+.games-card3:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
-.games-card3 .games-text{
+
+.games-card3 .games-text {
     border-color: #474B7E;
 }
-.games-card4{
+
+.games-card4 {
     width: 50%;
     /* height: 40vh; */
     height: 322px;
@@ -288,13 +330,14 @@ line-height: 30px;
     transition: transform 1s;
 
 }
-.games-card4:hover{
+
+.games-card4:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
 
-.games-text{
-   padding: 15px;
+.games-text {
+    padding: 15px;
     /* border: 1px solid rebeccapurple; */
     height: 80px;
     color: #fff;
@@ -304,231 +347,268 @@ line-height: 30px;
     flex-direction: column;
     gap: 5px;
     margin-top: 210px;
-   
+
 }
-.games-text-button{
+
+.games-text-button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height:40px ;
+    height: 40px;
     /* border: 1px solid red; */
 
 }
 
-.games-text-button p{
-    color:#8D9090 ;
+.games-text-button p {
+    color: #8D9090;
 }
-.games-text-button button{
+
+.games-text-button button {
     padding: 10px 18px;
     background-color: #F4694C;
     color: #FFF;
     border: 1px solid #F4694C;
 }
-.war-game{
+
+.war-game {
     height: 390px;
     width: 100%;
-    
+
     margin-top: 20px;
     display: flex;
     /* padding: 20px 60px 10px 0; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap:100px ;
+    gap: 100px;
 }
-.war-game-img{
+
+.war-game-img {
     width: 50%;
     height: 340px;
-   
+
 }
-.war-game-img img{
+
+.war-game-img img {
     display: block;
-     width: 100%;
-    height: 100%; 
-    
+    width: 100%;
+    height: 100%;
+
 }
-.war-game-text{
+
+.war-game-text {
     width: 50%;
-    
+
     height: 340px;
 }
-.war-games-text-eleemt{
-    padding: 22px  60px 22px 0;
+
+.war-games-text-eleemt {
+    padding: 22px 60px 22px 0;
     width: 360px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
+
 }
-.war-games-text-eleemt h1{
+
+.war-games-text-eleemt h1 {
     font-size: 30px;
     font-weight: 800;
     text-indent: 0;
 }
-.war-games-text-eleemt p{
+
+.war-games-text-eleemt p {
     font-size: 13px;
     line-height: 22px;
     opacity: 60%;
 }
-.war-games-button{
+
+.war-games-button {
     display: flex;
     gap: 15px;
 }
-.war-games-button button{
-    padding:12px 25px ;
+
+.war-games-button button {
+    padding: 12px 25px;
     cursor: pointer;
 }
-.war-games-button1{
+
+.war-games-button1 {
     background-color: #F4694C;
     color: #fff;
     border: 1px solid #F4694C;
     font-size: 12px;
     font-weight: bold;
 }
-.war-games-button2{
+
+.war-games-button2 {
     background: transparent;
     border: 1px solid #F4694C;
     color: #F4694C;
     font-size: 12px;
 }
-.war-games-button1:hover{
+
+.war-games-button1:hover {
     background-color: #fff;
     color: #F4694C;
 }
-.war-games-button2:hover{
+
+.war-games-button2:hover {
     background-color: #F4694C;
     color: #fff;
 }
-.recommended{
-    
+
+.recommended {
+
     margin-top: 100px;
     height: 800px;
     /* height: 100vh; */
     /* padding: 80px 5px 0 0; */
 }
-.recommended button:hover{
-cursor: pointer;
-background-color: #FFF;
-color: #F4694C;
-}
-.recommended-heading{
-    height: 100px;
-    border: 1px solid purple;
+
+.recommended button:hover {
+    cursor: pointer;
+    background-color: #FFF;
+    color: #F4694C;
 }
 
-.recommended-heading{
+.recommended-heading {
+    height: 100px;
+
+}
+
+.recommended-heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 5px;
 }
-.recommended-heading h1{
+
+.recommended-heading h1 {
     font-weight: 700;
-    font-size:30px ;
+    font-size: 30px;
     width: 400px;
 
 }
-.left{
-    width:30px ;
-    
-}
-.right{
+
+.left {
     width: 30px;
-    
+
 }
-.recommended-arrow{
+
+.right {
+    width: 30px;
+
+}
+
+.recommended-arrow {
     display: flex;
     gap: 20px;
     align-items: center;
-   
+
 }
-.recommended-arrow div:hover{
+
+.recommended-arrow div:hover {
     cursor: pointer;
     transform: scale(1.1);
 
 }
-.arrow1{
+
+.arrow1 {
     /* width: 45px;
     height: 40px; */
-    
+
     padding: 20px 25px;
     background-color: #FDE1DB;
     transition: transform 1s;
-    
+
 }
-.arrow2{
+
+.arrow2 {
     /* width: 45px;
     height: 40px; */
     padding: 20px 25px;
     background: #F4694C;
     transition: transform 1s;
-    
+
 }
-.recommended-games{
+
+.recommended-games {
     /* height: 90%; */
     width: 100%;
-    
+
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 60px;
-    
+
 }
-.games1{
-  
+
+.games1 {
+
     display: flex;
     flex-direction: row;
     gap: 22px;
 }
-.games1-img{
+
+.games1-img {
     width: 45%;
-  
+
     /* height:100px; */
-   
+
 }
-.games1-img img{
+
+.games1-img img {
     display: block;
     width: 265px;
 }
-.games1-text{
+
+.games1-text {
     width: 55%;
-  
+
     padding: 25px 50px 25px 0;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     align-items: flex-start;
     gap: 30px;
-    
+
 }
-.games1-text button{
+
+.games1-text button {
     padding: 13px 30px;
     background-color: #F4694C;
     color: #FFF;
     border: 1px solid #F4694C;
 }
-.games1-text span{
+
+.games1-text span {
     color: #F4694C;
 }
-.games1-text p{
+
+.games1-text p {
     opacity: 60%;
 }
-.games2{
-   
+
+.games2 {
+
     display: flex;
     flex-direction: row;
     gap: 22px;
 }
-.games3{
-   
+
+.games3 {
+
     display: flex;
     flex-direction: row;
     gap: 22px;
 }
-.games4{
-    
+
+.games4 {
+
     display: flex;
     flex-direction: row;
     gap: 22px;
 }
+
 /* @media screen and (max-width: 480px){
     .recommended-games{
         height: 640px;
@@ -539,9 +619,9 @@ color: #F4694C;
     }
 } */
 
-.most-played-games{
+.most-played-games {
     height: 160vh;
-    
+
     background-color: #000308;
     margin-top: 110px;
     color: #FFF;
@@ -551,15 +631,17 @@ color: #F4694C;
     padding-top: 50px;
     gap: 40px;
 }
-.h1-of-most-played-games{
+
+.h1-of-most-played-games {
     width: 250px;
     font-size: 30px;
     line-height: 45px;
     text-indent: -2em;
     font-weight: bold;
-   
+
 }
-.most-played-games-top-div{
+
+.most-played-games-top-div {
     width: 100%;
     height: 600px;
     background-image: url('./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg');
@@ -567,7 +649,7 @@ color: #F4694C;
     background-position: top 200px right 0;
 }
 
-.most-played-games-p{
+.most-played-games-p {
     position: relative;
     width: 470px;
     font-size: 13px;
@@ -576,39 +658,43 @@ color: #F4694C;
     margin-top: 7%;
     margin-left: 39%;
 }
-.most-played-games-img1{
-width: 320px;
-position: relative;
-left: 150px;
-bottom: 110px;
-}
-.most-played-games-img2{
-width: 240px;
-position: relative;
-left: 210px;
-top: 20px;
-}
-.most-played-games-img3{
-width: 210px;
-position: relative;
-left: 270px;
-top: 20px;
+
+.most-played-games-img1 {
+    width: 320px;
+    position: relative;
+    left: 150px;
+    bottom: 110px;
 }
 
-.most-played-games-bottom-div{
-    
+.most-played-games-img2 {
+    width: 240px;
+    position: relative;
+    left: 210px;
+    top: 20px;
+}
+
+.most-played-games-img3 {
+    width: 210px;
+    position: relative;
+    left: 270px;
+    top: 20px;
+}
+
+.most-played-games-bottom-div {
+
     width: 100%;
     height: 400px;
     margin-top: 30px;
     background-image: url('./Assets/Photos/Rectangle\ 606.png');
     background-repeat: no-repeat;
-    background-size:1400px 400px;
+    background-size: 1400px 400px;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
 
 }
-.most-played-games-bottom-div-element{
+
+.most-played-games-bottom-div-element {
     width: 375px;
     height: 300px;
     display: flex;
@@ -617,39 +703,114 @@ top: 20px;
     align-items: center;
     align-self: center;
     gap: 30px;
-   
+
 }
-.most-played-games-bottom-div-element h1{
+
+.most-played-games-bottom-div-element h1 {
     font-size: 30px;
     font-weight: 800;
     line-height: 50px;
     color: #FFF;
-    
+
 }
-.most-played-games-bottom-div-element h1 span{
+
+.most-played-games-bottom-div-element h1 span {
     margin-left: 90px;
-   
+
 }
-.most-played-games-bottom-div-element p{
+
+.most-played-games-bottom-div-element p {
     font-size: 15px;
-    width: 350px;  
+    width: 350px;
     opacity: 0.8;
     line-height: 20px;
 }
-.most-played-games-bottom-div-element p span{
+
+.most-played-games-bottom-div-element p span {
     margin-left: 100px;
 }
 
 
-.most-played-games-bottom-div-element button{
-padding: 15px 25px;
-background-color: #F4694C;
-color: #FFF;
-border: 1px solid #F4694C;
+.most-played-games-bottom-div-element button {
+    padding: 15px 25px;
+    background-color: #F4694C;
+    color: #FFF;
+    border: 1px solid #F4694C;
 }
-.most-played-games-bottom-div-element button:hover{
+
+.most-played-games-bottom-div-element button:hover {
     background-color: #FFF;
     color: #F4694C;
     cursor: pointer;
-    
-    }
+
+}
+footer{
+    height: 350px;
+    width: 100%;
+    background-color: #000611;
+    color: #FFFFFF;
+}
+.footer-div{
+    height: 250px;
+    background-color: #000309;
+    display: flex;
+    gap: 150px;
+    /* padding-top: 70px; */
+    padding-left: 110px;
+
+}
+.img-zero{
+    width: 100px;
+}
+.footer-div-zero p{
+width: 150px;
+line-height: 23px;
+opacity: 0.7;
+}
+.footer-one,
+.footer-two,
+.footer-zero {
+    display: flex;
+    gap: 160px;
+}
+
+.footer-div-1,
+.footer-div-2,
+.footer-div-3,
+.footer-div-4,
+.footer-div-zero {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 12px;
+    opacity: 90%;
+}
+.fotter-icon{
+    display: flex;
+    gap: 10px;
+}
+.footer-div-1,
+.footer-div-2,
+.footer-div-3,
+.footer-div-4,
+.footer-div-zero p:hover{
+color: #F4694C;
+}
+
+.first-p {
+    font-weight: bold;
+    font-size: 15px;
+}
+.first-p ~ p{
+    opacity: 60%;
+}
+.demo-1{
+    width: 100%;
+    height: 1px;
+    background-color: #B3B2B2;
+    opacity: 50%;
+}
+.fotter-icon img:hover{
+    cursor: pointer;
+    fill: #F4694C;
+}
