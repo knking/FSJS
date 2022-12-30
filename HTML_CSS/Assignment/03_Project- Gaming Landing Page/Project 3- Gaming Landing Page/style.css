@@ -602,5 +602,29 @@ top: 20px;
     background-image: url('./Assets/Photos/Rectangle\ 606.png');
     background-repeat: no-repeat;
     background-size:1400px 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+.most-played-games-bottom-div-element{
+    width: 390px;
+    height: 300px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 30px;
+}
+.most-played-games-bottom-div-element h1{
+    font-size: 30px;
+    font-weight: 800;
+    text-indent: -2em;
+}
+.most-played-games-bottom-div-element button{
+padding: 15px 25px;
+background-color: #F4694C;
+color: #FFF;
 }
