@@ -538,3 +538,69 @@ color: #F4694C;
         grid-template-columns: repeat(1,1fr);
     }
 } */
+
+.most-played-games{
+    height: 160vh;
+    border: 1px solid red;
+    background-color: #000308;
+    margin-top: 110px;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 40px;
+}
+.h1-of-most-played-games{
+    width: 250px;
+    font-size: 30px;
+    line-height: 45px;
+    text-indent: -2em;
+    font-weight: bold;
+   
+}
+.most-played-games-top-div{
+    width: 100%;
+    height: 600px;
+    background-image: url('./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg');
+    background-repeat: no-repeat;
+    background-position: top 200px right 0;
+}
+
+.most-played-games-p{
+    position: relative;
+    width: 470px;
+    font-size: 13px;
+    opacity: 50%;
+    line-height: 25px;
+    margin-top: 7%;
+    margin-left: 39%;
+}
+.most-played-games-img1{
+width: 320px;
+position: relative;
+left: 150px;
+bottom: 110px;
+}
+.most-played-games-img2{
+width: 240px;
+position: relative;
+left: 210px;
+top: 20px;
+}
+.most-played-games-img3{
+width: 210px;
+position: relative;
+left: 270px;
+top: 20px;
+}
+.most-played-games-bottom-div{
+    border: 1px solid yellow;
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    background-image: url('./Assets/Photos/Rectangle\ 606.png');
+    background-repeat: no-repeat;
+    background-size:1400px 400px;
+    
+}
