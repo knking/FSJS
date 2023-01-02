@@ -83,6 +83,7 @@ nav ul li{
     border-radius: 25px;
     display: flex;
     align-items: center;
+    box-shadow: 0px 0px 3px  gray;
 }
 
 .img-1{
