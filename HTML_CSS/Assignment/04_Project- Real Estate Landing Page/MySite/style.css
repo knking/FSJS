@@ -40,8 +40,6 @@ nav ul li{
     background-color: antiquewhite;
     opacity: 40%;
    margin-left: 60px;
-    
-
 }
 .hero-section{
     width: 45%;
@@ -96,5 +94,13 @@ nav ul li{
 .hero-logo-sec img{
     width: 130px;
 }
-
+.main{
+    padding: 60px 60px;
+}
+.main h1{
+    font-size: 45px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
  
