@@ -149,9 +149,6 @@ margin-top: 25px;
     display: inline-block; 
     z-index: -1;
     border-radius: 25px;
-    background-image: url('./Photos/cardImage1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
  }
  .text-div{
     position: relative;
@@ -163,4 +160,11 @@ margin-top: 25px;
     bottom: 65px;
     border-radius: 25px;
     background-color: #FEFEFE;
+ }
+ .img-div img{
+    width: 100%;
+    border-radius: 25px;
+ }
+ .col-2 img{
+    width: 100%;
  }
