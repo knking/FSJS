@@ -195,6 +195,37 @@ margin-top: 35px;
     border-radius: 20px;
     border: none;
  }
- /* .col-2 img{
+ 
+ .below-main{
+    margin-top: 110px;
+    border: 1px solid red;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+ }
+ .below-main-div1{
     width: 100%;
- } */
+    height: 47%;
+    border: 1px solid blue;
+
+ }
+ .below-main-div-img{
+    width: 45%;
+    border: 1px solid green;
+    height: 97%;
+ }
+ .feature-img-1{
+    position: relative;
+    z-index: 1;
+    width: 89%;
+    height:90% ;
+ }
+ .feature-img-2{
+    position: relative;
+    width: 29%;
+    height: 51%;
+    left: 125px;
+    z-index: 2;
+    border-radius: 25px;
+ }
