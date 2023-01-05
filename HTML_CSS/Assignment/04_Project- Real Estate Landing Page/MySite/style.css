@@ -121,8 +121,7 @@ nav ul li{
  .main-col img{
 width: 100%;
  }
- .col-1{
- }
+
  .col-2{
 margin-top: 35px;
  }
@@ -393,8 +392,7 @@ font-weight: bold;
 }
 footer{
    width: 99%;
-   border: 1px solid red;
-   height: 500px;
+   height: 350px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -402,10 +400,10 @@ footer{
 }
 .footer-left{
 width: 40%;
-height: 95%;
+height: 70%;
 margin-left: 200px;
 padding-left: 50px;
-border: 1px solid blue;
+
 display: flex;
     flex-direction: column;
     gap: 15px;
@@ -438,8 +436,8 @@ display: flex;
 }
 .footer-right{
 width: 49%;
-height: 95%;
-border: 1px solid green;
+height: 70%;
+
 display: flex;
 gap: 100px;
 justify-content: flex-start;
