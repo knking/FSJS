@@ -101,9 +101,7 @@ nav ul li:hover {
    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
    animation: slidebg 5s linear infinite;
    cursor: pointer;
-
-   color: #ffffff;
-
+   color: #fff;
 }
 
 .hero-logo-sec {
@@ -126,6 +124,11 @@ nav ul li:hover {
 
 .hero-logo-sec img {
    width: 130px;
+}
+
+.img-1 img:hover {
+   cursor: pointer;
+   width: 135px;
 }
 
 .main {
@@ -155,13 +158,16 @@ nav ul li:hover {
    height: 370px;
    transition: transform 1s;
 }
-.main-col:hover{
+
+.main-col:hover {
    transform: scale(1.1);
    cursor: pointer;
 }
+
 .main-col img {
    width: 100%;
 }
+
 /* .main-col img:hover{
    transform: scale(1.1);
 } */
@@ -222,16 +228,17 @@ nav ul li:hover {
    justify-content: space-around;
    align-items: center;
    box-shadow: 0px 7px 15px -10px gray;
-   
+
 }
 
-.text-div:hover{
+.text-div:hover {
    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
    animation: slidebg 5s linear infinite;
    cursor: pointer;
    color: #ffffff;
-   
+
 }
+
 .img-div img {
    width: 100%;
    border-radius: 25px;
@@ -260,11 +267,13 @@ nav ul li:hover {
    border-radius: 20px;
    border: none;
 }
-.text-div button:hover{
+
+.text-div button:hover {
    background-color: #fff;
    color: #6663E9;
    cursor: pointer;
 }
+
 .below-main {
    margin-top: 110px;
    height: 1200px;
@@ -278,6 +287,7 @@ nav ul li:hover {
    height: 47%;
    display: flex;
    gap: 100px;
+
 
 }
 
@@ -301,6 +311,19 @@ nav ul li:hover {
    left: 17.5%;
    z-index: 2;
    border-radius: 25px;
+}
+
+.feature-img-1,
+.feature-img-2:hover {
+   cursor: pointer;
+}
+
+.btn:hover {
+   cursor: pointer;
+   color: #6663E9;
+   background: transparent;
+   border: 1px dotted #5654D1;
+
 }
 
 .below-main-div-text {
@@ -370,6 +393,10 @@ nav ul li:hover {
    background-image: url('./Icons/featureImageBg2.png');
    background-repeat: no-repeat;
    background-size: cover;
+}
+
+.right-main-div-img:hover {
+   cursor: pointer;
 }
 
 .right-main-div-img img {
@@ -473,7 +500,15 @@ nav ul li:hover {
    gap: 15px;
    background-color: #5654D1;
 }
-
+.email-address:hover{
+   background-color: #7877dd;
+   opacity: 1;
+   font-weight: bold;
+   cursor: auto;
+}
+.email-address img:hover{
+   cursor: pointer;
+}
 .email-address p {
    font-size: 12px;
    opacity: 0.5;
@@ -513,6 +548,10 @@ footer {
    width: 130px;
 }
 
+.img-zero:hover {
+   cursor: pointer;
+}
+
 .fotter-icon {
    display: flex;
    gap: 10px;
@@ -520,6 +559,10 @@ footer {
 
 .fotter-icon img {
    width: 40px;
+}
+
+.fotter-icon img:hover {
+   cursor: pointer;
 }
 
 .footer-div-zero {
@@ -535,6 +578,7 @@ footer {
    line-height: 23px;
    font-size: 15px;
 }
+
 
 .footer-right {
    width: 49%;
@@ -553,6 +597,14 @@ footer {
    gap: 15px;
    font-size: 12px;
    opacity: 90%;
+}
+
+.footer-div-1 p:hover,
+.footer-div-2 p:hover,
+.footer-div-3 p:hover {
+   cursor: pointer;
+   color: #6663E9;
+   opacity: 1;
 }
 
 .first-p {
