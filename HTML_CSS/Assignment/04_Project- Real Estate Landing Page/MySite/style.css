@@ -298,3 +298,35 @@ align-items: center;
    bottom: 40px;
    left: 43px;
 }
+.left-main-div{
+   display: flex;
+   flex-direction: column;
+   padding: 20px 100px;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 30px ;
+}
+.left-main-div h1{
+   font-size: 55px;
+   width: 400px;
+   opacity: 0.8;
+}
+.left-main-div p{
+   width: 400px;
+   opacity: 0.8;
+}
+.left-main-div button{
+   padding: 13px 25px;
+   background-color: #6663E9;
+   color: #ffffff;
+   font-weight: bold;
+   border-radius: 20px;
+ border: none;
+}
+.last-sec{
+   margin-top: 5px;
+   width: 98%;
+   border: 1px solid red;
+   height: 500px;
+
+}
