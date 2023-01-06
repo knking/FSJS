@@ -41,11 +41,14 @@ nav ul {
 
 nav ul li {
    list-style: none;
+   transition: all 0.5s;
+
 }
 
 nav ul li:hover {
    cursor: pointer;
    color: #FBE34B;
+   border-bottom: 1px solid pink;
 
 }
 
@@ -124,6 +127,7 @@ nav ul li:hover {
 
 .hero-logo-sec img {
    width: 130px;
+   
 }
 
 .img-1 img:hover {
@@ -323,6 +327,7 @@ nav ul li:hover {
    color: #6663E9;
    background: transparent;
    border: 1px dotted #5654D1;
+    transition: all 1s;
 
 }
 
