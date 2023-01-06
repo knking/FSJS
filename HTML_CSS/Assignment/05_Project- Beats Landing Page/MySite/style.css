@@ -1,36 +1,87 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: #000000;
     font-family: sans-serif;
     background-image: url('./Photos/mainImage.png');
     background-repeat: no-repeat;
     background-size: 200px;
-   /* background-position-y: -20px;
+    /* background-position-y: -20px;
    background-position-x: 300px; */
-   background-position: 30% -50px;
-  padding-left: 150px;
-  padding-top: 50px;
-  padding-right: 80px;
-} 
-nav{
+    background-position: 30% -50px;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 80px;
+}
+
+nav {
     display: flex;
     gap: 45%;
 }
-.nav-div{
+
+.nav-div {
     display: flex;
     align-items: center;
     gap: 10%;
 }
-nav ul{
+
+nav button {
+    font-size: 11px;
+    padding: 9px 35px;
+    background-color: #1E1E21;
+    color: #FFFFFF;
+}
+
+nav ul {
     display: flex;
     color: #FFFFFF;
-    
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
-    
-    
+    margin-right: 40px;
+}
+.hero{
+    border: 1px solid white;
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+.hero-sec-element{
+    width: 53%;
+    border: 1px solid red;
+    height: 83%;
+    background-image: url('./Photos/onEar.png');
+    background-repeat: no-repeat;
+    background-size: 270px;
+    background-position: 45px 2px;
+    color: #FFFFFF;
+    padding-top:80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 22px;
+}
+.hero-sec-element h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.hero-sec-element h3{
+    color: #F1F1F2;
+}
+.hero-sec-element p{
+    font-size: 11px;
+    color: #989A9C;
+    width: 36%;
+    line-height: 20px;
+}
+.hero-sec-inside-div{
+    border: 1px solid yellow;
+    width: 35%;
+    height: 47px;
 }
