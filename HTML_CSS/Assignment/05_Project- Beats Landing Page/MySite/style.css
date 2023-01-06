@@ -54,7 +54,7 @@ nav ul li {
 }
 .hero-sec-element{
     width: 53%;
-    border: 1px solid red;
+   
     height: 83%;
     background-image: url('./Photos/onEar.png');
     background-repeat: no-repeat;
@@ -81,7 +81,16 @@ nav ul li {
     line-height: 20px;
 }
 .hero-sec-inside-div{
-    border: 1px solid yellow;
-    width: 35%;
-    height: 47px;
+    
+    width: 22%;
+    height: 45px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 15px;
+    background-color: #1E1E21;
+}
+.hero-sec-inside-div img{
+    width: 15px;
 }
