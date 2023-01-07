@@ -44,44 +44,50 @@ nav ul li {
     list-style: none;
     margin-right: 40px;
 }
-.hero{
-   
+
+.hero {
+
     margin-top: 50px;
     width: 100%;
     height: 450px;
     display: flex;
     justify-content: flex-end;
 }
-.hero-sec-element{
+
+.hero-sec-element {
     width: 53%;
-   
+
     height: 83%;
     background-image: url('./Photos/onEar.png');
     background-repeat: no-repeat;
     background-size: 270px;
     background-position: 45px 2px;
     color: #FFFFFF;
-    padding-top:80px;
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 22px;
 }
-.hero-sec-element h1{
+
+.hero-sec-element h1 {
     font-size: 40px;
     padding-bottom: 20px;
 }
-.hero-sec-element h3{
+
+.hero-sec-element h3 {
     color: #F1F1F2;
 }
-.hero-sec-element p{
+
+.hero-sec-element p {
     font-size: 11px;
     color: #989A9C;
     width: 36%;
     line-height: 20px;
 }
-.hero-sec-inside-div{
-    
+
+.hero-sec-inside-div {
+
     width: 22%;
     height: 45px;
     border-radius: 6px;
@@ -91,82 +97,165 @@ nav ul li {
     padding: 0 15px;
     background-color: #1E1E21;
 }
-.hero-sec-inside-div img{
+
+.hero-sec-inside-div img {
     width: 15px;
 }
-.hero-sec-logo{
+
+.hero-sec-logo {
     width: 52%;
-    
+
     height: 60px;
     display: flex;
     padding-left: 328px;
-    padding-right:328px;
+    padding-right: 328px;
     justify-content: space-around;
     align-items: center;
 }
-.img-1{
+
+.img-1 {
     width: 60px;
     height: 18px;
 }
-.specs-sec{
+
+.specs-sec {
     width: 100%;
     height: 410px;
     margin-top: 50px;
-    border: 1px solid green;
+
     display: flex;
     justify-content: center;
 }
-.specs{
+
+.specs {
     width: 45%;
     height: 100%;
-   
+
     background-image: url('./Icons/specsLogo.png');
     background-repeat: no-repeat;
     background-size: 160px;
     background-position: 50% 0px;
     display: flex;
 }
-.specs-left{
+
+.specs-left {
     width: 45%;
-    padding-top:65px;
+    padding-top: 65px;
     height: 85%;
-    
     padding-left: 120px;
-    
 }
-.specs-right{
+
+.specs-right {
     width: 55%;
     height: 100%;
-   
-    
+
+
 }
-.specs-right img{
+
+.specs-right img {
     text-align: center;
     margin-top: 70px;
     width: 250px;
 }
-.left-div1,.left-div4{
+
+.left-div1,
+.left-div4 {
     color: #FFFFFF;
     height: 21%;
     width: 54%;
-   
+
     line-height: 18px;
     padding-left: 35px;
-    
+
 }
-.left-div2,.left-div3{
+
+.left-div2,
+.left-div3 {
     color: #FFFFFF;
     height: 21%;
     width: 54%;
-  
+
     line-height: 18px;
 }
-.left-div1 p,.left-div4 p,.left-div2 p,.left-div3 p{
+
+.left-div1 p,
+.left-div4 p,
+.left-div2 p,
+.left-div3 p {
     font-size: 11px;
     color: #989A9C;
 }
-.left-div4 p{
-    line-height:12px ;
+
+.left-div4 p {
+    line-height: 12px;
     width: 90%;
+
+}
+
+.case-sec {
+    width: 100%;
+    height: 410px;
+    margin-top: 70px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.case {
+    width: 45%;
+    height: 100%;
+
+    background-image: url('./Icons/caseLogo.png');
+    background-repeat: no-repeat;
+    background-size: 160px;
+    background-position: 50% 0px;
+    display: flex;
+}
+
+.case-left {
+    width: 55%;
+    padding-top: 65px;
+    height: 85%;
+   
+}
+.case-left img{
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.case-right {
+    width: 27%;
+    height: 100%;
     
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:45px;
+}
+.case-right-div{
+    width: 65%;
+    height: 40px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #1E1E21;
+    border-radius: 5px;
+    
+}
+
+.case-right>p{
+    font-size: 12px;
+    color: #989A9C;
+    line-height:23px;
+}
+.case-right-div img{
+    width: 17px;
+}
+.more{
+    font-size:12px ;
+    color: #FFFFFF;;
 }
