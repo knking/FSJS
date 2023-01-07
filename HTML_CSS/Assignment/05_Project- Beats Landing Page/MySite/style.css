@@ -225,14 +225,16 @@ nav ul li {
 }
 .case-right {
     width: 27%;
-    height: 100%;
+    height: 90%;
     
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap:45px;
+    gap:30px;
+    padding-top:50px ;
+    padding-left: 30px;
 }
 .case-right-div{
     width: 65%;
