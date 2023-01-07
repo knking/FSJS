@@ -196,7 +196,7 @@ nav ul li {
     width: 100%;
     height: 410px;
     margin-top: 70px;
-    border: 1px solid red;
+   
     display: flex;
     justify-content: center;
 }
@@ -248,7 +248,6 @@ nav ul li {
     border-radius: 5px;
     
 }
-
 .case-right>p{
     font-size: 12px;
     color: #989A9C;
@@ -260,4 +259,59 @@ nav ul li {
 .more{
     font-size:12px ;
     color: #FFFFFF;;
+}
+.below-case-sec{
+    width: 100%;
+    margin-top: 50px;
+    border: 1px solid blue;
+    height: 250px;
+   
+    
+}
+.below-case-ele{
+    border: 1px solid purple;
+    width: 65%;
+    height:100% ;
+    margin: auto;
+    background-color: #181A1B;
+    display: flex;
+}
+.below-case-left{
+border: 1px solid yellow;
+width: 47%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #FFFFFF;
+}
+.below-case-left p{
+    font-size: 13px;
+    color: #989A9C;
+}
+.left-1{
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:15px;
+}
+.below-case-right{
+    border: 1px solid red;
+    width: 53%;
+    height: 100%;
+}
+.below-case-inside{
+    width: 50%;
+    border: 1px solid white;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+.below-case-inside img{
+    width: 16px;
 }
