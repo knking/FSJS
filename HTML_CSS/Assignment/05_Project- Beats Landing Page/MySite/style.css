@@ -45,7 +45,7 @@ nav ul li {
     margin-right: 40px;
 }
 .hero{
-    border: 1px solid white;
+   
     margin-top: 50px;
     width: 100%;
     height: 450px;
@@ -107,4 +107,64 @@ nav ul li {
 .img-1{
     width: 60px;
     height: 18px;
+}
+.specs-sec{
+    width: 100%;
+    height: 410px;
+    margin-top: 50px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+}
+.specs{
+    width: 45%;
+    height: 100%;
+   
+    background-image: url('./Icons/specsLogo.png');
+    background-repeat: no-repeat;
+    background-size: 160px;
+    background-position: 50% 0px;
+    display: flex;
+}
+.specs-left{
+    width: 45%;
+    padding-top:50px;
+    height: 88%;
+    
+}
+.specs-right{
+    width: 55%;
+    height: 100%;
+   
+    
+}
+.specs-right img{
+    text-align: center;
+    margin-top: 70px;
+    width: 250px;
+}
+.left-div1,.left-div4{
+    color: #FFFFFF;
+    height: 20%;
+    width: 54%;
+   
+    line-height: 18px;
+    padding-left: 35px;
+    
+}
+.left-div2,.left-div3{
+    color: #FFFFFF;
+    height: 20%;
+    width: 54%;
+  
+    line-height: 18px;
+}
+.left-div1 p,.left-div4 p,.left-div2 p,.left-div3 p{
+    font-size: 11px;
+    color: #989A9C;
+}
+.left-div4 p{
+    line-height:12px ;
+    width: 90%;
+    
 }
