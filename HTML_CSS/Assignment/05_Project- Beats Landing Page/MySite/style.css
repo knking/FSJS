@@ -96,7 +96,7 @@ nav ul li {
 }
 .hero-sec-logo{
     width: 52%;
-    border: 1px solid red;
+    
     height: 60px;
     display: flex;
     padding-left: 328px;
@@ -130,6 +130,8 @@ nav ul li {
     width: 45%;
     padding-top:50px;
     height: 88%;
+    
+    padding-left: 120px;
     
 }
 .specs-right{
