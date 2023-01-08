@@ -260,6 +260,16 @@ nav ul li {
 
 .case-right-div img {
     width: 17px;
+    
+}
+.below-case-right img{
+transition: all 0.3s ease-in-out 0s;
+}
+.below-case-right img:hover{
+    cursor: pointer; 
+    transform: rotate(50deg);
+    transition: all 0.3s ease-in-out 0s;
+   
 }
 
 .more {
