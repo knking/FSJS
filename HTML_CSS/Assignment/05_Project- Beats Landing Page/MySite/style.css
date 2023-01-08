@@ -368,7 +368,6 @@ nav ul li {
 
 .your-style {
     width: 100%;
-    border: 1px solid red;
     margin-top: 70px;
     height: 700hpx;
     background-image: url('./Icons/productLogo.png');
@@ -445,7 +444,6 @@ nav ul li {
     border-radius: 10px;
 }
 footer{
-    border: 1px solid blue;
     width: 100%;
     height: 300px;
     margin-top: 90px;
@@ -454,7 +452,6 @@ footer{
     background-position: 8% 37%;
 }
 .footer-div{
-    border: 1px solid purple;
 width: 65%;
 height: 100%;
 margin: auto;
@@ -463,7 +460,6 @@ display: flex;
 .left-footer-div{
 width: 50%;
 height: 100%;
-border: 1px solid yellow;
 background-image: url('./Photos/beatsLogo.png');
 background-repeat: no-repeat;
 background-position: 0 27%;
@@ -475,7 +471,6 @@ align-items: center;
 .right-footer-div{
 width: 50%;
 height: 75%;
-border: 1px solid white;
 padding: 25px 0 45px 0;
 display: flex;
 flex-direction: column;
@@ -485,7 +480,6 @@ gap: 20px;
 
 }
 .fleft-1{
-    border: 1px solid red;
     width: 110px;
     height: 130px;
     color: #fff;
@@ -504,13 +498,13 @@ gap: 20px;
 .rright-1{
     width: 68%;
     height: 60px;
-    border: 1px solid brown;
     display: flex;
     align-items: center;
     color: #fff;
     padding: 0 10px;
     justify-content: space-between;
     border-radius: 8px;
+    background-color: #181A1B;
 }
 .rright-1 p{
     font-size: 13px;
@@ -519,7 +513,7 @@ gap: 20px;
     color: #989A9C;
 }
 .rright-2{
-    border: 1px solid red;
+
     width: 40%;
     display: flex;
     justify-content: space-between;
@@ -528,7 +522,7 @@ gap: 20px;
 
 .subscribe-div{
     width: 120px;
-    border:1px solid #fff;
+    
     height: 43px;
     border-radius: 7px;
     display: flex;
