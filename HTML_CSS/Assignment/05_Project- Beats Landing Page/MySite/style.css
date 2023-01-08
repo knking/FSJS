@@ -352,9 +352,53 @@ transition: all 0.3s ease-in-out 0s;
     width: 100%;
     border: 1px solid red;
     margin-top: 70px;
-    height: 300px;
+    height: 700px;
     background-image: url('./Icons/productLogo.png');
     background-repeat: no-repeat;
     background-size: 250px;
     background-position: 50% 0;
+}
+.headphone-sec{
+    width: 50%;
+    border: 1px solid yellow;
+    height: 70%;
+    margin: auto;
+    display: flex;
+    padding-top: 200px;
+     flex-wrap: wrap;
+     gap: 35px;
+    
+}
+.headphone-sec img{
+    overflow: hidden;
+    width: 80px;
+    position: relative;
+    left: 27%;
+    transition: transform 0.5s;
+}
+.headphone-sec img:hover{
+    /* -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.1); */
+        transform: scale(1.3);
+}
+.headphone1{
+    width: 155px;
+    border: 1px solid white;
+    height: 174px;
+}
+.headphone-text{
+    width: 115px;
+    border: 1px solid blue;
+    height: 115px;
+    z-index: -1;
+    position: relative;
+    bottom:70px;
+    padding: 0 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.headphone-text img{
+    width: 20px;
 }
