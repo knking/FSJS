@@ -537,3 +537,10 @@ gap: 20px;
     background-color: #000000;
 
 }
+.upper-arrow{
+    position: relative;
+    left: 1350px;
+    bottom: 130px;
+    z-index: -1;
+    
+}
