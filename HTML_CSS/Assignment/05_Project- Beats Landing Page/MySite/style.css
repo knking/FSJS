@@ -290,7 +290,6 @@ nav ul li:hover {
 .case-right-div {
     width: 65%;
     height: 40px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -310,7 +309,10 @@ nav ul li:hover {
     width: 17px;
 
 }
-
+.case-right-div:hover{
+    background-color: #000000;
+    cursor: pointer;
+}
 .below-case-right img {
     transition: all 0.3s ease-in-out 0s;
 }
@@ -379,7 +381,6 @@ nav ul li:hover {
 
 .below-case-inside {
     width: 50%;
-
     height: 35px;
     display: flex;
     justify-content: center;
@@ -390,7 +391,11 @@ nav ul li:hover {
     color: #FFFFFF;
     font-size: 13px;
 }
-
+.below-case-inside:hover{
+    cursor: pointer;
+    background-color:#333538;
+    color: green;
+}
 .below-case-inside img {
     width: 16px;
 }
@@ -525,8 +530,12 @@ footer {
     background-image: url('./Icons/twitter.png');
     background-repeat: no-repeat;
     background-position: 8% 37%;
+
 }
 
+footer img:hover{
+    cursor: pointer;
+}
 .footer-div {
     width: 65%;
     height: 100%;
@@ -588,7 +597,10 @@ footer {
     border-radius: 8px;
     background-color: #181A1B;
 }
-
+.rright-1:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
 .rright-1 p {
     font-size: 13px;
 }
@@ -607,13 +619,15 @@ footer {
 
 .subscribe-div {
     width: 120px;
-
     height: 43px;
     border-radius: 7px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #000000;
+}
+.subscribe-div:hover{
+    cursor: pointer;
 
 }
 
@@ -621,5 +635,16 @@ footer {
     position: relative;
     left: 1350px;
     bottom: 130px;
-    z-index: -1;
+  
+}
+.upper-arrow:hover{
+    cursor: pointer;
+}
+.fleft-1 p:hover{
+    cursor: pointer;
+    color: #063e86;
+}
+.fleft-1 h4:hover{
+    cursor: pointer;
+    color: #063e86;
 }
