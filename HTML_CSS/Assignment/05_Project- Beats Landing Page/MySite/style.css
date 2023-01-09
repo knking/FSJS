@@ -136,8 +136,12 @@ nav ul li:hover {
     padding-right: 328px;
     justify-content: space-around;
     align-items: center;
+    transition: transform 0.5s;
 }
-
+.hero-sec-logo img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
 .img-1 {
     width: 60px;
     height: 18px;
