@@ -115,6 +115,7 @@ nav ul li:hover {
 .hero-sec-inside-div:hover{
     background-color: #000000;
     cursor: pointer;
+    color: green;
 }
 .hero-sec-inside-div img {
     width: 15px;
@@ -312,6 +313,7 @@ nav ul li:hover {
 .case-right-div:hover{
     background-color: #000000;
     cursor: pointer;
+    
 }
 .below-case-right img {
     transition: all 0.3s ease-in-out 0s;
