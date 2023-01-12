@@ -6,9 +6,17 @@
 
 // while loop
 
-let i=0;
-while(i<20){
+// let i=0;
+// while(i<20){
 
-   console.log(i)
+//    console.log(i)
+//     i++;
+// }
+
+//do while
+let i=5;
+do{
+    console.log(i)
+}while(i<5){
     i++;
 }
