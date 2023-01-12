@@ -1,5 +1,11 @@
-// for loop
 
-for(let i=1;i<=10;i++){
-    console.log("2" * i, "=",i*2);
+let user={
+    name:"krishns",
+    age:25,
+    email:"knr020498@gmail.com",
+    dream:function(){
+        return "Lots of money";
+    },
+    hardworker :true,
 }
+console.table(user)
