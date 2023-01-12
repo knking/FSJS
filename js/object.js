@@ -9,3 +9,5 @@ let user={
     hardworker :true,
 }
 console.table(user)
+
+console.log(user.dream());
