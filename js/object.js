@@ -21,9 +21,10 @@ const obje1={
     },
 
     getAge: function(){
-        return age;
+        return this.age;
     },
 }
 console.table(obje1)
+console.log(obje1.set)
 console.log(obje1.getAge())
 console.table(obje1)
