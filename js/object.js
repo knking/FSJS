@@ -17,7 +17,10 @@ const obje1={
     roll_num:"1111",
     age:23,
     set:()=>{
-        this.age=24
+        this.age+=24
+    },
+    setage:function(){
+this.age=25;
     },
 
     getAge: function(){
@@ -25,6 +28,7 @@ const obje1={
     },
 }
 console.table(obje1)
-console.log(obje1.set)
+console.log(obje1.set())
+console.log(setage())
 console.log(obje1.getAge())
 console.table(obje1)
