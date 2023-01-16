@@ -7,13 +7,15 @@ let arr = ["ineuron","pw skills","google","facebook","amazone","flipkart","pw sk
 
 let lastIndex = arr.lastIndexOf("pw skills")
 
-let firstIndex= arr.indexOf("pw skillls")
+let firstIndex= arr.indexOf("pw skills")
 
 let checkForCaseSensitive = arr.lastIndexOf("Pw skills");
 
 console.log(`Last index of pw skills is ${lastIndex}`)
 console.log(`First index of pw skills is ${firstIndex}`)
 console.log(`case sensitive example ${checkForCaseSensitive}`)
+
+
 
 
 
