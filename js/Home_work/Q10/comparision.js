@@ -53,3 +53,6 @@ console.log("------ below are consloe log output ---------")
 // 4 != '4' :-  false
 // 4 == '4':-  true
 // 4 === '4' :-  false
+
+
+console.log(false == null)
