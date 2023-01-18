@@ -1,3 +1,8 @@
+// a. Print a triangle pattern, if the given input is 3 then the pattern should be similar to the given output
+// 	   *
+// 	   **
+// 	   ***
+
 
 let n =3;
 let str="";
