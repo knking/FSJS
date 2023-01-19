@@ -15,7 +15,9 @@ let splied1= myString.split(" ");
 console.log(splied1)
 console.log(splied1.length)
 
-// const str = 'The quick brown fox jumps over the lazy dog.';
+
+// const str = 'The, quick, brown, fox, jumps, over, the, lazy, dog.';
+
 
 // // const words = str.split(' ');
 // // console.log(words)
@@ -27,7 +29,7 @@ console.log(splied1.length)
 // // console.log(chars[8]);
 // // Expected output: "k"
 
-// const strCopy = str.split();
+const strCopy = str.split(",");
 
-// console.log(strCopy);
+console.log(strCopy);
 

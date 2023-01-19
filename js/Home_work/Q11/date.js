@@ -11,7 +11,7 @@
 
 const now = new Date();
 // console.log(now)
-// console.log(now.toString())
+console.log(now.toString())
 
 console.log("Today year is ",now.getFullYear());
 

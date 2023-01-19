@@ -1,3 +1,5 @@
+
+
 //01. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types, Display all the value with their data type.
 
 var iAmVar="knroy";
@@ -38,6 +40,8 @@ const num2=100;
 const undf = undefined;
 const bl=true;
 const n=null;
+
+
 
 console.log("+++++++++++++++++++++++++++++++++++++++++ const +++++++++++++++++++++++++")
 console.log("I am const ",name1, "and my type is ",typeof(name1))

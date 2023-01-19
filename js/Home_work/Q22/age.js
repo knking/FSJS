@@ -11,7 +11,7 @@
 // The spread operator(...) allows an iterable to expand in places where multiple arguments are expected.In this case, it automatically expands the array and gives the numbers to the functions.
 
 
-const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25,24];
 
 ages.sort();
 
@@ -24,13 +24,20 @@ function minAge(arr){
     return Math.min(...arr)
 }
 
-// function median(arr){
-//     let len = arr.length;
-//     if(len % 2===0){
-//         let ans = arr[len/2]+
-//     }
-//}
-
+function median(arr){
+    let len = arr.length;
+    let ans=0;
+    if(len % 2===0){
+         ans = (arr[len/2-1]+arr[len/2])/2;
+        return ans;
+    }
+    else{
+        ans = arr[len/2-1]
+        return ans;
+    }
+}
+console.log(ages)
+console.log(median(ages))
 // let maxAge = Math.max(...ages);
 // let minAge = Math.min(...ages);
 // console.log("Maximum age ",maxAge);

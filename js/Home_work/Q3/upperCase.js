@@ -9,4 +9,3 @@ let str = "chane me into upper case";
 console.log(str.toUpperCase());
 console.log(myFullName.toUpperCase())
 
-console.log(str.toUpperCase)
