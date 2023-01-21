@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,33 @@
     <title>Document</title>
     <style>
         .drawCircle {
- border-radius: 50%;
-  padding: 10px;
-  margin-left: -9px;
-  margin-top: -15px;
-  background-color: orange;
-  position: absolute;
- 
-}
+            border-radius: 50%;
+            padding: 10px;
+            margin-left: -9px;
+            margin-top: -15px;
+            /* background-color: orange; */
+            position: absolute;
+
+        }
     </style>
 </head>
-<body>
-    
-    <script>
-        addEventListener('click', createCircle);
 
-function createCircle(event) {
-  let circle = document.createElement('div');
-  circle.className = 'drawCircle';
-  circle.style.left = event.pageX + 'px';
-  circle.style.top = event.pageY + 'px';
-  document.body.appendChild(circle);
-}
+<body>
+
+    <script>
+        let arr=["red","blue","green","yellow","black","pink","purple"]
+        function createCircle(event) {
+          let circle = document.createElement('div');
+          circle.className = 'drawCircle';
+          circle.style.left = event.pageX + 'px';
+          circle.style.top = event.pageY + 'px';
+          let i = Math.floor(Math.random() * 6)
+          document.body.appendChild(circle).style.backgroundColor=arr[i];
+        }
+
+        addEventListener('click', createCircle);
 
     </script>
 </body>
+
 </html>
