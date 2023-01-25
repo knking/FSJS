@@ -8,7 +8,7 @@ function checkPrime(n)
 	if(n == 1 || n == 0)
      return false;
 	
-	for(var i = 2; i < n/2; i++)
+	for(let i = 2; i <= n/2; i++)
 	{
 		
 		if(n % i == 0)
