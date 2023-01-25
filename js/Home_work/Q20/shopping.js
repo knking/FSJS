@@ -32,7 +32,7 @@ if(shoppingCart.includes("Sugar")){
 
 for(let i=0;i<shoppingCart.length;i++){
     if(shoppingCart[i]==="Honey"){
-        shoppingCart.slice(i,1)
+        shoppingCart.splice(i,1)
     }
 }
 console.log("After removing honey from the shopping list ", shoppingCart)
