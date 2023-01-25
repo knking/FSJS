@@ -5,13 +5,22 @@
 
 let n =4;
 
-let str="";
+// let str="";
+// for (let index = 0; index <=4; index++) {
+  
+//     for(let j=0;j<=n;j++){
+//         str+="*";
+//     }
+//     console.log(str);
+//     str="";
+    
+// }
+
 for (let index = 0; index <=4; index++) {
   
     for(let j=0;j<=n;j++){
-        str+="*";
+        process. stdout. write("*")
     }
-    console.log(str);
-    str="";
+    console.log();
     
 }
