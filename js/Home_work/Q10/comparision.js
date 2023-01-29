@@ -55,4 +55,10 @@ console.log("------ below are consloe log output ---------")
 // 4 === '4' :-  false
 
 
-console.log(false == null)
+// console.log(false == null)
+
+let py = "python";
+let jr ="jargon"
+
+console.log("length comprision -> ",py.length > jr.length)
+
