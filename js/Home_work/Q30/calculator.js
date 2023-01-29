@@ -3,10 +3,11 @@
 
 
 
+//using switch case
 let num1 =10;
 let num2 =20;
 
-let operation = "substractio";
+let operation = "substraction";
 
 switch (operation) {
     case "add":
@@ -24,16 +25,19 @@ switch (operation) {
         break;
 }
 
-// function calculator(num1,num2,operation){
-//     if(operation =="+"){
-//         return num1+num2;
-//     }if(operation==="-"){
-//         return num1-num2;
-//     }if(operation==="*"){
-//         return num1 * num2;
-//     }if(operation==="%" || operation ==="/"){
-//         return num1 / num2;
-//     }
-// }
 
-// console.log(calculator(10,20,"*"))
+///using function
+
+function calculator1(num1,num2,operation){
+    if(operation =="+"){
+        return num1+num2;
+    }if(operation==="-"){
+        return num1-num2;
+    }if(operation==="*"){
+        return num1 * num2;
+    }if(operation==="%" || operation ==="/"){
+        return num1 / num2;
+    }
+}
+
+console.log(calculator1(10,20,"*"))
