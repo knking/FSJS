@@ -7,14 +7,13 @@
 // - modify Tea to 'Green Tea
 
 
-let shoppingCart = ['Milk','Coffee','Tea','Honey']
+let shoppingCart = ['Milk','Coffee','Tea','Honey','Meat']
 
 console.log("Initial shopping cart")
 
 //checking for meat
 if(shoppingCart.includes("Meat")){
-    console.log("meat is already in shopping list")
-    console.log(shoppingCart)
+    console.log("meat is already in shopping list",shoppingCart)
 }else{
     shoppingCart.unshift("Meat")
     console.log("Meat is added in shopping cart",shoppingCart)

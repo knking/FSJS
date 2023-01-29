@@ -60,5 +60,5 @@ console.log("------ below are consloe log output ---------")
 let py = "python";
 let jr ="jargon"
 
-console.log("length comprision -> ",py.length > jr.length)
+console.log("length comprision -> ", py.length > jr.length)
 
