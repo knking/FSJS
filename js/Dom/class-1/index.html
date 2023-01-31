@@ -8,11 +8,16 @@
 </head>
 <body>
     <h1>I am learning DOM</h1>
-    <p class="fsja" id="fsjs2">List of Element</p>
+    <p class="fsjs" id="fsjs2">List of Element <span>inside</span></p>
     <ul>
         <li>Krishna</li>
         <li>Mukund</li>
         <li>Nitish</li>
+    </ul>
+    <ul>
+        <li class="tech">nodejs</li>
+        <li class="tech">React js</li>
+        <li class="tech">Angular Js</li>
     </ul>
 
     <script>
@@ -21,8 +26,29 @@
         // console.log(document.head)
         // console.log(document.body)
         // console.log(document.body.firstChild)
-        console.log(document.body.firstElementChild)
-      
+        // console.log(document.body.firstElementChild)
+   
+    //  let val2 = document.getElementById("fsjs2")
+    //   console.log(val2.innerHTML)
+    //   console.log(val2.innerText)
+
+    //    let val = document.getElementsByClassName("tech")
+    //   console.log(val)
+    //   console.log(val[0].innerHTML)
+    //   console.log(val[1].innerText)
+
+    //   val[2].innerHTML="krishna";
+
+    //   val[0].innerHTML="<h1> i m h1 </h1>"
+
+    // val[1].innerText="i m updated"
+
+    //query selector
+
+    let val = document.querySelector(".tech").innerHTML;
+    console.log(val)
+
+    document.querySelector("p").style.backgroundColor="red"
     </script>
 </body>
 </html>
