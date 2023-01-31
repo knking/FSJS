@@ -9,5 +9,19 @@
 <body>
     <h1>I am Learning Javascript Event listner</h1>
     <p id="listner">Event Listner</p>
+    <p id="listner1">Event Listner2</p>
 </body>
+<script>
+    document.addEventListener("click",hello);
+
+    function hello(){
+        document.getElementById("listner").innerText="Mouse clicked"
+    }
+
+    document.addEventListener("dblclick",hello1);
+
+function hello1(){
+    document.getElementById("listner1").innerText="double clicked"
+}
+</script>
 </html>
