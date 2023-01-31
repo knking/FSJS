@@ -7,6 +7,34 @@
     <title>create element</title>
 </head>
 <body>
-    
+    <p>demo of creating html element using javascript</p>
+
+    <ol>
+
+    </ol>
+
+    <script>
+        const list = `
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+        `
+        const li = document.querySelector("ol");
+        li.innerHTML=list;
+
+
+        //appen elelemnt
+        
+      let h1 =  document.createElement("h1");
+    //   h1.innerText="i am h1";
+    h1.textContent="i am creating dynamically"
+      h1.className="h1";
+      h1.style.color="orange";
+      document.body.appendChild(h1)
+
+
+    </script>
 </body>
 </html>
