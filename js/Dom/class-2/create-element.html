@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>create element</title>
 </head>
+
 <body>
     <p>demo of creating html element using javascript</p>
+
+    <ui id="demo">
+        <li>krishna</li>
+        <li>nanad</li>
+        <li>roy</li>
+    </ui>
 
     <ol>
 
@@ -22,19 +30,60 @@
         <li>five</li>
         `
         const li = document.querySelector("ol");
-        li.innerHTML=list;
+        li.innerHTML = list;
 
 
-        //appen elelemnt
+        //append elelemnt
+
+        let h1 = document.createElement("h1");
+        //   h1.innerText="i am h1";
+        h1.textContent = "i am creating dynamically"
+        h1.className = "h1";
+        h1.style.color = "orange";
+        document.body.appendChild(h1)
+
+        // const lst = `
+        // <li>Java</li>
+        // <li>Python</li>
+        // <li>Javascript</li>
+        //                     `;
+        let list1 = document.createElement("ul");
+        list1.innerHTML= `
+        <li>Java</li>
+        <li>Python</li>
+        <li>Javascript</li>
+        <li>React</li>
+        `;
+        list1.className = "list12"
+      
+        document.body.appendChild(list1)
+
         
-      let h1 =  document.createElement("h1");
-    //   h1.innerText="i am h1";
-    h1.textContent="i am creating dynamically"
-      h1.className="h1";
-      h1.style.color="orange";
-      document.body.appendChild(h1)
+        let list2 = document.createElement("ul");
+        list2.innerHTML= `
+        <li>Java</li>
+        <li>Python</li>
+        <li>Javascript</li>
+        <li>React</li>
+        
+        `;
+        list2.className = "list5"
+        
+        document.body.appendChild(list2)
+
+    let parent = document.getElementById("demo");
+
+    let elem = parent.firstElementChild;
+
+    // parent.removeChild(elem)
+    document.body.removeChild(parent)
+      
+      
+        //creating elelemnt using loop
+
 
 
     </script>
 </body>
+
 </html>
