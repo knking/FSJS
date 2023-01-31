@@ -21,62 +21,66 @@
 
     </ol>
 
+    <button class="btn" id="btn1" onclick="createPara()">
+        Click me
+    </button>
+
     <script>
-        const list = `
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-        <li>four</li>
-        <li>five</li>
-        `
-        const li = document.querySelector("ol");
-        li.innerHTML = list;
+        // const list = `
+        // <li>one</li>
+        // <li>two</li>
+        // <li>three</li>
+        // <li>four</li>
+        // <li>five</li>
+        // `
+        // const li = document.querySelector("ol");
+        // li.innerHTML = list;
 
 
-        //append elelemnt
+        // //append elelemnt
 
-        let h1 = document.createElement("h1");
-        //   h1.innerText="i am h1";
-        h1.textContent = "i am creating dynamically"
-        h1.className = "h1";
-        h1.style.color = "orange";
-        document.body.appendChild(h1)
+        // let h1 = document.createElement("h1");
+        // //   h1.innerText="i am h1";
+        // h1.textContent = "i am creating dynamically"
+        // h1.className = "h1";
+        // h1.style.color = "orange";
+        // document.body.appendChild(h1)
 
         // const lst = `
         // <li>Java</li>
         // <li>Python</li>
         // <li>Javascript</li>
         //                     `;
-        let list1 = document.createElement("ul");
-        list1.innerHTML= `
-        <li>Java</li>
-        <li>Python</li>
-        <li>Javascript</li>
-        <li>React</li>
-        `;
-        list1.className = "list12"
+    //     let list1 = document.createElement("ul");
+    //     list1.innerHTML= `
+    //     <li>Java</li>
+    //     <li>Python</li>
+    //     <li>Javascript</li>
+    //     <li>React</li>
+    //     `;
+    //     list1.className = "list12"
       
-        document.body.appendChild(list1)
+    //     document.body.appendChild(list1)
 
         
-        let list2 = document.createElement("ul");
-        list2.innerHTML= `
-        <li>Java</li>
-        <li>Python</li>
-        <li>Javascript</li>
-        <li>React</li>
+    //     let list2 = document.createElement("ul");
+    //     list2.innerHTML= `
+    //     <li>Java</li>
+    //     <li>Python</li>
+    //     <li>Javascript</li>
+    //     <li>React</li>
         
-        `;
-        list2.className = "list5"
+    //     `;
+    //     list2.className = "list5"
         
-        document.body.appendChild(list2)
+    //     document.body.appendChild(list2)
 
-    let parent = document.getElementById("demo");
+    // let parent = document.getElementById("demo");
 
-    let elem = parent.firstElementChild;
+    // let elem = parent.firstElementChild;
 
-    // parent.removeChild(elem)
-    document.body.removeChild(parent)
+    // // parent.removeChild(elem)
+    // document.body.removeChild(parent)
       
       
         //creating elelemnt using loop
@@ -90,6 +94,21 @@
         //     document.body.appendChild(para)
         // }
 
+        function createPara(){
+          let ans= prompt("Solve this 50 -20");
+
+          if(ans == 30){
+           let b =  document.getElementById("btn1");
+           b.textContent = "Right answer";
+           b.style.backgroundColor="green";
+          }
+          else{
+            let b =  document.getElementById("btn1");
+           b.textContent = "Wrong answerr";
+           b.style.backgroundColor="red";
+          }
+        
+        }
 
 
     </script>
