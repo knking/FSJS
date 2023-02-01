@@ -17,3 +17,6 @@ button{
     background-color: blueviolet;
     color: #ffffff;
 }
+button:hover{
+    cursor: pointer;
+}
