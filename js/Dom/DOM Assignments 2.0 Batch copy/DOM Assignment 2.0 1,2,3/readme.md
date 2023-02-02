@@ -36,3 +36,25 @@ para.innerHTML=" <p> I am an aspiring <span>Full Stack JavaScript Developer</spa
 let para = document.querySelectorAll(".hero-left-section p span");
 para[1].innerText="an Employee";
 para[2].innerText="iNeuron intelligence Pvt Ltd";
+```
+## Task 4
+The User has to change imgae 
+### After Update
+![image changed](./firstAssignmentImage/task4Output.png)
+### Project Solution
+```javascript
+let changeImg = document.querySelector(".hero-right-section img");
+changeImg.src="https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367/2eaab/person-image.jpg"
+```
+## Task 5
+The user needs to add one more button **Support Me** bellow image
+### After Update
+![button added](./firstAssignmentImage/task5Output.png)
+### Project solution
+```javascript
+let btn =document.createElement("button")
+btn.innerText="Support Me"
+let element = document.querySelector(".hero-right-section-btns")
+element.appendChild(btn)
+```
+
