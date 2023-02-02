@@ -9,14 +9,12 @@ const randomColor= ()=>{
 
     for(let i=0;i<6;i++){
         color = color+ val[Math.floor(Math.random() * 16)];
-
     }
-
     return color;
 }
-
 function changeColor(){
     document.body.style.backgroundColor=randomColor()
 }
+
 btn.addEventListener("click",changeColor)
     
