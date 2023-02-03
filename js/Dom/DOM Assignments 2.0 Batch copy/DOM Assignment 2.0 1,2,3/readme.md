@@ -58,3 +58,15 @@ let element = document.querySelector(".hero-right-section-btns")
 element.appendChild(btn)
 ```
 
+# DOM Assignment 2
+## Task 1
+The user has to Display the content of **Achievement** and **Hobbies** By default.
+### After Update
+![Updated image](./secondAssignmentImage/task1Output.png)
+### Project Solution
+```javascript
+      let para = document.querySelectorAll(".accordian-wrapper p");
+      para[2].style.display="block";
+      para[3].style.display="block";
+```
+
