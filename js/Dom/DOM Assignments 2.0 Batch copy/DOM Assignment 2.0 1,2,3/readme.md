@@ -70,3 +70,24 @@ The user has to Display the content of **Achievement** and **Hobbies** By defaul
       para[3].style.display="block";
 ```
 
+## Task 2
+The has to add **Skills** and display there skills
+### After Update
+![Skill added](./secondAssignmentImage/task2Output.png)
+### Project Solution
+```javascript
+let element = document.createElement("div");
+element.className="accordian";
+
+
+let ele1= document.createElement("h3");
+let ele2 = document.createElement("p");
+
+ele1.innerText="Skills";
+ele2.innerText="i Posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github.";
+
+element.appendChild(ele1)
+element.appendChild(ele2).style.display="block";
+
+document.querySelector(".accordian-wrapper").appendChild(element)
+```

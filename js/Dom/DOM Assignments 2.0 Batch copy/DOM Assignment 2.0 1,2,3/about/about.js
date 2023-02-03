@@ -28,11 +28,8 @@ ele1.innerText="Skills";
 ele2.innerText="i Posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github.";
 
 element.appendChild(ele1)
-element.appendChild(ele2);
+element.appendChild(ele2).style.display="block";
 
-console.log(element)
+// console.log(element)
 
 document.querySelector(".accordian-wrapper").appendChild(element)
-
-let demo = document.querySelectorAll(".accordian p")
-console.log(demo[4].innerText)
