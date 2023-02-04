@@ -103,6 +103,33 @@ Array.from(accordian);
 accordian.forEach((element) =>{
   element.style.background = "#DADAF8";
 } )
+```
 
+# DOM Assignment 3
+## Taks 1
 
+user wants to submit form and display data on page
+### After Update
+![form data](../registration-img.jpg)
+### Project Solution
+```javascript
+const form = document.querySelector('.mainRight form');
+const nameInput = document.querySelector('.userName');
+const emailInput = document.querySelector('.userEmail');
+const messageInput = document.querySelector('.userMessage');
+const nameOutput = document.querySelector('.enterName');
+const emailOutput = document.querySelector('.enterMail');
+const messageOutput = document.querySelector('.enterMessage');
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const name = nameInput.value;
+    const email = emailInput.value;
+    const message = messageInput.value;
+    console.log(name);
+    nameOutput.value = name;
+    emailOutput.value = email;
+    messageOutput.value = message;
+});
 ```
