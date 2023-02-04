@@ -6,20 +6,20 @@
 
 //two
 
-// let elem = document.createElement("div");
-// elem.className="accordian";
-// document.querySelector(".accordian-wrapper").appendChild(elem)
-// // elem.setAttribute('class','accordian')
+let elem = document.createElement("div");
+elem.className="accordian";
+document.querySelector(".accordian-wrapper").appendChild(elem)
+// elem.setAttribute('class','accordian')
 
-// let head3= document.createElement("h3");
-// let newPara = document.createElement("p");
+let head3= document.createElement("h3");
+let newPara = document.createElement("p");
 
 
-// head3.innerText="Skills";
-// newPara.innerText="i Posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github.";
+head3.innerText="Skills";
+newPara.innerText="i Posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github.";
 
-// elem.appendChild(head3)
-// elem.append(newPara)
+elem.appendChild(head3)
+elem.append(newPara)
 
 
 let accordian = document.querySelectorAll(".accordian h3");

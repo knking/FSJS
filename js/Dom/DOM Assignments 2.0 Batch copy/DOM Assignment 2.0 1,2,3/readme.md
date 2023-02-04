@@ -77,18 +77,27 @@ The has to add **Skills** and display there skills
 ![Skill added](./secondAssignmentImage/task2Output.png)
 ### Project Solution
 ```javascript
-let element = document.createElement("div");
-element.className="accordian";
+let elem = document.createElement("div");
+elem.className="accordian";
+document.querySelector(".accordian-wrapper").appendChild(elem)
+// elem.setAttribute('class','accordian')
+
+let head3= document.createElement("h3");
+let newPara = document.createElement("p");
 
 
-let ele1= document.createElement("h3");
-let ele2 = document.createElement("p");
+head3.innerText="Skills";
+newPara.innerText="i Posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github.";
 
-ele1.innerText="Skills";
-ele2.innerText="i Posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github.";
+elem.appendChild(head3)
+elem.append(newPara)
 
-element.appendChild(ele1)
-element.appendChild(ele2).style.display="block";
 
-document.querySelector(".accordian-wrapper").appendChild(element)
+///this code is for background color change
+Array.from(accordian);
+accordian.forEach((element) =>{
+  element.style.background = "#DADAF8";
+} )
+
+
 ```
