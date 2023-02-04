@@ -16,20 +16,31 @@ accordian.forEach((element) => {
 
 //two
 
-let element = document.createElement("div");
-element.className="accordian";
+let elem = document.createElement("div");
+elem.className="accordian";
+// elem.setAttribute('class','accordian')
+
+let h3= document.createElement("h3");
+let p = document.createElement("p");
 
 
-let ele1= document.createElement("h3");
-let ele2 = document.createElement("p");
+h3.innerText="Skills";
+p.innerText="i Posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github.";
+
+elem.appendChild(h3)
+elem.appendChild(p);
 
 
-ele1.innerText="Skills";
-ele2.innerText="i Posses a very good command over the Full Stack Development technologies like MERN which can be seen in my work over the Github.";
+document.querySelector(".accordian-wrapper").appendChild(elem)
 
-element.appendChild(ele1)
-element.appendChild(ele2).style.display="block";
+// let demo = document.querySelectorAll(".accordian-wrapper")
+// demo.forEach((e)=>{
+//   console.log(e)
+// })
 
-// console.log(element)
+Array.from(accordian);
+accordian.forEach((element) =>{
+  element.style.background = "#DADAF8";
+} )
 
-document.querySelector(".accordian-wrapper").appendChild(element)
+
