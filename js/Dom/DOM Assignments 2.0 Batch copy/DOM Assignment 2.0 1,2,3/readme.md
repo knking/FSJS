@@ -65,9 +65,10 @@ The user has to Display the content of **Achievement** and **Hobbies** By defaul
 ![Updated image](./secondAssignmentImage/task1Output.png)
 ### Project Solution
 ```javascript
-      let para = document.querySelectorAll(".accordian-wrapper p");
-      para[2].style.display="block";
-      para[3].style.display="block";
+     Array.from(accordian);
+accordian.forEach((element) =>{
+  element.style.background = "#DADAF8";
+} )
 ```
 
 ## Task 2
