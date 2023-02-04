@@ -69,6 +69,11 @@ Array.from(accordian);
 accordian.forEach((element) =>{
   element.style.background = "#DADAF8";
 } )
+
+// let para = document.querySelectorAll(".accordian-wrapper p");
+// para[2].style.display="block";
+// para[3].style.display="block";
+
 ```
 
 ## Task 2
