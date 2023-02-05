@@ -63,3 +63,17 @@ User has to add **new recipe card(6th card)**
 ### After Update
 ![color changed](./Output/output-4.jpg)
 ### Project Solution
+```javascript
+/// Changing color to recipe disc and heading
+let changeColor= document.querySelectorAll(".recipe-text");
+
+changeColor.forEach((element) => {
+    console.log(element)
+    element.style.color="#800080";
+});
+
+// Name in footer section
+
+let ft =document.querySelector(".page-footer a");
+ft.innerText="Krishnanand Roy";
+```
