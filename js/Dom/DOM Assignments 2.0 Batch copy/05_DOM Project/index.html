@@ -102,12 +102,31 @@
     <script>
 
         // pro subscription button ded to nav bar
-        let element = document.querySelector(".nav-links + div")
-        console.log(element)
-        let a = document.createElement("a");
-        a.className = "btn";
-        a.innerText = "Pro Subscription";
-        element.appendChild(a)
+        let element = document.querySelector(".nav-links + div");
+        let lst = document.createElement("a");
+        lst.className = "btn";
+        lst.innerText = "Pro Subscription";
+        element.appendChild(lst);
+
+        //Recipes added
+
+let recpie = document.querySelector(".text-r + div");
+        console.log(recpie)
+        let recipeItem = document.createElement("a");
+    
+        recipeItem.innerText="Chinese (7)";
+        recpie.appendChild(recipeItem);
+        console.log(recipeItem)
+
+
+        // let recpie = document.querySelector(".tags-container + div");
+        // console.log(recpie)
+        // let recipeItem = document.createElement("a");
+    
+        // recipeItem.innerText="Chinese (7)";
+        // recpie.appendChild(recipeItem);
+        // console.log(recipeItem)
+
     </script>
 </body>
 
