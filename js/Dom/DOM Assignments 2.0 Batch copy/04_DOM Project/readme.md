@@ -28,7 +28,7 @@ let element = document.querySelectorAll(".clash-card__unit-stats");
         let goblin = document.querySelector(".goblin div:nth-child(3)");
         goblin.innerText = "The Goblin";
 
-// changing widht and hight to fir all card in one line
+// changing width and hight to fir all card in one line
         let container = document.querySelector(".slide-container");
         container.style.gap = "30px";
 
