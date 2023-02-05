@@ -138,16 +138,18 @@ let recpie = document.querySelector(".text-r + div");
         cardP.innerText="Prep : 20min | Cook : 45min";
 
         cardA.appendChild(imgTag)
-        console.log(cardA)
         cardA.appendChild(cardH);
-        console.log(cardA)
         cardA.appendChild(cardP)
-        console.log(cardA)
         cardItem.appendChild(cardA);
-        console.log(cardItem)
-    
         cardSix.appendChild(cardItem)
 
+//// Changing color to recipe disc and heading
+let changeColor= document.querySelectorAll(".recipe-text");
+
+changeColor.forEach((element) => {
+    console.log(element)
+    element.style.color="#800080";
+});
 
         // Name in footer section
 
