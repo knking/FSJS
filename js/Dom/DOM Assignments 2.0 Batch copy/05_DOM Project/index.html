@@ -119,13 +119,40 @@ let recpie = document.querySelector(".text-r + div");
         console.log(recipeItem)
 
 /// code for 6th card
-        // let recpie = document.querySelector(".tags-container + div");
-        // console.log(recpie)
-        // let recipeItem = document.createElement("a");
+        let cardSix = document.querySelector(".recipe-gallery");
     
-        // recipeItem.innerText="Chinese (7)";
-        // recpie.appendChild(recipeItem);
-        // console.log(recipeItem)
+        let cardItem = document.createElement("div");
+        let cardA = document.createElement("a");
+        let cardH = document.createElement("h5");
+        let cardP = document.createElement("p");
+        let imgTag = document.createElement("img");
+
+        cardItem.className="card";
+        cardA.className="recipe-text";
+        cardH.className="recipe-name";
+        cardP.className="recipe-disp";
+        imgTag.className="recipe-img";
+
+        imgTag.src="./img/recipe-3.jpeg";
+        cardH.innerText="Panner Chiili";
+        cardP.innerText="Prep : 20min | Cook : 45min";
+
+        cardA.appendChild(imgTag)
+        console.log(cardA)
+        cardA.appendChild(cardH);
+        console.log(cardA)
+        cardA.appendChild(cardP)
+        console.log(cardA)
+        cardItem.appendChild(cardA);
+        console.log(cardItem)
+    
+        cardSix.appendChild(cardItem)
+
+
+        // Name in footer section
+
+        let ft =document.querySelector(".page-footer a");
+        ft.innerText="Krishnanand Roy";
 
     </script>
 </body>
