@@ -68,7 +68,25 @@
   <script>
     let imgTag = document.querySelector("header img");
     imgTag.src="./assets/ineuron-logo.png";
-    console.log(imgTag)
+    // console.log(imgTag)
+
+
+    let cost = document.querySelector(".app_price span")
+    cost.innerText = "$10";
+
+    let ansDiv = document.querySelector(".footer_social")
+
+    let newDiv =document.createElement("div");
+    newDiv.className="footer_social_ico";
+
+    newDiv.innerHTML='<i class="fa-brands fa-linkedin"></i>';
+    ansDiv.appendChild(newDiv)
+
+   
+
+
+
+
   </script>
 </body>
 
