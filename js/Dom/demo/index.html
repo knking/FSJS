@@ -8,14 +8,11 @@
    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <p>Please click on the checkbox control.</p>
-
-<form>
-  <label for="id-checkbox">Checkbox:</label>
-  <input type="checkbox" id="id-checkbox" />
-</form>
-
-<div id="output-box"></div>
+    <p class="para">Click anywhere.</p>
+    <button id="button" oncontextmenu="event.preventDefault();">
+      Click here with your mouse…
+    </button>
+    <p id="log"></p>
 <script src="./script.js"></script>
 </body>
 </html>
