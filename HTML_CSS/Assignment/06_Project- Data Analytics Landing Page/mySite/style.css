@@ -67,6 +67,10 @@ nav button{
     font-size: 3em;
     line-height: 45px
 }
+.left-main-elements p{
+    font-weight: 530;
+    opacity: 0.8;
+}
 .released-div{
     display: flex;
     gap: 2px;
@@ -81,4 +85,24 @@ nav button{
 }
 .released-div span:hover{
     cursor: pointer;
+    border-bottom: 1px solid #C0A2EA;
+}
+.relesed-btn{
+    padding: 10px 0;
+    display: flex;
+    gap: 10px;
+}
+.btn-start{
+    padding: 7px 18px;
+    border-radius: 20px;
+    background-color: #722ED1;
+    color: #FFFFFF;
+    border: 1px solid #722ED1;
+}
+.btn-free{
+    padding: 7px 13px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: #722ED1;
+    border: 1px solid #FFFFFF;
 }
