@@ -48,4 +48,37 @@ nav button{
     height: 80vh;
     background: linear-gradient(to bottom, #FFFFFF,#E6F3FF );
     clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);
+    display: flex;
+}
+.left-main,.right-main{
+    width: 50%;
+    height: 400px;
+    border: 1px solid red;
+    margin-top: 100px;
+}
+.left-main-elements{
+    width: 56%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} 
+.left-main-elements h1{
+    font-size: 3em;
+    line-height: 45px
+}
+.released-div{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 55%;
+    height:30px ;
+    background-color: #F7F1FF;
+    color: #915CDC;
+    border-radius: 15px;
+}
+.released-div span:hover{
+    cursor: pointer;
 }
