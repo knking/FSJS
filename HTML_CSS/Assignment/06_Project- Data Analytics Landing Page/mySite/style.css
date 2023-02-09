@@ -106,6 +106,24 @@ nav button{
     color: #722ED1;
     border: 1px solid #FFFFFF;
 }
-.right-img{
-    width: 400px;
+.right-div-img{
+    width: 500px;
+    border: 1px solid yellow;
+    padding-left: 50px;
 }
+.right-img{
+    width: 100%;
+    min-width: 400px;
+    animation: animate 10s linear infinite;
+}
+@keyframes animate {
+    0% {
+      scale: 0.6;
+    }
+    50% {
+      scale: 1;
+    }
+    100% {
+      scale: 0.6;
+    }
+  }
