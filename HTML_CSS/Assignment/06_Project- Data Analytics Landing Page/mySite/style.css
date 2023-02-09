@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    height: 40px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+    margin-right: 30px;
+}
