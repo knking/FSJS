@@ -58,7 +58,7 @@ nav button{
 }
 .left-main-elements{
     width: 56%;
-    margin: 20px auto;
+    margin: 40px auto;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -105,4 +105,7 @@ nav button{
     background-color: #FFFFFF;
     color: #722ED1;
     border: 1px solid #FFFFFF;
+}
+.right-img{
+    width: 400px;
 }
