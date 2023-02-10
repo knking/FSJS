@@ -127,3 +127,24 @@ nav button{
       scale: 0.6;
     }
   }
+  .qubly-sec{
+    border: 1px solid orangered;
+    width: 80%;
+    height: 50vh;
+    margin: 40px auto;
+    padding: 10px;
+  }
+  .qubly{
+    width: 12%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    font-weight: bold;
+    font-size: 15px;
+    gap: 6px;
+    border-radius: 28px;
+    background-color: #F7F0FF;
+   
+  }
