@@ -1,12 +1,11 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
-body{
+body {
     width: 1440px;
     overflow-x: hidden;
     margin: auto;
@@ -14,29 +13,33 @@ body{
     font-family: 'Poppins';
 }
 
-nav{
+nav {
     display: flex;
     height: 50px;
     margin-top: 20px;
     align-items: center;
     justify-content: space-around;
-  
+
 }
-nav span{
-   font-size:12px;
+
+nav span {
+    font-size: 12px;
 }
-ul{
+
+ul {
     display: flex;
     align-items: center;
 
 
 }
-ul li{
+
+ul li {
     list-style: none;
     margin-right: 30px;
-   
+
 }
-nav button{
+
+nav button {
     padding: 10px 20px;
     border-radius: 20px;
     border: 1px solid #C0A2EA;
@@ -44,107 +47,169 @@ nav button{
     color: #C0A2EA;
     font-weight: 400;
 }
-.main-container{
+
+.main-container {
     height: 80vh;
-    background: linear-gradient(to bottom, #FFFFFF,#E6F3FF );
+    background: linear-gradient(to bottom, #FFFFFF, #E6F3FF);
     clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);
     display: flex;
 }
-.left-main,.right-main{
+
+.left-main,
+.right-main {
     width: 50%;
     height: 400px;
-    border: 1px solid red;
     margin-top: 100px;
 }
-.left-main-elements{
+
+.left-main-elements {
     width: 56%;
     margin: 40px auto;
     display: flex;
     flex-direction: column;
     gap: 15px;
-} 
-.left-main-elements h1{
+}
+
+.left-main-elements h1 {
     font-size: 3em;
     line-height: 45px
 }
-.left-main-elements p{
+
+.left-main-elements p {
     font-weight: 530;
     opacity: 0.8;
 }
-.released-div{
+
+.released-div {
     display: flex;
     gap: 2px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     width: 55%;
-    height:30px ;
+    height: 30px;
     background-color: #F7F1FF;
     color: #915CDC;
     border-radius: 15px;
 }
-.released-div span:hover{
+
+.released-div span:hover {
     cursor: pointer;
     border-bottom: 1px solid #C0A2EA;
 }
-.relesed-btn{
+
+.relesed-btn {
     padding: 10px 0;
     display: flex;
     gap: 10px;
 }
-.btn-start{
+
+.btn-start {
     padding: 7px 18px;
     border-radius: 20px;
     background-color: #722ED1;
     color: #FFFFFF;
     border: 1px solid #722ED1;
 }
-.btn-free{
+
+.btn-free {
     padding: 7px 13px;
     border-radius: 20px;
     background-color: #FFFFFF;
     color: #722ED1;
     border: 1px solid #FFFFFF;
 }
-.right-div-img{
+
+.right-div-img {
     width: 500px;
-    border: 1px solid yellow;
+
     padding-left: 50px;
 }
-.right-img{
+
+.right-img {
     width: 100%;
     min-width: 400px;
     animation: animate 10s linear infinite;
 }
+
 @keyframes animate {
     0% {
-      scale: 0.6;
+        scale: 0.6;
     }
+
     50% {
-      scale: 1;
+        scale: 1;
     }
+
     100% {
-      scale: 0.6;
+        scale: 0.6;
     }
-  }
-  .qubly-sec{
+}
+
+.qubly-sec {
     border: 1px solid orangered;
     width: 80%;
-    height: 50vh;
+    height: 55vh;
     margin: 40px auto;
-    padding: 10px;
-  }
-  .qubly{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.qubly-eye {
     width: 12%;
     height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid yellow;
     font-weight: bold;
     font-size: 15px;
     gap: 6px;
     border-radius: 28px;
     background-color: #F7F0FF;
-   
-  }
+
+}
+.qubly-para,.qubly-h1{
+    text-align: center;
+}
+
+.qubly-bottom {
+    width: 70%;
+    height: 45%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.qubly-bottom-card {
+    width: 31%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.bottom-h-div {
+    text-align: center;
+}
+
+.bottom-p-div {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.launch{
+    border: 1px solid green;
+    height: 55vh;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+}
