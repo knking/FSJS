@@ -147,7 +147,6 @@ nav button {
 }
 
 .qubly-sec {
-    border: 1px solid orangered;
     width: 80%;
     height: 55vh;
     margin: 40px auto;
@@ -212,4 +211,60 @@ nav button {
     width: 80%;
     margin: 0 auto;
     padding: 5px;
+    display: flex;
+}
+.left-launch,.right-launch{
+    width: 48%;
+    height: 100%;
+    margin: 0 auto;
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 20px;
+}
+.left-launch img{
+    width: 75%;
+  min-width: 280px;
+  animation: rotate 60s linear infinite;
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .left-launch img:hover{
+    cursor: pointer;
+    animation: none;
+  }
+.right-launch{
+    justify-content: flex-start;
+   padding-right: 5px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 20px;
+}
+.right-launch-img{
+    width: 33%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    border-radius: 20px;
+    padding: 0 10px; 
+    background-color: #F9F0FF; 
+    color: #7938D3;
+}
+.right-launch-img p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.right-launch-h{
+    font-weight: bold;
+}
+.right-launch-para p{
+    opacity: 0.8;
 }
