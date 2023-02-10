@@ -74,16 +74,26 @@
     <script>
       let ele = document.querySelectorAll(".main__languages a")
       ele.forEach(ele => {
-       console.log(ele.innerHTML)
+      let s = ele.innerText;
+      // console.log(s);
+      
+      if(s.includes(" 2.0")){
+        ele.style.display="none";
+      }
         
       });
-      // for(let i=0;i<ele.length;i++){
+      // // for(let i=0;i<ele.length;i++){
        
-      //   // console.log(r)
-      //   ele.removeChild(r)
-      //   console.log(ele[i].innerText)
-      // }
+      // //   // console.log(r)
+      // //   ele.removeChild(r)
+      // //   console.log(ele[i].innerText)
+      // // }
     
+      // // document.querySelectorAll('.main__languages').forEach(f=>f.nextSibling.textContent="");
+
+      // const e = document.querySelector(".main__languages:last-child");
+      //       // remove the last list item
+      //       e.parentElement.removeChild(e);
       
     </script>
   </body>
