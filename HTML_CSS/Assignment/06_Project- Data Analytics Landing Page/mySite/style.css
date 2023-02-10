@@ -206,7 +206,6 @@ nav button {
     opacity: 0.6;
 }
 .launch{
-    border: 1px solid green;
     height: 55vh;
     width: 80%;
     margin: 0 auto;
@@ -267,4 +266,27 @@ nav button {
 }
 .right-launch-para p{
     opacity: 0.8;
+}
+.pipeline{
+    border: 1px solid green;
+    height: 45vh;
+    width: 80%;
+    margin: 20px  auto;
+    padding: 20px;
+    display: flex;
+}
+
+.left-pipeline, .right-pipeline{
+    width: 48%;
+    height: 100%;
+    margin: 0 auto;
+   display: flex;
+   border: 1px solid red;
+}
+.left-pipeline{
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    gap: 20px;
+
 }
