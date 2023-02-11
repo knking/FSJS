@@ -64,30 +64,30 @@
   </div>
   <script>
 
-    //code to remove language with 2.0 name
-    let ele = document.querySelectorAll(".main__languages a")
-    ele.forEach(ele => {
-      let str = ele.innerText;
-      if (str.includes(" 2.0")) {
-        ele.style.display = "none";
-      }
-    });
+    // //code to remove language with 2.0 name
+    // let ele = document.querySelectorAll(".main__languages a")
+    // ele.forEach(ele => {
+    //   let str = ele.innerText;
+    //   if (str.includes(" 2.0")) {
+    //     ele.style.display = "none";
+    //   }
+    // });
 
-    //Code to display again removed course name
-    let frm = document.querySelector(".main__form-input").disabled = false;
-    let btn = document.querySelector(".main__form-btn");
-    btn.disabled = false;
-    let element = document.querySelectorAll(".main__languages a")
+    // //Code to display again removed course name
+    // let frm = document.querySelector(".main__form-input").disabled = false;
+    // let btn = document.querySelector(".main__form-btn");
+    // btn.disabled = false;
+    // let element = document.querySelectorAll(".main__languages a")
 
-    function clickMe(event) {
-      event.preventDefault();
-      element.forEach(element => {
-        element.style.display = "inline";
+    // function clickMe(event) {
+    //   event.preventDefault();
+    //   element.forEach(element => {
+    //     element.style.display = "inline";
        
-      });
-      // document.location.reload();
-    }
-    btn.addEventListener('click', clickMe);
+    //   });
+    //   // document.location.reload();
+    // }
+    // btn.addEventListener('click', clickMe);
 
   </script>
 </body>
