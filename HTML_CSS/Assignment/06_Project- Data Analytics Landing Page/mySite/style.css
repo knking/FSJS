@@ -332,3 +332,18 @@ nav button {
     margin: 0 auto;
     margin-top: 20px;
 }
+.signup{
+    width: 80%;
+    height: 60vh;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.signup-left,.signup-right{
+    width: 35%;
+    height: 90%;
+    border: 1px solid green;
+    margin: auto 0;
+}
