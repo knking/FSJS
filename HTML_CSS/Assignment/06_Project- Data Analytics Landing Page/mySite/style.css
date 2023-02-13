@@ -352,6 +352,7 @@ nav button {
     display: flex;
     flex-direction: column;
     gap: 35px;
+    margin-top: 10px;
 }
 .signup-text h1{
     font-weight: bold;
@@ -385,4 +386,25 @@ nav button {
     grid-template-columns: 30% 30%;
    justify-content: space-between;
 
+}
+.signup-right{
+    margin-top: 20px;
+    background-color: #F7EEFD;
+    z-index: 1;
+}
+.signup-elements{
+    border: 1px solid red;
+    z-index: 2;
+    width: 90%;
+   height: 100%;
+   margin: 0 auto;
+position: relative;
+bottom: 34px;
+background-color: #FFFFFF;
+}
+.signup-form{
+    border: 1px solid black;
+    width: 90%;
+    height: 95%;
+    margin: 10px auto;
 }
