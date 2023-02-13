@@ -15,7 +15,8 @@
     <title>Product preview card component</title>
   </head>
   <body>
-    <span class="title"></span>
+    <span class="title">
+    </span>
     <div class="container">
       <div class="grid">
         <div class="img">
@@ -39,5 +40,18 @@
       </div>
     </div>
     <span class="title"></span>
+    <script>
+      //code for cart image
+  let img = document.querySelector(".add-to-cart img");
+    img.src="./images/icon-cart.svg";
+//code for color change
+      let h1 = document.querySelector(".caption h1");
+    h1.style.color="#e6133c";
+
+   //code for addto cart color change
+
+   let col= document.querySelector(".add-to-cart")
+   col.style.backgroundColor="#e6133c";
+    </script>
   </body>
 </html>
