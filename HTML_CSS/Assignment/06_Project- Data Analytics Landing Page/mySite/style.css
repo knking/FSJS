@@ -314,7 +314,6 @@ nav button {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid red;
     gap: 25px;
 }
 .cto-logo{
@@ -343,7 +342,47 @@ nav button {
 }
 .signup-left,.signup-right{
     width: 35%;
-    height: 90%;
+    height: 95%;
     border: 1px solid green;
     margin: auto 0;
+    padding: 10px 10px;
+    
+}
+.signup-left{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.signup-text h1{
+    font-weight: bold;
+    font-size: 33px;
+}
+.trusted-by{
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    
+} 
+.trusted-by::before,
+.trusted-by::after{
+     display: inline-block;
+    content: '';
+    border-bottom: 1px solid rgb(200, 182, 182); 
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 35%;
+    height: 1px;
+}
+.signup-logo{
+    width: 100%;
+    height: 70%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 30% 30%;
+   justify-content: space-between;
+
 }
