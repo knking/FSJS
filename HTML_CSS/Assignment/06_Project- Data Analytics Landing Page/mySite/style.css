@@ -343,7 +343,7 @@ nav button {
 .signup-left,.signup-right{
     width: 35%;
     height: 95%;
-    border: 1px solid green;
+
     margin: auto 0;
     padding: 10px 10px;
     
@@ -393,7 +393,7 @@ nav button {
     z-index: 1;
 }
 .signup-elements{
-    border: 1px solid red;
+  
     z-index: 2;
     width: 90%;
    height: 100%;
@@ -401,10 +401,53 @@ nav button {
 position: relative;
 bottom: 34px;
 background-color: #FFFFFF;
+border-radius: 6px;
+
 }
 .signup-form{
-    border: 1px solid black;
-    width: 90%;
+    width: 85%;
     height: 95%;
-    margin: 10px auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 12px;
+}
+.form input{
+    width: 100%;
+}
+.signup-btn{
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #722ED1;
+    color: #FFFFFF;
+    border: 1px solid #722ED1 ;
+}
+input[type=text],input[type=password]{
+    padding: 12px 12px;
+    margin: 7px 0;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+    opacity: 0.7;
+}
+.signup-form-google img{
+    width: 160px;
+}
+.signup-form-login{
+    font-size: 13px;
+    opacity: 0.7;
+}
+.signup-form-login span{
+    opacity: 1;
+    color: #722ED1;
+    font-weight: bold;
+}
+.signup-form-line{
+    width: 85%;
+    height: 1px;
+    background-color: gray;
+    opacity: 0.4;
 }
