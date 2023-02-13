@@ -23,3 +23,12 @@ scrollDiv.appendChild(hrLine);
 scrollDiv.appendChild(scrollh2);
 scrollDiv.appendChild(scrollPara);
 ```
+## Task 2
+User has to remove **background Color and Background image**
+### After Update
+![Background remove](./ass8.2-after.png)
+### Project solution
+```javascript
+//code for removing background image and color
+document.body.style.background="none";
+```
