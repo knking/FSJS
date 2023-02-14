@@ -451,3 +451,16 @@ input[type=text],input[type=password]{
     background-color: gray;
     opacity: 0.4;
 }
+footer{
+    border: 1px solid violet;
+    height: 40vh;
+    width: 80%;
+    margin: 50px auto;
+    background-color: #FBFCFF;
+}
+.footer-section{
+    border: 1px solid black;
+    height: 90%;
+    width: 75%;
+    margin:15px auto;
+}
