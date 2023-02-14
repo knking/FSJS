@@ -334,7 +334,7 @@ nav button {
 .signup{
     width: 80%;
     height: 60vh;
-    border: 1px solid red;
+    
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -452,7 +452,7 @@ input[type=text],input[type=password]{
     opacity: 0.4;
 }
 footer{
-    border: 1px solid violet;
+    
     height: 40vh;
     width: 80%;
     margin: 50px auto;
@@ -461,7 +461,7 @@ footer{
     flex-wrap: wrap;
 }
 .footer-section{
-    border: 1px solid black;
+    
     height: 90%; 
     width: 75%;
     margin:15px auto;
@@ -476,7 +476,6 @@ footer{
 .footer-logo{
 width: 24%;
 /* width: 40px; */
-border: 1px solid yellow;
 height: 95%;
 display: flex;
 flex-direction: column;
@@ -497,7 +496,7 @@ font-size: 14px;
 .footer-product{
     width: 12%;
     /* width: 96PX; */
-    border: 1px solid green;
+  
     height: 95%;
     display: flex;
     flex-direction: column;
@@ -509,7 +508,7 @@ font-size: 14px;
 .footer-developer{
     width: 16%;
     /* width: 132PX; */
-    border: 1px solid red;
+   
     height: 95%;
     display: flex;
     flex-direction: column;
@@ -521,7 +520,7 @@ font-size: 14px;
 .footer-company{
     width: 12%;
     /* width: 96PX; */
-    border: 1px solid black;
+   
     height: 95%;
     display: flex;
     flex-direction: column;
@@ -533,7 +532,7 @@ font-size: 14px;
 .footer-support{
     width: 12%;
     /* width: 96PX; */
-    border: 1px solid palevioletred;
+   
     height: 95%;
     display: flex;
     flex-direction: column;
@@ -545,17 +544,29 @@ font-size: 14px;
 .footer-newslater{
     width: 21%;
     /* width: 174PX; */
-    border: 1px solid orangered;
+    
     height: 95%;
     display: flex;
     flex-direction: column;
     padding: 5px;
     gap: 10px;
     font-size: 12px;
-    
+     
 }
 #email-box{
-
+background-color: #ffffff;
    padding: 5px 0;
+   margin-top: 10px;
+   border: 1px solid #ffffff ;
+   box-shadow: 4px 4px #F7EEFD;
+
+}
+.email-img{
+    position: relative;
+    margin-left: 140px;
+  bottom: 23px;
     
+}
+img:hover{
+    cursor: pointer;
 }
