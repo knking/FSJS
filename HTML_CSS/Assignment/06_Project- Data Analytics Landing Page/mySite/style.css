@@ -38,7 +38,11 @@ ul li {
     margin-right: 30px;
 
 }
-
+ul li:hover{
+    color: #722ED1;
+    border-bottom: 1px solid #915CDC;
+    cursor: pointer;
+}
 nav button {
     padding: 10px 20px;
     border-radius: 20px;
@@ -486,6 +490,17 @@ footer{
 .footer-section p{
     opacity: 0.9;
 }
+.footer-section p:hover{
+    cursor: pointer;
+    color: #722ED1;
+    opacity: 1;
+    font-weight: bold;
+}
+.footer-section h3:hover{
+    cursor: pointer;
+    color: #722ED1;
+}
+
 .footer-logo{
 width: 24%;
 /* width: 40px; */
