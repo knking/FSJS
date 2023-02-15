@@ -47,6 +47,11 @@ nav button {
     color: #C0A2EA;
     font-weight: 400;
 }
+nav button:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #722ED1;
+}
 
 .main-container {
     height: 80vh;
@@ -111,7 +116,11 @@ nav button {
     color: #FFFFFF;
     border: 1px solid #722ED1;
 }
-
+.btn-start:hover{
+    color: #722ED1;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
 .btn-free {
     padding: 7px 13px;
     border-radius: 20px;
@@ -119,7 +128,11 @@ nav button {
     color: #722ED1;
     border: 1px solid #FFFFFF;
 }
-
+.btn-free:hover{
+    color: #FFFFFF;
+    background-color: #722ED1;
+    cursor: pointer;
+}
 .right-div-img {
     width: 500px;
 
