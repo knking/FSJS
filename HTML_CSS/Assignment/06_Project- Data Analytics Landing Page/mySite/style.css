@@ -462,6 +462,13 @@ input[type=text],input[type=password]{
     color: #722ED1;
     font-weight: bold;
 }
+.signup-form-login span:hover{
+  
+  border-bottom: 1px solid #7938D3;
+  cursor: pointer;
+
+}
+
 .signup-form-line{
     width: 85%;
     height: 1px;
