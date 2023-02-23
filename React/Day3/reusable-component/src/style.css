@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    margin-top:100px ;
+    margin-left: 100px;
+    padding: 13px 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+background-color: green;
+color: wheat;
+cursor: pointer;
+}
