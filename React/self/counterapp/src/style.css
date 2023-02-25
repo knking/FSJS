@@ -1,0 +1,39 @@
+body{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+
+}
+button{
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 15px 30px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    border: none;
+}
+.countDiv{
+   
+    width: 80px;
+    height: 80px;
+    background-color: brown;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+} 
