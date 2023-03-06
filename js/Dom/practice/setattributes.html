@@ -52,9 +52,12 @@ let allCard = document.querySelectorAll(".card")
 
 allCard.forEach((card) =>{
 
-    let dataColor = card.getAttribute("data-color");
+    card.addEventListener("dblclick", (e) =>{
+        let dataColor = card.getAttribute("data-color");
     card.classList.add(dataColor);
     card.setAttribute("data-color","used")
+    })
+   
 })
 
 
