@@ -78,15 +78,53 @@ h1{
 </div>
 <div class="movies">
     <h3 class="heading">Example-7</h3>
-    <p class="price" data-category="action">RS. 100</p>
+    <p class="price" data-category="action">RS. 100 </p>
 </div>
 <div class="movies">
     <h3 class="heading">Example-8</h3>
-    <p class="price" data-category="comedy">RS. 150</p>
+    <p class="price" data-category="comedy">RS. 150 </p>
 </div>
 <div class="movies">
     <h3 class="heading">Example-9</h3>
-    <p class="price" data-category="romance">RS. 140</p>
+    <p class="price" data-category="romance">RS. 140 </p>
 </div>
+<script>
+
+    let selector =  document.querySelector("select");
+    let movieAll = document.querySelectorAll(".movies");
+    
+    selector.addEventListener("change",(event) =>{
+        let selectValue = selector.value;
+        if(selectValue ==="none"){
+            movieAll.forEach((movie)=>{
+                movie.style.display="block";
+            })
+        }else{
+           movieAll.forEach((e)=>{
+               let p = e.querySelector("p")
+               let movieValue = p.getAttribute("data-category")
+               if(movieValue===selectValue)
+               {
+                e.style.display="block" ;
+                let para= document.createElement("p")
+                para.innerText=selectValue;
+                p.appendChild(para)
+              
+               
+               } 
+               else e.style.display="none"
+            })
+
+
+            // for(let i=0;i<movieAll.length;i++){
+            //     let pElem = movieAll[i].querySelector("p");
+            //     let movieValue = pElem.getAttribute("data-category");
+            //     if(movieValue===selectValue) movieAll[i].style.display='block'
+            //     else movieAll[i].style.display='none';
+            // }
+        }
+    })
+
+</script>
 </body>
 </html>
