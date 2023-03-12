@@ -1,11 +1,14 @@
 import React from 'react'
 import './style.css'
 
-const Achiver = ()=>(
+const Achiver = () => (
     <>
-    <div className='achiver'>
-<h1>I am Achiver</h1>
-    </div>
+        <div className='container'>
+            <div className='achiver'>
+                <h1>I am Achiver</h1>
+            </div>
+        </div>
+
     </>
 )
 

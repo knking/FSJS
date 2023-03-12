@@ -11,6 +11,7 @@ button{
     text-align: center;
     border-radius: 10px;
     border: none;
+    margin-right: 10px;
 }
 button:hover{
 background-color: green;

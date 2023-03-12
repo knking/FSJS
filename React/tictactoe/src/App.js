@@ -54,7 +54,7 @@ const App = () => {
   };
 
   const changeItem = itemNumber => {
-    if(winMessage){
+    if(winMessage){ 
       return toast(winMessage,{type:"Success"})
     }
     if(itemArray[itemNumber]==="empty"){

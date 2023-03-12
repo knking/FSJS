@@ -1,25 +1,54 @@
-.banner{
-    background-color: yellow;
-    color: white;
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 5px;
+    border: 1px solid red;
 }
 
-.navbar{
-    background-color: aqua;
-    color: green;
+.banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
 }
-.crowler{
-    background-color: blue;
-    color: yellow;
+
+.banner-search {
+    width: 55%;
 }
-.hero{
-    background-color: chocolate;
-    color: white;
+
+.banner-search input[type=text] {
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+    padding-left: 25px;
+  background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+  background-size: 20px;
 }
-.achiver{
-    background-color: crimson;
-    color: white;
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
 }
-.hall{
-    background-color: darkmagenta;
-    color: green;
+
+.banner-img {
+    width: 200px;
+
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.banner-btn {
+    padding: 9px 40px;
+    text-align: center;
+    background-color: #5A4BDA;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 1.1em;
+    border: none;
 }

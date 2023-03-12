@@ -3,11 +3,14 @@ import './style.css'
 
 
 
-const Hall = ()=>(
+const Hall = () => (
     <>
-    <div className='hall'>
-<h1>I am Hall</h1>
-    </div>
+        <div className='container'>
+            <div className='hall'>
+                <h1>I am Hall</h1>
+            </div>
+        </div>
+
     </>
 )
 

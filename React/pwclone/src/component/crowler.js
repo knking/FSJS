@@ -2,11 +2,14 @@ import React from 'react'
 import './style.css'
 
 
-const Crowler = ()=>(
+const Crowler = () => (
     <>
-    <div className='crowler'>
-<h1>I am Crowler</h1>
-    </div>
+        <div className='container'>
+            <div className='crowler'>
+                <h1>I am Crowler</h1>
+            </div>
+        </div>
+
     </>
 )
 

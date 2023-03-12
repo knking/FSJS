@@ -1,11 +1,14 @@
 import React from 'react'
 import './style.css'
 
-const NavBar = ()=>(
+const NavBar = () => (
     <>
-    <div className='navbar'>
-<h1>I am NvBar</h1>
-    </div>
+        <div className='container'>
+            <div className='navbar'>
+                <h1>I am NvBar</h1>
+            </div>
+        </div>
+
     </>
 )
 
