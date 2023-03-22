@@ -100,28 +100,28 @@ h1{
                 movie.style.display="block";
             })
         }else{
-           movieAll.forEach((e)=>{
-               let p = e.querySelector("p")
-               let movieValue = p.getAttribute("data-category")
-               if(movieValue===selectValue)
-               {
-                e.style.display="block" ;
-                let para= document.createElement("p")
-                para.innerText=selectValue;
-                p.appendChild(para)
+        //    movieAll.forEach((e)=>{
+        //        let p = e.querySelector("p")
+        //        let movieValue = p.getAttribute("data-category")
+        //        if(movieValue===selectValue)
+        //        {
+        //         e.style.display="block" ;
+        //         let para= document.createElement("p")
+        //         para.innerText=selectValue;
+        //         p.appendChild(para)
               
                
-               } 
-               else e.style.display="none"
-            })
+        //        } 
+        //        else e.style.display="none"
+        //     })
 
 
-            // for(let i=0;i<movieAll.length;i++){
-            //     let pElem = movieAll[i].querySelector("p");
-            //     let movieValue = pElem.getAttribute("data-category");
-            //     if(movieValue===selectValue) movieAll[i].style.display='block'
-            //     else movieAll[i].style.display='none';
-            // }
+            for(let i=0;i<movieAll.length;i++){
+                let pElem = movieAll[i].querySelector("p");
+                let movieValue = pElem.getAttribute("data-category");
+                if(movieValue===selectValue) movieAll[i].style.display='block'
+                else movieAll[i].style.display='none';
+            }
         }
     })
 
