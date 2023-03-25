@@ -5,7 +5,7 @@ import {useState} from 'react';
 const App = () => {
   const [message, setMessage] = useState('');
 
-  const handleChange = (event) => {
+  const handleChange = event => {
     setMessage(event.target.value);
 
     console.log('value is:', event.target.value);
