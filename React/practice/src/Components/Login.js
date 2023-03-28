@@ -18,6 +18,8 @@ function Login() {
         // setValues({...values,firstName:e.target.value,lastName:e.target.value})
 
         const {name,value} = event.target;
+        console.log(event.target)
+
     
     // const ClickMe2 = (e)=>{
     //       // setLastName(e.target.value)
