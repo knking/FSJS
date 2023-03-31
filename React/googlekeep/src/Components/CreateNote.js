@@ -1,31 +1,65 @@
-import React from 'react'
-import Button from '@mui/material/Button';
+import React, { useState } from 'react'
 import AddIcon from '@mui/icons-material/Add';
 import './Style.css'
+
 const CreateNote = () => {
+
+  const [note, setNote] = useState({
+    title: "",
+    content: "",
+  })
+
+
+  const inputValue = (event) => {
+
+    // const value= event.target.value;
+    // const name = event.target.value;
+
+    const { name, value } = event.target;
+
+
+    setNote((previousData) => {
+      return {
+        ...note,
+        [name]: value
+
+      }
+    })
+  }
+
+
+
   return (
     <>
-     <div className='main-div'>
-      <div className='create-note'>
-        <form>
+      <div className='main-div'>
+        <div className='create-note'>
+          <form>
             <input
-            type={"text"}
-            placeholder="Title"
-
+              type={"text"}
+              name="title"
+              value={note.title}
+              placeholder="Title"
+              autoComplete='off'
+              onChange={inputValue}
             />
             <br></br>
-            <textarea rows={" "} column={" "}>
+            <textarea placeholder='Write here....' rows={""} column={""}
+              onChange={inputValue}
+              value={note.content}
+              name="content"
+
+            >
 
             </textarea>
-        </form>
-        <Button >
-          <AddIcon/>
-        </Button>
+          </form>
+          <button className='add-btn'>
+            <AddIcon className='icon' />
+          </button>
 
+        </div>
       </div>
-    </div>
     </>
-   
+
   )
 }
 
