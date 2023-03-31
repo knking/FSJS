@@ -1,4 +1,6 @@
 import React from 'react'
+import Button from '@mui/material/Button';
+import AddIcon from '@mui/icons-material/Add';
 import './Style.css'
 const CreateNote = () => {
   return (
@@ -16,6 +18,9 @@ const CreateNote = () => {
 
             </textarea>
         </form>
+        <Button >
+          <AddIcon/>
+        </Button>
 
       </div>
     </div>
