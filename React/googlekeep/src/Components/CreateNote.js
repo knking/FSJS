@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import AddIcon from '@mui/icons-material/Add';
 import './Style.css'
+import Notes from './Notes';
 
-const CreateNote = () => {
+const CreateNote = (props) => {
 
   const [note, setNote] = useState({
     title: "",
@@ -27,6 +28,9 @@ const CreateNote = () => {
     })
   }
 
+  const addNote =()=>{
+
+  }
 
 
   return (
@@ -52,7 +56,7 @@ const CreateNote = () => {
 
             </textarea>
           </form>
-          <button className='add-btn'>
+          <button className='add-btn' onClick={addNote}>
             <AddIcon className='icon' />
           </button>
 

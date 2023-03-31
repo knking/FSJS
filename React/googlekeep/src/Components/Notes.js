@@ -5,7 +5,7 @@ function Notes(props) {
 
     const addEvent= ()=>{
         alert("I am clicked")
-        const i=10;
+
     }
 
   return (
