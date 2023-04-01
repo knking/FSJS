@@ -5,22 +5,47 @@ import Notes from "./Components/Notes";
 
 function App() {
 
-  const addNote =(note)=>{
-    alert("i am clicked");
+  const [addItem, setAddItem] = useState([])
+  const addNote = (note) => {
+    setAddItem((previousData) => {
+
+      return [...previousData, note]
+    })
+
   };
 
+  const deletIt = (id) => {
+    setAddItem((oldData) => 
+      oldData.filter((curData, index) => {
+        return  index !== id;
+         
+        
+      })
+
+    )
+  }
   return (
     <>
       <div className="App">
-      <Header/>
-      <CreateNote passNote={addNote} />
-      {/* <Notes title={values} description="I am learning React"/>
-      <Notes title="Krishna" description="I am learning React"/> */}
+        <Header />
+        <CreateNote passNote={addNote} />
 
-      <Notes/>
-    </div>
+        {
+          addItem.map((val, index) => {
+            return (
+              <Notes
+                key={index}
+                id={index}
+                title={val.title}
+                content={val.content}
+                deleteItems={deletIt}
+              />
+            )
+          })
+        }
+      </div>
     </>
-  
+
   );
 }
 
