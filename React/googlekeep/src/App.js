@@ -1,19 +1,26 @@
+import { useState } from "react";
 import CreateNote from "./Components/CreateNote";
 import Header from "./Components/Header";
 import Notes from "./Components/Notes";
 
 function App() {
 
-  const addNote= () =>{
-    alert("I am clicked")
+  const addNote =(note)=>{
+    alert("i am clicked");
   };
 
   return (
-    <div className="App">
+    <>
+      <div className="App">
       <Header/>
-      <CreateNote passNote={addNote}/>
+      <CreateNote passNote={addNote} />
+      {/* <Notes title={values} description="I am learning React"/>
+      <Notes title="Krishna" description="I am learning React"/> */}
+
       <Notes/>
     </div>
+    </>
+  
   );
 }
 

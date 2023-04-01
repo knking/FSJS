@@ -7,7 +7,7 @@ const CreateNote = (props) => {
 
   const [note, setNote] = useState({
     title: "",
-    content: "",
+    content: "", 
   })
 
 
@@ -28,9 +28,9 @@ const CreateNote = (props) => {
     })
   }
 
-  const addNote =()=>{
-
-  }
+  const addEvent = ()=>{
+    props.passNote(note)
+  };
 
 
   return (
@@ -51,14 +51,13 @@ const CreateNote = (props) => {
               onChange={inputValue}
               value={note.content}
               name="content"
-
             >
-
             </textarea>
-          </form>
-          <button className='add-btn' onClick={addNote}>
+            <button onClick={addEvent} className='add-btn' >
             <AddIcon className='icon' />
           </button>
+          </form>
+          
 
         </div>
       </div>
