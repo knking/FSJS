@@ -8,7 +8,7 @@ function Header() {
         <h1>TechStart</h1>
         <main>
             <HashLink to={"/#home"}>Home</HashLink>
-            <Link to={"/contact"}>Contsct</Link>
+            <Link to={"/contact"}>Contacts</Link>
             <HashLink to={"/#about"}>About</HashLink>
             <HashLink to={"/#brands"}>Brands</HashLink>
             <Link to={"/services"}>Services</Link>
