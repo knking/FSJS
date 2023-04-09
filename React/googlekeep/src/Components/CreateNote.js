@@ -35,10 +35,7 @@ const CreateNote = (props) => {
      title:"",
     content:""
     })
-    
-    
   };
-
 
   return (
     <>
